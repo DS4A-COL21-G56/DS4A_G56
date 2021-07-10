@@ -43,7 +43,7 @@ Use file and directory names that are:
 
 a number (for ordering), the creator's initials, and an underscore `_` delimited description, e.g.
     
-    `1.0_initial_data_exploration.ipynb`
+    `01_jpj_initial_data_exploration.ipynb`
 
 
 ## Dependencies Installation
