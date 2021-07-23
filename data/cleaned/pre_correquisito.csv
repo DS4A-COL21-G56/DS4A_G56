@@ -1,0 +1,2710 @@
+COD_BASE,NOMBRE_MAT,COD_PRECO,NOMBRE_PRECORREQUISITO,TIPO_REQUISITO
+11304,planeacion y control,11313,administracion basica,prerrequisito
+11308,calculo diferencial,11301,matematica basica,prerrequisito
+11309,contabilidad comercial,11311,contabilidad basica,prerrequisito
+11314,creacion de empresas,11313,administracion basica,prerrequisito
+11316,macroeconomia,11310,microeconomia,prerrequisito
+11323,organizacion y direccion,11304,planeacion y control,prerrequisito
+11324,calculo integral,11308,calculo diferencial,prerrequisito
+11327,costos,11309,contabilidad comercial,prerrequisito
+11330,ingles ii,11317,ingles i,prerrequisito
+11333,estadistica inferencial,11325,estadistica descriptiva,prerrequisito
+11340,metodologia y practica de la investigacion,11325,estadistica descriptiva,prerrequisito
+11348,preparacion de proyectos,11342,finanzas,prerrequisito
+11353,produccion,11339,gestion de calidad,prerrequisito
+11354,competitividad,11347,investigacion de operaciones,prerrequisito
+11355,evaluacion de proyectos,11348,preparacion de proyectos,prerrequisito
+11357,etica profesional,11329,etica general,prerrequisito
+11360,trabajo o alternativa de grado,11365,seminario de investigacion,prerrequisito
+11361,practica profesional,11301,matematica basica,prerrequisito
+11361,practica profesional,11302,logica,prerrequisito
+11361,practica profesional,11303,introduccion al programa,prerrequisito
+11361,practica profesional,11305,expresion oral y escrita,prerrequisito
+11361,practica profesional,11306,deporte formativo,prerrequisito
+11361,practica profesional,11307,formacion integral i,prerrequisito
+11361,practica profesional,11308,calculo diferencial,prerrequisito
+11361,practica profesional,11309,contabilidad comercial,prerrequisito
+11361,practica profesional,11310,microeconomia,prerrequisito
+11361,practica profesional,11311,contabilidad basica,prerrequisito
+11361,practica profesional,11312,iniciativa empresarial,prerrequisito
+11361,practica profesional,11313,administracion basica,prerrequisito
+11361,practica profesional,11314,creacion de empresas,prerrequisito
+11361,practica profesional,11315,informatica basica,prerrequisito
+11361,practica profesional,11316,macroeconomia,prerrequisito
+11361,practica profesional,11317,ingles i,prerrequisito
+11361,practica profesional,11318,formacion integral ii,prerrequisito
+11361,practica profesional,11319,electiva libre i,prerrequisito
+11361,practica profesional,11320,comportamiento del consumidor,prerrequisito
+11361,practica profesional,11321,constitucion y formacion ciudadana,prerrequisito
+11361,practica profesional,11322,humanidades,prerrequisito
+11361,practica profesional,11324,calculo integral,prerrequisito
+11361,practica profesional,11325,estadistica descriptiva,prerrequisito
+11361,practica profesional,11326,gerencia del talento humano,prerrequisito
+11361,practica profesional,11327,costos,prerrequisito
+11361,practica profesional,11328,procesos de mercadeo,prerrequisito
+11361,practica profesional,11329,etica general,prerrequisito
+11361,practica profesional,11330,ingles ii,prerrequisito
+11361,practica profesional,11331,taller de gestion empresarial,prerrequisito
+11361,practica profesional,11332,matematicas financieras,prerrequisito
+11361,practica profesional,11333,estadistica inferencial,prerrequisito
+11361,practica profesional,11334,presupuestos,prerrequisito
+11361,practica profesional,11335,investigacion de mercados,prerrequisito
+11361,practica profesional,11336,electiva complementaria i,prerrequisito
+11361,practica profesional,11337,electiva libre ii,prerrequisito
+11361,practica profesional,11338,desarrollo organizacional,prerrequisito
+11361,practica profesional,11340,metodologia y practica de la investigacion,prerrequisito
+11361,practica profesional,11341,problemas de contexto,prerrequisito
+11361,practica profesional,11342,finanzas,prerrequisito
+11361,practica profesional,11343,economia colombiana,prerrequisito
+11361,practica profesional,11344,legislacion comercial,prerrequisito
+11361,practica profesional,11345,electiva complementaria ii,prerrequisito
+11361,practica profesional,11346,sistemas de informacion gerencial,prerrequisito
+11361,practica profesional,11347,investigacion de operaciones,prerrequisito
+11361,practica profesional,11348,preparacion de proyectos,prerrequisito
+11361,practica profesional,11349,economia internacional,prerrequisito
+11361,practica profesional,11350,legislacion laboral,prerrequisito
+11361,practica profesional,11351,electiva de profundizacion i,prerrequisito
+11361,practica profesional,11352,modelos de simulacion gerencial,prerrequisito
+11361,practica profesional,11355,evaluacion de proyectos,prerrequisito
+11361,practica profesional,11356,negocios internacionales,prerrequisito
+11361,practica profesional,11357,etica profesional,prerrequisito
+11361,practica profesional,11358,electiva de profundizacion ii,prerrequisito
+11361,practica profesional,11365,seminario de investigacion,prerrequisito
+11365,seminario de investigacion,11340,metodologia y practica de la investigacion,prerrequisito
+11404,contabilidad de pasivos,11416,contabilidad activos,prerrequisito
+11404,contabilidad financiera ii,11416,contabilidad financiera i,prerrequisito
+11408,calculo integral,11414,calculo diferencial,prerrequisito
+11411,estadistica,11401,matematica basica,prerrequisito
+11414,calculo,11401,matematica basica,prerrequisito
+11414,calculo diferencial,11401,matematica basica,prerrequisito
+11416,contabilidad activos,11410,contabilidad basica,prerrequisito
+11416,contabilidad financiera i,11410,contabilidad,prerrequisito
+11418,idioma extranjero ii,11417,idioma extranjero i,prerrequisito
+11418,ingles ii,11417,ingles i,prerrequisito
+11418,ingles ii,11417,ingles i,prerrequisito
+11419,macroeconomia,11409,microeconomia,prerrequisito
+11421,herramientas de computacion,11415,informatica basica,prerrequisito
+11423,contabilidad superior,11404,contabilidad de pasivos,prerrequisito
+11423,contabilidad financiera avanzada,11404,contabilidad financiera ii,prerrequisito
+11423,contabilidad superior,11416,contabilidad activos,prerrequisito
+11425,inferencia estadistica,11411,estadistica descriptiva,prerrequisito
+11434,metodologia y practica de la investigacion,11411,estadistica,prerrequisito
+11435,economia internacional,11419,macroeconomia,prerrequisito
+11435,economia internacional,11419,macroeconomia,prerrequisito
+11441,sistemas de informacion contable,11404,contabilidad financiera ii,prerrequisito
+11444,auditoria integral,11437,control interno y fiscal,prerrequisito
+11445,finanzas corporativas,11461,analisis financiero,prerrequisito
+11447,seminario de investigacion,11434,metodologia y practica de la investigacion,prerrequisito
+11447,seminario de investigacion,11434,metodologia y practica de la investigacion,prerrequisito
+11448,etica profesional,11442,etica general,prerrequisito
+11449,legislacion tributaria ii,11440,legislacion tributaria i,prerrequisito
+11449,aduana e impuesto a las ventas,11440,renta y complementario,prerrequisito
+11451,auditoria internacional,11462,contabilidad internacional,prerrequisito
+11453,evaluacion de proyectos,11446,preparacion de proyectos,prerrequisito
+11453,evaluacion de proyectos,11446,formulacion de proyectos,prerrequisito
+11455,auditoria del procesamiento electronico de datos,11441,software contable y financiero,prerrequisito
+11458,practica profesional,11401,matematica basica,prerrequisito
+11458,practica profesional,11401,matematica basica,prerrequisito
+11458,practica profesional,11402,logica,prerrequisito
+11458,practica profesional,11402,logica,prerrequisito
+11458,practica profesional,11403,introduccion al programa,prerrequisito
+11458,practica profesional,11403,introduccion al programa,prerrequisito
+11458,practica profesional,11404,contabilidad financiera ii,prerrequisito
+11458,practica profesional,11404,contabilidad de pasivos,prerrequisito
+11458,practica profesional,11405,expresion oral y escrita,prerrequisito
+11458,practica profesional,11405,expresion oral y escrita,prerrequisito
+11458,practica profesional,11406,deporte formativo,prerrequisito
+11458,practica profesional,11406,deporte formativo,prerrequisito
+11458,practica profesional,11407,formacion integral i,prerrequisito
+11458,practica profesional,11407,formacion integral i,prerrequisito
+11458,practica profesional,11408,calculo integral,prerrequisito
+11458,practica profesional,11409,microeconomia,prerrequisito
+11458,practica profesional,11409,microeconomia,prerrequisito
+11458,practica profesional,11410,contabilidad basica,prerrequisito
+11458,practica profesional,11410,contabilidad,prerrequisito
+11458,practica profesional,11411,estadistica,prerrequisito
+11458,practica profesional,11411,estadistica descriptiva,prerrequisito
+11458,practica profesional,11412,legislacion comercial,prerrequisito
+11458,practica profesional,11412,legislacion comercial,prerrequisito
+11458,practica profesional,11413,teorias de la administracion,prerrequisito
+11458,practica profesional,11413,administracion basica,prerrequisito
+11458,practica profesional,11414,calculo,prerrequisito
+11458,practica profesional,11414,calculo diferencial,prerrequisito
+11458,practica profesional,11415,informatica basica,prerrequisito
+11458,practica profesional,11416,contabilidad activos,prerrequisito
+11458,practica profesional,11416,contabilidad financiera i,prerrequisito
+11458,practica profesional,11417,ingles i,prerrequisito
+11458,practica profesional,11417,ingles i,prerrequisito
+11458,practica profesional,11418,ingles ii,prerrequisito
+11458,practica profesional,11418,ingles ii,prerrequisito
+11458,practica profesional,11419,macroeconomia,prerrequisito
+11458,practica profesional,11419,macroeconomia,prerrequisito
+11458,practica profesional,11420,formacion integral ii,prerrequisito
+11458,practica profesional,11420,formacion integral ii,prerrequisito
+11458,practica profesional,11421,herramientas de computacion,prerrequisito
+11458,practica profesional,11422,electiva libre i,prerrequisito
+11458,practica profesional,11422,electiva libre,prerrequisito
+11458,practica profesional,11423,contabilidad superior,prerrequisito
+11458,practica profesional,11423,contabilidad financiera avanzada,prerrequisito
+11458,practica profesional,11424,contabilidad de costos de produccion,prerrequisito
+11458,practica profesional,11424,contabilidad de costos,prerrequisito
+11458,practica profesional,11425,inferencia estadistica,prerrequisito
+11458,practica profesional,11426,epistemologia contable,prerrequisito
+11458,practica profesional,11426,epistemologia contable,prerrequisito
+11458,practica profesional,11427,electiva libre ii,prerrequisito
+11458,practica profesional,11428,electiva complementaria i,prerrequisito
+11458,practica profesional,11429,constitucion y formacion ciudadana,prerrequisito
+11458,practica profesional,11429,constitucion y formacion ciudadana,prerrequisito
+11458,practica profesional,11430,presupuestos,prerrequisito
+11458,practica profesional,11430,planeacion y presupuestos,prerrequisito
+11458,practica profesional,11431,contabilidad de costos servicios,prerrequisito
+11458,practica profesional,11432,matematica financiera,prerrequisito
+11458,practica profesional,11432,matematica financiera,prerrequisito
+11458,practica profesional,11433,humanidades,prerrequisito
+11458,practica profesional,11433,humanidades,prerrequisito
+11458,practica profesional,11434,metodologia y practica de la investigacion,prerrequisito
+11458,practica profesional,11434,metodologia y practica de la investigacion,prerrequisito
+11458,practica profesional,11435,economia internacional,prerrequisito
+11458,practica profesional,11435,economia internacional,prerrequisito
+11458,practica profesional,11436,legislacion laboral,prerrequisito
+11458,practica profesional,11436,legislacion laboral,prerrequisito
+11458,practica profesional,11437,control interno y fiscal,prerrequisito
+11458,practica profesional,11437,control interno y fiscal,prerrequisito
+11458,practica profesional,11438,taller de gestion empresarial i,prerrequisito
+11458,practica profesional,11439,problemas de contexto,prerrequisito
+11458,practica profesional,11440,renta y complementario,prerrequisito
+11458,practica profesional,11440,legislacion tributaria i,prerrequisito
+11458,practica profesional,11441,sistemas de informacion contable,prerrequisito
+11458,practica profesional,11441,software contable y financiero,prerrequisito
+11458,practica profesional,11442,etica general,prerrequisito
+11458,practica profesional,11442,etica general,prerrequisito
+11458,practica profesional,11443,electiva complementaria interdisciplinaria,prerrequisito
+11458,practica profesional,11443,electiva complementaria ii,prerrequisito
+11458,practica profesional,11444,auditoria integral,prerrequisito
+11458,practica profesional,11444,auditoria integral,prerrequisito
+11458,practica profesional,11445,finanzas corporativas,prerrequisito
+11458,practica profesional,11445,finanzas corporativas,prerrequisito
+11458,practica profesional,11446,preparacion de proyectos,prerrequisito
+11458,practica profesional,11446,formulacion de proyectos,prerrequisito
+11458,practica profesional,11447,seminario de investigacion,prerrequisito
+11458,practica profesional,11447,seminario de investigacion,prerrequisito
+11458,practica profesional,11448,etica profesional,prerrequisito
+11458,practica profesional,11448,etica profesional,prerrequisito
+11458,practica profesional,11449,aduana e impuesto a las ventas,prerrequisito
+11458,practica profesional,11449,legislacion tributaria ii,prerrequisito
+11458,practica profesional,11450,electiva de profundizacion i,prerrequisito
+11458,practica profesional,11450,electiva de profundizacion i,prerrequisito
+11458,practica profesional,11451,auditoria internacional,prerrequisito
+11458,practica profesional,11452,gerencia estrategica,prerrequisito
+11458,practica profesional,11453,evaluacion de proyectos,prerrequisito
+11458,practica profesional,11453,evaluacion de proyectos,prerrequisito
+11458,practica profesional,11454,procedimiento tributario,prerrequisito
+11458,practica profesional,11455,auditoria del procesamiento electronico de datos,prerrequisito
+11458,practica profesional,11455,auditoria del procesamiento electronico de datos,prerrequisito
+11458,practica profesional,11456,electiva de profundizacion ii,prerrequisito
+11458,practica profesional,11457,taller contable,prerrequisito
+11458,practica profesional,11461,analisis financiero,prerrequisito
+11458,practica profesional,11461,analisis financiero,prerrequisito
+11458,practica profesional,11462,contabilidad internacional,prerrequisito
+11458,practica profesional,11463,revisoria fiscal,prerrequisito
+11458,practica profesional,11463,revisoria fiscal,prerrequisito
+11458,practica profesional,11464,gestion empresarial,prerrequisito
+11458,practica profesional,11465,ingles iii,prerrequisito
+11458,practica profesional,11466,contabilidad de gestion,prerrequisito
+11458,practica profesional,11467,contabilidad publica,prerrequisito
+11458,practica profesional,11468,contabilidad socio-ambiental,prerrequisito
+11458,practica profesional,11469,taller de contabilidad tributaria,prerrequisito
+11458,practica profesional,11470,contabilidades especiales,prerrequisito
+11461,analisis financiero,11423,contabilidad superior,prerrequisito
+11461,analisis financiero,11423,contabilidad financiera avanzada,prerrequisito
+11463,revisoria fiscal,11444,auditoria integral,prerrequisito
+11465,ingles iii,11418,ingles ii,prerrequisito
+11466,contabilidad de gestion,11423,contabilidad financiera avanzada,prerrequisito
+11471,finanzas internacionales,11445,finanzas corporativas,prerrequisito
+11604,teoria general de sistemas,11609,logica de la programacion,prerrequisito
+11609,logica de la programacion,11615,informatica basica,prerrequisito
+11612,contabilidad comercial,11611,contabilidad basica,prerrequisito
+11613,administracion basica,11603,introduccion al programa,prerrequisito
+11614,macroeconomia,11610,microeconomia,prerrequisito
+11616,costos,11612,contabilidad comercial,prerrequisito
+11618,procesos de mercadeo,11614,macroeconomia,prerrequisito
+11619,calculo diferencial,11601,matematica basica,prerrequisito
+11620,formacion integral ii,11607,formacion integral i,prerrequisito
+11622,idioma extranjero ii,11617,idioma extranjero i,prerrequisito
+11624,programacion basica,11604,teoria general de sistemas,prerrequisito
+11625,presupuestos,11616,costos,prerrequisito
+11626,iniciativa empresarial,11662,organizacion y direccion,prerrequisito
+11627,investigacion de mercados,11661,planeacion y control,prerrequisito
+11628,calculo integral,11619,calculo diferencial,prerrequisito
+11632,estadistica inferencial,11629,estadistica descriptiva,prerrequisito
+11633,bases de datos,11624,programacion basica,prerrequisito
+11634,finanzas,11625,presupuestos,prerrequisito
+11636,ingenieria del software,11633,bases de datos,prerrequisito
+11638,creacion de empresas,11626,iniciativa empresarial,prerrequisito
+11640,metodologia y practica de la investigacion,11629,estadistica descriptiva,prerrequisito
+11643,estrategias computacionales,11636,ingenieria del software,prerrequisito
+11644,evaluacion de proyectos,11637,preparacion de proyectos,prerrequisito
+11649,sistemas de informacion gerencial,11643,estrategias computacionales,prerrequisito
+11650,gerencia financiera,11644,evaluacion de proyectos,prerrequisito
+11652,seminario de investigacion,11640,metodologia y practica de la investigacion,prerrequisito
+11653,etica profesional,11655,etica general,prerrequisito
+11658,practica profesional,11649,sistemas de informacion gerencial,prerrequisito
+11658,practica profesional,11650,gerencia financiera,prerrequisito
+11658,practica profesional,11651,legislacion tributaria,prerrequisito
+11658,practica profesional,11652,seminario de investigacion,prerrequisito
+11658,practica profesional,11653,etica profesional,prerrequisito
+11658,practica profesional,11654,electiva de profundizacion ii,prerrequisito
+11661,planeacion y control,11613,administracion basica,prerrequisito
+11662,organizacion y direccion,11661,planeacion y control,prerrequisito
+11665,negocios internacionales,11627,investigacion de mercados,prerrequisito
+11714,macroeconomia,11710,microeconomia,prerrequisito
+11716,estadistica inferencial,11719,estadistica descriptiva,prerrequisito
+11718,contabilidad comercial,11711,contabilidad basica,prerrequisito
+11718,contabilidad comercial,11711,contabilidad basica,prerrequisito
+11720,economia colombiana,11710,microeconomia y macroeconomia,prerrequisito
+11721,ingles ii,11717,ingles i,prerrequisito
+11721,ingles ii,11717,ingles i,prerrequisito
+11725,gestion del talento humano,11713,administracion basica,prerrequisito
+11726,metodologia y practica de la investigacion,11719,estadistica descriptiva,prerrequisito
+11727,finanzas,11769,analisis financiero,prerrequisito
+11727,finanzas,11769,analisis financiero,prerrequisito
+11730,legislacion tributaria,11724,legislacion comercial,prerrequisito
+11735,finanzas internacionales,11727,finanzas,prerrequisito
+11735,finanzas internacionales,11727,finanzas,prerrequisito
+11736,procesos de mercadeo,11770,fundamentos de mercadeo,prerrequisito
+11738,legislacion cambiaria y aduanera,11730,legislacion tributaria,prerrequisito
+11741,investigacion de mercados internacionales,11770,fundamentos de mercadeo,prerrequisito
+11742,etica profesional,11723,etica general,prerrequisito
+11742,etica profesional,11723,etica general,prerrequisito
+11743,ingles v,11747,ingles iv,prerrequisito
+11743,ingles v,11747,ingles iv,prerrequisito
+11747,ingles iv,11767,ingles iii,prerrequisito
+11749,preparacion proyectos de negocios internacionales,11740,costos y cotizaciones internacionales,prerrequisito
+11750,gerencia de mercadeo internacional,11736,procesos de mercadeo internacional,prerrequisito
+11751,logistica y distribucion internacional,11744,importaciones,prerrequisito
+11751,logistica y distribucion internacional,11744,importaciones,prerrequisito
+11752,ingles vi,11743,ingles v,prerrequisito
+11752,ingles vi,11743,ingles v,prerrequisito
+11756,seminario de investigacion,11726,metodologia y practica de la investigacion,prerrequisito
+11756,seminario de investigacion,11734,problemas de contexto,prerrequisito
+11757,evaluacion proyectos de negocios internacionales,11749,preparacion proyectos de negocios internacionales,prerrequisito
+11757,evaluacion de proyectos de negocios internacionales,11749,formulacion de proyectos de negocios internacionales,prerrequisito
+11763,alternativa de grado,11756,seminario de investigacion,prerrequisito
+11767,ingles iii,11721,ingles ii,prerrequisito
+11767,ingles iii,11721,ingles ii,prerrequisito
+11768,practica profesional,11701,matematica basica,prerrequisito
+11768,practica profesional,11701,matematica basica,prerrequisito
+11768,practica profesional,11702,logica,prerrequisito
+11768,practica profesional,11702,logica,prerrequisito
+11768,practica profesional,11703,introduccion al programa,prerrequisito
+11768,practica profesional,11703,introduccion al programa,prerrequisito
+11768,practica profesional,11704,matematica financiera,prerrequisito
+11768,practica profesional,11704,matematica financiera,prerrequisito
+11768,practica profesional,11705,expresion oral y escrita,prerrequisito
+11768,practica profesional,11705,expresion oral y escrita,prerrequisito
+11768,practica profesional,11706,deporte formativo,prerrequisito
+11768,practica profesional,11706,deporte formativo,prerrequisito
+11768,practica profesional,11707,formacion integral i,prerrequisito
+11768,practica profesional,11707,formacion integral i,prerrequisito
+11768,practica profesional,11708,constitucion y formacion ciudadana,prerrequisito
+11768,practica profesional,11708,constitucion y formacion ciudadana,prerrequisito
+11768,practica profesional,11709,epistemologia de los negocios internacionales,prerrequisito
+11768,practica profesional,11709,epistemologia de los negocios internacionales,prerrequisito
+11768,practica profesional,11710,microeconomia,prerrequisito
+11768,practica profesional,11710,microeconomia y macroeconomia,prerrequisito
+11768,practica profesional,11711,contabilidad basica,prerrequisito
+11768,practica profesional,11711,contabilidad basica,prerrequisito
+11768,practica profesional,11712,electiva libre i,prerrequisito
+11768,practica profesional,11712,electiva libre,prerrequisito
+11768,practica profesional,11713,administracion basica,prerrequisito
+11768,practica profesional,11713,administracion basica,prerrequisito
+11768,practica profesional,11714,macroeconomia,prerrequisito
+11768,practica profesional,11715,informatica basica,prerrequisito
+11768,practica profesional,11716,estadistica inferencial,prerrequisito
+11768,practica profesional,11717,ingles i,prerrequisito
+11768,practica profesional,11717,ingles i,prerrequisito
+11768,practica profesional,11718,contabilidad comercial,prerrequisito
+11768,practica profesional,11718,contabilidad comercial,prerrequisito
+11768,practica profesional,11719,estadistica descriptiva,prerrequisito
+11768,practica profesional,11719,estadistica,prerrequisito
+11768,practica profesional,11720,economia colombiana,prerrequisito
+11768,practica profesional,11720,economia colombiana,prerrequisito
+11768,practica profesional,11721,ingles ii,prerrequisito
+11768,practica profesional,11721,ingles ii,prerrequisito
+11768,practica profesional,11722,humanidades,prerrequisito
+11768,practica profesional,11722,humanidades,prerrequisito
+11768,practica profesional,11723,etica general,prerrequisito
+11768,practica profesional,11723,etica general,prerrequisito
+11768,practica profesional,11724,legislacion comercial,prerrequisito
+11768,practica profesional,11724,legislacion comercial,prerrequisito
+11768,practica profesional,11725,gestion del recurso humano,prerrequisito
+11768,practica profesional,11725,gestion del talento humano,prerrequisito
+11768,practica profesional,11726,metodologia y practica de la investigacion,prerrequisito
+11768,practica profesional,11726,metodologia y practica de la investigacion,prerrequisito
+11768,practica profesional,11727,finanzas,prerrequisito
+11768,practica profesional,11727,finanzas,prerrequisito
+11768,practica profesional,11728,economia internacional,prerrequisito
+11768,practica profesional,11728,economia internacional,prerrequisito
+11768,practica profesional,11729,geopolitica,prerrequisito
+11768,practica profesional,11729,geopolitica,prerrequisito
+11768,practica profesional,11730,legislacion tributaria,prerrequisito
+11768,practica profesional,11730,legislacion tributaria,prerrequisito
+11768,practica profesional,11731,electiva libre ii,prerrequisito
+11768,practica profesional,11733,responsabilidad social empresarial,prerrequisito
+11768,practica profesional,11733,gestion ambiental,prerrequisito
+11768,practica profesional,11734,problemas de contexto,prerrequisito
+11768,practica profesional,11735,finanzas internacionales,prerrequisito
+11768,practica profesional,11735,finanzas internacionales,prerrequisito
+11768,practica profesional,11736,procesos de mercadeo internacional,prerrequisito
+11768,practica profesional,11736,procesos de mercadeo,prerrequisito
+11768,practica profesional,11737,exportaciones,prerrequisito
+11768,practica profesional,11737,exportaciones,prerrequisito
+11768,practica profesional,11738,legislacion cambiaria y aduanera,prerrequisito
+11768,practica profesional,11738,legislacion cambiaria y aduanera,prerrequisito
+11768,practica profesional,11739,electiva complementaria interdisciplinaria,prerrequisito
+11768,practica profesional,11739,electiva complementaria i,prerrequisito
+11768,practica profesional,11740,costos y cotizaciones internacionales,prerrequisito
+11768,practica profesional,11741,investigacion de mercados internacionales,prerrequisito
+11768,practica profesional,11742,etica profesional,prerrequisito
+11768,practica profesional,11742,etica profesional,prerrequisito
+11768,practica profesional,11743,ingles v,prerrequisito
+11768,practica profesional,11743,ingles v,prerrequisito
+11768,practica profesional,11744,importaciones,prerrequisito
+11768,practica profesional,11744,importaciones,prerrequisito
+11768,practica profesional,11745,acuerdos y contratos internacionales,prerrequisito
+11768,practica profesional,11745,acuerdos y tratados,prerrequisito
+11768,practica profesional,11746,electiva de profundizacion i,prerrequisito
+11768,practica profesional,11746,electiva de profundizacion i,prerrequisito
+11768,practica profesional,11747,ingles iv,prerrequisito
+11768,practica profesional,11747,ingles iv,prerrequisito
+11768,practica profesional,11748,negocios internacionales con ti,prerrequisito
+11768,practica profesional,11748,sistemas de informacion gerencial,prerrequisito
+11768,practica profesional,11749,formulacion de proyectos de negocios internacionales,prerrequisito
+11768,practica profesional,11749,preparacion proyectos de negocios internacionales,prerrequisito
+11768,practica profesional,11750,gerencia de mercadeo internacional,prerrequisito
+11768,practica profesional,11750,gerencia mercadeo internacional,prerrequisito
+11768,practica profesional,11751,logistica y distribucion internacional,prerrequisito
+11768,practica profesional,11751,logistica y distribucion internacional,prerrequisito
+11768,practica profesional,11752,ingles vi,prerrequisito
+11768,practica profesional,11752,ingles vi,prerrequisito
+11768,practica profesional,11753,electiva complementaria ii,prerrequisito
+11768,practica profesional,11754,electiva de profundizacion ii,prerrequisito
+11768,practica profesional,11754,electiva de profundizacion ii,prerrequisito
+11768,practica profesional,11755,gerencia de negocios internacionales,prerrequisito
+11768,practica profesional,11756,seminario de investigacion,prerrequisito
+11768,practica profesional,11756,seminario de investigacion,prerrequisito
+11768,practica profesional,11757,evaluacion de proyectos de negocios internacionales,prerrequisito
+11768,practica profesional,11757,evaluacion proyectos de negocios internacionales,prerrequisito
+11768,practica profesional,11758,relaciones internacionales,prerrequisito
+11768,practica profesional,11758,relaciones internacionales,prerrequisito
+11768,practica profesional,11759,internacionalizacion de la empresa,prerrequisito
+11768,practica profesional,11759,internacionalizacion de la empresa,prerrequisito
+11768,practica profesional,11760,contratos internacionales,prerrequisito
+11768,practica profesional,11760,estrategias de negociacion internacional,prerrequisito
+11768,practica profesional,11761,electiva de profundizacion iii,prerrequisito
+11768,practica profesional,11766,formacion integral ii,prerrequisito
+11768,practica profesional,11766,formacion integral ii,prerrequisito
+11768,practica profesional,11767,ingles iii,prerrequisito
+11768,practica profesional,11767,ingles iii,prerrequisito
+11768,practica profesional,11769,analisis financiero,prerrequisito
+11768,practica profesional,11769,analisis financiero,prerrequisito
+11768,practica profesional,11770,fundamentos de mercadeo,prerrequisito
+11768,practica profesional,11771,legislacion laboral,prerrequisito
+11768,practica profesional,11771,legislacion laboral,prerrequisito
+11768,practica profesional,11772,iniciativa empresarial,prerrequisito
+11768,practica profesional,11772,gestion empresarial,prerrequisito
+11768,practica profesional,11773,investigacion de operaciones,prerrequisito
+11769,analisis financiero,11718,contabilidad comercial,prerrequisito
+11769,analisis financiero,11718,contabilidad comercial,prerrequisito
+11804,planeacion y control,11813,administracion basica,prerrequisito
+11808,calculo diferencial,11801,matematica basica,prerrequisito
+11809,contabilidad comercial,11811,contabilidad basica,prerrequisito
+11813,administracion basica,11803,introduccion al programa,prerrequisito
+11814,creacion de empresas,11813,administracion basica,prerrequisito
+11816,macroeconomia,11810,microeconomia,prerrequisito
+11818,formacion integral ii,11807,formacion integral i,prerrequisito
+11823,organizacion y direccion,11804,planeacion y control,prerrequisito
+11824,calculo integral,11808,calculo diferencial,prerrequisito
+11827,costos,11809,contabilidad comercial,prerrequisito
+11830,ingles ii,11817,ingles i,prerrequisito
+11833,estadistica inferencial,11825,estadistica descriptiva,prerrequisito
+11840,metodologia y practica de la investigacion,11833,estadistica inferencial,prerrequisito
+11842,finanzas,11834,presupuestos,prerrequisito
+11848,preparacion de proyectos,11842,finanzas,prerrequisito
+11855,evaluacion de proyectos,11848,preparacion de proyectos,prerrequisito
+11857,etica profesional,11829,etica general,prerrequisito
+11860,trabajo o alternativa de grado,11865,seminario de investigacion,prerrequisito
+11861,practica profesional,11852,modelos de simulacion gerencial,prerrequisito
+11861,practica profesional,11855,evaluacion de proyectos,prerrequisito
+11861,practica profesional,11856,negocios internacionales,prerrequisito
+11861,practica profesional,11857,etica profesional,prerrequisito
+11861,practica profesional,11858,electiva de profundizacion ii,prerrequisito
+11861,practica profesional,11865,seminario de investigacion,prerrequisito
+11865,seminario de investigacion,11840,metodologia y practica de la investigacion,prerrequisito
+11914,macroeconomia,11910,microeconomia,prerrequisito
+11916,estadistica inferencial,11919,estadistica descriptiva,prerrequisito
+11918,contabilidad comercial,11911,contabilidad basica,prerrequisito
+11920,economia colombiana,11914,macroeconomia,prerrequisito
+11921,ingles ii,11917,ingles i,prerrequisito
+11925,gestion del talento humano,11913,administracion basica,prerrequisito
+11926,metodologia y practica de la investigacion,11916,estadistica inferencial,prerrequisito
+11927,finanzas,11969,analisis financiero,prerrequisito
+11928,economia internacional,11920,economia colombiana,prerrequisito
+11930,legislacion tributaria,11924,legislacion comercial,prerrequisito
+11935,finanzas internacionales,11927,finanzas,prerrequisito
+11936,procesos de mercadeo,11970,fundamentos de mercadeo,prerrequisito
+11938,legislacion cambiaria y aduanera,11930,legislacion tributaria,prerrequisito
+11940,costos y cotizaciones internacionales,11935,finanzas internacionales,prerrequisito
+11941,investigacion de mercados internacionales,11970,fundamentos de mercadeo,prerrequisito
+11942,etica profesional,11923,etica general,prerrequisito
+11943,ingles v,11947,ingles iv,prerrequisito
+11944,importaciones,11937,exportaciones,prerrequisito
+11947,ingles iv,11967,ingles iii,prerrequisito
+11949,preparacion proyectos de negocios internacionales,11940,costos y cotizaciones internacionales,prerrequisito
+11950,gerencia mercadeo internacional,11941,investigacion de mercados internacionales,prerrequisito
+11951,logistica y distribucion internacional,11944,importaciones,prerrequisito
+11952,ingles vi,11943,ingles v,prerrequisito
+11956,seminario de investigacion,11934,problemas de contexto,prerrequisito
+11957,evaluacion proyectos de negocios internacionales,11949,preparacion proyectos de negocios internacionales,prerrequisito
+11960,contratos internacionales,11945,acuerdos y tratados,prerrequisito
+11963,alternativa de grado,11956,seminario de investigacion,prerrequisito
+11964,cooperacion internacional,11958,relaciones internacionales,prerrequisito
+11966,formacion integral ii,11907,formacion integral i,prerrequisito
+11967,ingles iii,11921,ingles ii,prerrequisito
+11969,analisis financiero,11918,contabilidad comercial,prerrequisito
+33101,economia politica,33117,economia basica,prerrequisito
+33104,derecho civil general y personas,33109,derecho romano,prerrequisito
+33114,derecho constitucional colombiano,33110,derecho constitucional general,prerrequisito
+33114,derecho constitucional colombiano,33110,derecho constitucional general,prerrequisito
+33118,logica juridica,33102,logica,prerrequisito
+33122,derecho civil bienes,33104,derecho civil general y personas,prerrequisito
+33127,ingles ii,33121,ingles i,prerrequisito
+33128,derecho administrativo general,33114,derecho constitucional colombiano,prerrequisito
+33129,derecho civil obligaciones,33122,derecho civil bienes,prerrequisito
+33131,derecho penal especial,33124,derecho penal fundamental,prerrequisito
+33133,responsabilidad del estado y contratacion estatal,33128,derecho administrativo general,prerrequisito
+33134,derecho procesal civil,33123,teoria general del proceso,prerrequisito
+33135,titulos valores,33130,comercial general y sociedades,prerrequisito
+33136,derecho procesal penal,33131,derecho penal especial,prerrequisito
+33140,derecho familia y menores,33134,derecho procesal civil,prerrequisito
+33141,contratos civil y comercial,33129,derecho civil obligaciones,prerrequisito
+33142,consultorio juridico i,33133,responsabilidad del estado y contratacion estatal,prerrequisito
+33142,consultorio juridico i,33134,derecho procesal civil,prerrequisito
+33142,consultorio juridico i,33135,titulos valores,prerrequisito
+33142,consultorio juridico i,33136,derecho procesal penal,prerrequisito
+33142,consultorio juridico i,33137,etica general,prerrequisito
+33142,consultorio juridico i,33144,derecho economico,prerrequisito
+33144,derecho economico,33101,economia politica,prerrequisito
+33145,derecho procesal publico,33133,responsabilidad del estado y contratacion estatal,prerrequisito
+33147,derecho civil sucesiones,33140,derecho familia y menores,prerrequisito
+33149,consultorio juridico ii,33142,consultorio juridico i,prerrequisito
+33151,derecho procesal laboral,33148,derecho laboral individual y colectivo,prerrequisito
+33152,consultorio juridico iii,33149,consultorio juridico ii,prerrequisito
+33159,derecho agrario,33134,derecho procesal civil,prerrequisito
+33160,consultorio juridico iv,33152,consultorio juridico iii,prerrequisito
+33162,etica profesional,33137,etica general,prerrequisito
+33204,teorias y modelos de la comunicacion,33212,epistemologia de la comunicacion,prerrequisito
+33218,redaccion literaria y periodistica,33214,redaccion basica,prerrequisito
+33219,linguistica,33209,espanol,prerrequisito
+33221,ingles ii,33217,ingles i,prerrequisito
+33227,comunicacion y cultura,33204,teorias y modelos de la comunicacion,prerrequisito
+33229,semiotica,33219,linguistica,prerrequisito
+33230,reporteria grafica,33210,fotografia basica,prerrequisito
+33231,tecnologia en medios de  comunicacion,33215,informatica basica,prerrequisito
+33234,comunicacion y educacion,33204,teorias y modelos de la comunicacion,prerrequisito
+33237,periodismo,33218,redaccion literaria y periodistica,prerrequisito
+33241,comunicacion publica,33204,teorias y modelos de la comunicacion,prerrequisito
+33244,produccion radial,33223,radio basica,prerrequisito
+33247,comunicacion para el desarrollo,33204,teorias y modelos de la comunicacion,prerrequisito
+33248,etica profesional,33260,etica general,prerrequisito
+33259,practica profesional,33201,cultura latinoamerica,prerrequisito
+33259,practica profesional,33202,logica,prerrequisito
+33259,practica profesional,33203,introduccion al programa,prerrequisito
+33259,practica profesional,33204,teorias y modelos de la comunicacion,prerrequisito
+33259,practica profesional,33205,expresion oral y escrita,prerrequisito
+33259,practica profesional,33206,deporte formativo,prerrequisito
+33259,practica profesional,33207,formacion integral i,prerrequisito
+33259,practica profesional,33208,constitucion y formacion ciudadana,prerrequisito
+33259,practica profesional,33209,espanol,prerrequisito
+33259,practica profesional,33210,fotografia basica,prerrequisito
+33259,practica profesional,33211,video basico,prerrequisito
+33259,practica profesional,33212,epistemologia de la comunicacion,prerrequisito
+33259,practica profesional,33213,electiva libre i,prerrequisito
+33259,practica profesional,33214,redaccion basica,prerrequisito
+33259,practica profesional,33215,informatica basica,prerrequisito
+33259,practica profesional,33216,psicologia de la comunicacion,prerrequisito
+33259,practica profesional,33217,ingles i,prerrequisito
+33259,practica profesional,33218,redaccion literaria y periodistica,prerrequisito
+33259,practica profesional,33219,linguistica,prerrequisito
+33259,practica profesional,33220,formacion integral ii,prerrequisito
+33259,practica profesional,33221,ingles ii,prerrequisito
+33259,practica profesional,33222,humanidades,prerrequisito
+33259,practica profesional,33223,radio basica,prerrequisito
+33259,practica profesional,33224,apreciacion musical,prerrequisito
+33259,practica profesional,33226,cultura colombiana,prerrequisito
+33259,practica profesional,33227,comunicacion y cultura,prerrequisito
+33259,practica profesional,33228,imagen,prerrequisito
+33259,practica profesional,33229,semiotica,prerrequisito
+33259,practica profesional,33230,reporteria grafica,prerrequisito
+33259,practica profesional,33231,tecnologia en medios de  comunicacion,prerrequisito
+33259,practica profesional,33232,metodologia y practica de la investigacion,prerrequisito
+33259,practica profesional,33233,electiva complementaria i,prerrequisito
+33259,practica profesional,33234,comunicacion y educacion,prerrequisito
+33259,practica profesional,33235,apreciacion cinematografica,prerrequisito
+33259,practica profesional,33236,electiva de profundizacion i,prerrequisito
+33259,practica profesional,33237,periodismo,prerrequisito
+33259,practica profesional,33238,artes graficas y diagramacion,prerrequisito
+33259,practica profesional,33239,iniciativa empresarial,prerrequisito
+33259,practica profesional,33240,electiva complementaria ii,prerrequisito
+33259,practica profesional,33241,comunicacion publica,prerrequisito
+33259,practica profesional,33242,comunicacion publicitaria,prerrequisito
+33259,practica profesional,33243,electiva de profundizacion ii,prerrequisito
+33259,practica profesional,33244,produccion radial,prerrequisito
+33259,practica profesional,33245,generos y formatos audiovisuales,prerrequisito
+33259,practica profesional,33246,electiva libre ii,prerrequisito
+33259,practica profesional,33247,comunicacion para el desarrollo,prerrequisito
+33259,practica profesional,33248,etica profesional,prerrequisito
+33259,practica profesional,33250,television,prerrequisito
+33259,practica profesional,33251,creacion de empresas de comunicacion,prerrequisito
+33259,practica profesional,33252,seminario de investigacion,prerrequisito
+33259,practica profesional,33253,comunicacion organizacional,prerrequisito
+33259,practica profesional,33255,legislacion en comunicaciones,prerrequisito
+33259,practica profesional,33256,nuevos medios de comunicacion,prerrequisito
+33259,practica profesional,33257,problemas de contexto,prerrequisito
+33259,practica profesional,33260,etica general,prerrequisito
+33259,practica profesional,33266,electiva de profundizacion iii,prerrequisito
+33301,economia politica,33317,economia basica,prerrequisito
+33304,derecho civil general y personas,33309,derecho romano,prerrequisito
+33308,sociologia juridica,33312,filosofia del derecho,prerrequisito
+33314,derecho constitucional colombiano,33310,derecho constitucional general,prerrequisito
+33316,historia de las ideas e instituciones politicas,33312,filosofia del derecho,prerrequisito
+33318,logica juridica,33302,logica,prerrequisito
+33320,formacion integral ii,33307,formacion integral i,prerrequisito
+33322,derecho civil bienes,33304,derecho civil general y personas,prerrequisito
+33327,ingles ii,33321,ingles i,prerrequisito
+33328,derecho administrativo general,33314,derecho constitucional colombiano,prerrequisito
+33329,derecho civil obligaciones,33322,derecho civil bienes,prerrequisito
+33331,derecho penal especial,33324,derecho penal fundamental,prerrequisito
+33332,electiva libre ii,33313,electiva libre i,prerrequisito
+33333,responsabilidad del estado y contratacion estatal,33328,derecho administrativo general,prerrequisito
+33334,derecho procesal civil,33323,teoria general del proceso,prerrequisito
+33335,titulos valores,33330,comercial general y sociedades,prerrequisito
+33336,derecho procesal penal,33331,derecho penal especial,prerrequisito
+33340,derecho familia y menores,33334,derecho procesal civil,prerrequisito
+33341,contratos civil y comercial,33329,derecho civil obligaciones,prerrequisito
+33342,consultorio juridico i,33301,economia politica,prerrequisito
+33342,consultorio juridico i,33302,logica,prerrequisito
+33342,consultorio juridico i,33303,introduccion al programa,prerrequisito
+33342,consultorio juridico i,33304,derecho civil general y personas,prerrequisito
+33342,consultorio juridico i,33305,expresion oral y escrita,prerrequisito
+33342,consultorio juridico i,33306,deporte formativo,prerrequisito
+33342,consultorio juridico i,33307,formacion integral i,prerrequisito
+33342,consultorio juridico i,33308,sociologia juridica,prerrequisito
+33342,consultorio juridico i,33309,derecho romano,prerrequisito
+33342,consultorio juridico i,33310,derecho constitucional general,prerrequisito
+33342,consultorio juridico i,33311,teoria del derecho,prerrequisito
+33342,consultorio juridico i,33312,filosofia del derecho,prerrequisito
+33342,consultorio juridico i,33313,electiva libre i,prerrequisito
+33342,consultorio juridico i,33314,derecho constitucional colombiano,prerrequisito
+33342,consultorio juridico i,33315,informatica basica,prerrequisito
+33342,consultorio juridico i,33316,historia de las ideas e instituciones politicas,prerrequisito
+33342,consultorio juridico i,33317,economia basica,prerrequisito
+33342,consultorio juridico i,33318,logica juridica,prerrequisito
+33342,consultorio juridico i,33319,metodologia y practica de la investigacion,prerrequisito
+33342,consultorio juridico i,33320,formacion integral ii,prerrequisito
+33342,consultorio juridico i,33321,ingles i,prerrequisito
+33342,consultorio juridico i,33322,derecho civil bienes,prerrequisito
+33342,consultorio juridico i,33324,derecho penal fundamental,prerrequisito
+33342,consultorio juridico i,33325,humanidades,prerrequisito
+33342,consultorio juridico i,33326,hermeneutica juridica,prerrequisito
+33342,consultorio juridico i,33327,ingles ii,prerrequisito
+33342,consultorio juridico i,33328,derecho administrativo general,prerrequisito
+33342,consultorio juridico i,33329,derecho civil obligaciones,prerrequisito
+33342,consultorio juridico i,33330,comercial general y sociedades,prerrequisito
+33342,consultorio juridico i,33331,derecho penal especial,prerrequisito
+33342,consultorio juridico i,33332,electiva libre ii,prerrequisito
+33342,consultorio juridico i,33333,responsabilidad del estado y contratacion estatal,prerrequisito
+33342,consultorio juridico i,33334,derecho procesal civil,prerrequisito
+33342,consultorio juridico i,33335,titulos valores,prerrequisito
+33342,consultorio juridico i,33336,derecho procesal penal,prerrequisito
+33342,consultorio juridico i,33337,etica general,prerrequisito
+33342,consultorio juridico i,33344,derecho economico,prerrequisito
+33344,derecho economico,33301,economia politica,prerrequisito
+33345,derecho procesal publico,33333,responsabilidad del estado y contratacion estatal,prerrequisito
+33347,derecho civil sucesiones,33340,derecho familia y menores,prerrequisito
+33349,consultorio juridico ii,33342,consultorio juridico i,prerrequisito
+33351,derecho procesal laboral,33348,derecho laboral individual y colectivo,prerrequisito
+33352,consultorio juridico iii,33349,consultorio juridico ii,prerrequisito
+33354,electiva complementaria ii,33338,electiva complementaria i,prerrequisito
+33356,electiva de profundizacion ii,33346,electiva de profundizacion i,prerrequisito
+33359,derecho agrario,33334,derecho procesal civil,prerrequisito
+33360,consultorio juridico iv,33352,consultorio juridico iii,prerrequisito
+33362,etica profesional,33337,etica general,prerrequisito
+33401,economia politica,33417,economia basica,prerrequisito
+33404,derecho civil general y personas,33409,derecho romano,prerrequisito
+33408,sociologia juridica,33412,filosofia del derecho,prerrequisito
+33414,derecho constitucional colombiano,33410,derecho constitucional general,prerrequisito
+33416,historia de las ideas e instituciones politicas,33412,filosofia del derecho,prerrequisito
+33418,logica juridica,33402,logica,prerrequisito
+33420,formacion integral ii,33407,formacion integral i,prerrequisito
+33422,derecho civil bienes,33404,derecho civil general y personas,prerrequisito
+33427,ingles ii,33421,ingles i,prerrequisito
+33428,derecho administrativo general,33414,derecho constitucional colombiano,prerrequisito
+33429,derecho civil obligaciones,33422,derecho civil bienes,prerrequisito
+33431,derecho penal especial,33424,derecho penal fundamental,prerrequisito
+33433,responsabilidad del estado y contratacion estatal,33428,derecho administrativo general,prerrequisito
+33434,derecho procesal civil,33423,teoria general del proceso,prerrequisito
+33435,titulos valores,33430,comercial general y sociedades,prerrequisito
+33436,derecho procesal penal,33431,derecho penal especial,prerrequisito
+33440,derecho familia y menores,33434,derecho procesal civil,prerrequisito
+33441,contratos civil y comercial,33429,derecho civil obligaciones,prerrequisito
+33442,consultorio juridico i,33401,economia politica,prerrequisito
+33442,consultorio juridico i,33402,logica,prerrequisito
+33442,consultorio juridico i,33403,introduccion al programa,prerrequisito
+33442,consultorio juridico i,33404,derecho civil general y personas,prerrequisito
+33442,consultorio juridico i,33405,expresion oral y escrita,prerrequisito
+33442,consultorio juridico i,33406,deporte formativo,prerrequisito
+33442,consultorio juridico i,33407,formacion integral i,prerrequisito
+33442,consultorio juridico i,33408,sociologia juridica,prerrequisito
+33442,consultorio juridico i,33409,derecho romano,prerrequisito
+33442,consultorio juridico i,33410,derecho constitucional general,prerrequisito
+33442,consultorio juridico i,33412,filosofia del derecho,prerrequisito
+33442,consultorio juridico i,33413,electiva libre i,prerrequisito
+33442,consultorio juridico i,33414,derecho constitucional colombiano,prerrequisito
+33442,consultorio juridico i,33415,informatica basica,prerrequisito
+33442,consultorio juridico i,33416,historia de las ideas e instituciones politicas,prerrequisito
+33442,consultorio juridico i,33417,economia basica,prerrequisito
+33442,consultorio juridico i,33418,logica juridica,prerrequisito
+33442,consultorio juridico i,33419,metodologia y practica de la investigacion,prerrequisito
+33442,consultorio juridico i,33420,formacion integral ii,prerrequisito
+33442,consultorio juridico i,33421,ingles i,prerrequisito
+33442,consultorio juridico i,33422,derecho civil bienes,prerrequisito
+33442,consultorio juridico i,33423,teoria general del proceso,prerrequisito
+33442,consultorio juridico i,33424,derecho penal fundamental,prerrequisito
+33442,consultorio juridico i,33425,humanidades,prerrequisito
+33442,consultorio juridico i,33426,hermeneutica juridica,prerrequisito
+33442,consultorio juridico i,33427,ingles ii,prerrequisito
+33442,consultorio juridico i,33428,derecho administrativo general,prerrequisito
+33442,consultorio juridico i,33429,derecho civil obligaciones,prerrequisito
+33442,consultorio juridico i,33430,comercial general y sociedades,prerrequisito
+33442,consultorio juridico i,33431,derecho penal especial,prerrequisito
+33442,consultorio juridico i,33432,electiva libre ii,prerrequisito
+33442,consultorio juridico i,33433,responsabilidad del estado y contratacion estatal,prerrequisito
+33442,consultorio juridico i,33434,derecho procesal civil,prerrequisito
+33442,consultorio juridico i,33435,titulos valores,prerrequisito
+33442,consultorio juridico i,33436,derecho procesal penal,prerrequisito
+33442,consultorio juridico i,33437,etica general,prerrequisito
+33442,consultorio juridico i,33444,derecho economico,prerrequisito
+33444,derecho economico,33401,economia politica,prerrequisito
+33445,derecho procesal publico,33433,responsabilidad del estado y contratacion estatal,prerrequisito
+33447,derecho civil sucesiones,33440,derecho familia y menores,prerrequisito
+33449,consultorio juridico ii,33442,consultorio juridico i,prerrequisito
+33451,derecho procesal laboral,33448,derecho laboral individual y colectivo,prerrequisito
+33452,consultorio juridico iii,33449,consultorio juridico ii,prerrequisito
+33457,derecho internacional,33445,derecho procesal publico,prerrequisito
+33459,derecho agrario,33434,derecho procesal civil,prerrequisito
+33460,consultorio juridico iv,33452,consultorio juridico iii,prerrequisito
+33462,etica profesional,33437,etica general,prerrequisito
+55108,calculo integral,55111,calculo diferencial,prerrequisito
+55109,mecanica,55101,matematica basica,prerrequisito
+55110,quimica ii,55104,quimica i,prerrequisito
+55111,calculo diferencial,55101,matematica basica,prerrequisito
+55116,estadistica inferencial,55119,estadistica descriptiva,prerrequisito
+55118,termodinamica,55104,quimica general,prerrequisito
+55118,termodinamica,55108,calculo integral,prerrequisito
+55121,ingles ii,55117,ingles i,prerrequisito
+55121,idioma extranjero ii,55117,idioma extranjero i,prerrequisito
+55124,ecuaciones diferenciales,55108,calculo integral,prerrequisito
+55125,fluidos y ondas,55109,mecanica,prerrequisito
+55127,metodologia y practica de la investigacion,55116,estadistica inferencial,prerrequisito
+55130,electromagnetismo,55109,mecanica,prerrequisito
+55131,microbiologia ambiental,55126,biologia,prerrequisito
+55133,mecanica de fluidos,55124,ecuaciones diferenciales,prerrequisito
+55133,mecanica de fluidos,55125,fluidos y ondas,prerrequisito
+55135,analisis estructural y concretos,55109,mecanica,prerrequisito
+55136,quimica ambiental,55110,quimica ii,prerrequisito
+55139,hidrologia,55116,estadistica inferencial,prerrequisito
+55140,hidraulica,55133,mecanica de fluidos,prerrequisito
+55141,residuos solidos,55131,microbiologia ambiental,prerrequisito
+55143,construccion,55134,mecanica de suelos,prerrequisito
+55144,contaminacion y calidad del aire,55136,quimica ambiental,prerrequisito
+55145,procesos unitarios de potabilizacion,55136,quimica ambiental,prerrequisito
+55146,procesos unitarios para agua residual,55136,quimica ambiental,prerrequisito
+55147,acueducto,55140,hidraulica,prerrequisito
+55151,plantas de potabilizacion,55145,procesos unitarios de potabilizacion,prerrequisito
+55152,plantas de tratamiento de agua residual,55146,procesos unitarios para agua residual,prerrequisito
+55153,seminario de investigacion,55127,metodologia y practica de la investigacion,prerrequisito
+55154,alcantarillado,55140,hidraulica,prerrequisito
+55157,practica profesional,55101,matematica basica,prerrequisito
+55157,practica profesional,55102,logica,prerrequisito
+55157,practica profesional,55103,introduccion al programa,prerrequisito
+55157,practica profesional,55104,quimica i,prerrequisito
+55157,practica profesional,55105,expresion oral y escrita,prerrequisito
+55157,practica profesional,55106,deporte formativo,prerrequisito
+55157,practica profesional,55107,formacion integral i,prerrequisito
+55157,practica profesional,55108,calculo integral,prerrequisito
+55157,practica profesional,55109,mecanica,prerrequisito
+55157,practica profesional,55110,quimica ii,prerrequisito
+55157,practica profesional,55111,calculo diferencial,prerrequisito
+55157,practica profesional,55112,algebra lineal,prerrequisito
+55157,practica profesional,55113,electiva libre i,prerrequisito
+55157,practica profesional,55114,expresion grafica,prerrequisito
+55157,practica profesional,55115,informatica basica,prerrequisito
+55157,practica profesional,55116,estadistica inferencial,prerrequisito
+55157,practica profesional,55117,ingles i,prerrequisito
+55157,practica profesional,55118,termodinamica,prerrequisito
+55157,practica profesional,55119,estadistica descriptiva,prerrequisito
+55157,practica profesional,55120,formacion integral ii,prerrequisito
+55157,practica profesional,55121,ingles ii,prerrequisito
+55157,practica profesional,55122,administracion basica,prerrequisito
+55157,practica profesional,55123,humanidades,prerrequisito
+55157,practica profesional,55124,ecuaciones diferenciales,prerrequisito
+55157,practica profesional,55125,fluidos y ondas,prerrequisito
+55157,practica profesional,55126,biologia,prerrequisito
+55157,practica profesional,55127,metodologia y practica de la investigacion,prerrequisito
+55157,practica profesional,55129,constitucion y formacion ciudadana,prerrequisito
+55157,practica profesional,55130,electromagnetismo,prerrequisito
+55157,practica profesional,55131,microbiologia ambiental,prerrequisito
+55157,practica profesional,55133,mecanica de fluidos,prerrequisito
+55157,practica profesional,55134,mecanica de suelos,prerrequisito
+55157,practica profesional,55135,analisis estructural y concretos,prerrequisito
+55157,practica profesional,55136,quimica ambiental,prerrequisito
+55157,practica profesional,55137,electiva complementaria i,prerrequisito
+55157,practica profesional,55138,etica general,prerrequisito
+55157,practica profesional,55139,hidrologia,prerrequisito
+55157,practica profesional,55140,hidraulica,prerrequisito
+55157,practica profesional,55141,residuos solidos,prerrequisito
+55157,practica profesional,55142,electiva libre ii,prerrequisito
+55157,practica profesional,55143,construccion,prerrequisito
+55157,practica profesional,55144,contaminacion y calidad del aire,prerrequisito
+55157,practica profesional,55145,procesos unitarios de potabilizacion,prerrequisito
+55157,practica profesional,55146,procesos unitarios para agua residual,prerrequisito
+55157,practica profesional,55147,acueducto,prerrequisito
+55157,practica profesional,55148,electiva de profundizacion i,prerrequisito
+55157,practica profesional,55149,electiva complementaria ii,prerrequisito
+55157,practica profesional,55150,saneamiento basico,prerrequisito
+55157,practica profesional,55151,plantas de potabilizacion,prerrequisito
+55157,practica profesional,55152,plantas de tratamiento de agua residual,prerrequisito
+55157,practica profesional,55153,seminario de investigacion,prerrequisito
+55157,practica profesional,55154,alcantarillado,prerrequisito
+55157,practica profesional,55155,electiva de profundizacion ii,prerrequisito
+55157,practica profesional,55156,problemas del contexto,prerrequisito
+55157,practica profesional,55160,topografia,prerrequisito
+55157,practica profesional,55161,etica profesional,prerrequisito
+55159,instalaciones hidraulicas y sanitarias,55147,acueducto,prerrequisito
+55160,topografia,55114,expresion grafica,prerrequisito
+55161,etica profesional,55138,etica general,prerrequisito
+55204,calculo integral,55211,calculo diferencial,prerrequisito
+55204,calculo integral,55211,calculo diferencial,prerrequisito
+55204,calculo integral,55211,calculo diferencial,prerrequisito
+55209,mecanica,55201,matematica basica,prerrequisito
+55211,calculo diferencial,55201,matematica basica,prerrequisito
+55211,calculo diferencial,55201,matematica basica,prerrequisito
+55214,programacion basica,55210,logica de la programacion,prerrequisito
+55214,programacion basica,55210,logica de la programacion,prerrequisito
+55216,estadistica inferencial,55219,estadistica descriptiva,prerrequisito
+55216,estadistica inferencial,55219,estadistica descriptiva,prerrequisito
+55218,estructuras de datos,55214,programacion basica,prerrequisito
+55218,estructuras de datos,55214,programacion basica,prerrequisito
+55221,programacion avanzada,55218,estructuras de datos,prerrequisito
+55221,programacion avanzada,55218,estructuras de datos,prerrequisito
+55222,ingles ii,55217,ingles i,prerrequisito
+55222,ingles ii,55217,ingles i,prerrequisito
+55224,ecuaciones diferenciales,55204,calculo integral,prerrequisito
+55224,ecuaciones diferenciales,55204,calculo integral,prerrequisito
+55226,metodologia y practica de la investigacion,55216,estadistica inferencial,prerrequisito
+55228,arquitectura de computadores,55236,electronica,prerrequisito
+55229,bases de datos,55214,programacion basica,prerrequisito
+55229,bases de datos,55214,programacion basica,prerrequisito
+55231,electromagnetismo,55209,mecanica,prerrequisito
+55231,electromagnetismo,55209,mecanica,prerrequisito
+55232,redes de computadores ii,55227,redes de computadores i,prerrequisito
+55232,redes de computadores ii,55227,redes de computadores i,prerrequisito
+55234,ingenieria del software i,55229,bases de datos,prerrequisito
+55234,ingenieria del software i,55229,bases de datos,prerrequisito
+55239,ingenieria de software ii,55229,bases de datos,prerrequisito
+55239,ingenieria del software ii,55234,ingenieria del software i,prerrequisito
+55239,ingenieria de software ii,55234,ingenieria del software i,prerrequisito
+55242,matematicas discretas,55202,logica,prerrequisito
+55245,inteligencia artificial,55239,ingenieria de software ii,prerrequisito
+55245,inteligencia artificial,55242,matematicas discretas,prerrequisito
+55251,auditoria en tecnologias de informacion,55239,ingenieria del software ii,prerrequisito
+55252,seminario de investigacion,55226,metodologia y practica de la investigacion,prerrequisito
+55252,seminario de investigacion,55226,metodologia y practica de la investigacion,prerrequisito
+55256,practica profesional,55201,matematica basica,prerrequisito
+55256,practica profesional,55201,matematica basica,prerrequisito
+55256,practica profesional,55202,logica,prerrequisito
+55256,practica profesional,55202,logica,prerrequisito
+55256,practica profesional,55203,introduccion al programa,prerrequisito
+55256,practica profesional,55203,introduccion al programa,prerrequisito
+55256,practica profesional,55204,calculo integral,prerrequisito
+55256,practica profesional,55204,calculo integral,prerrequisito
+55256,practica profesional,55205,expresion oral y escrita,prerrequisito
+55256,practica profesional,55205,expresion oral y escrita,prerrequisito
+55256,practica profesional,55206,deporte formativo,prerrequisito
+55256,practica profesional,55206,deporte formativo,prerrequisito
+55256,practica profesional,55207,formacion integral i,prerrequisito
+55256,practica profesional,55207,formacion integral i,prerrequisito
+55256,practica profesional,55208,constitucion y formacion ciudadana,prerrequisito
+55256,practica profesional,55208,constitucion y formacion ciudadana,prerrequisito
+55256,practica profesional,55209,mecanica,prerrequisito
+55256,practica profesional,55209,mecanica,prerrequisito
+55256,practica profesional,55210,logica de la programacion,prerrequisito
+55256,practica profesional,55210,logica de la programacion,prerrequisito
+55256,practica profesional,55211,calculo diferencial,prerrequisito
+55256,practica profesional,55211,calculo diferencial,prerrequisito
+55256,practica profesional,55212,algebra lineal,prerrequisito
+55256,practica profesional,55212,algebra lineal,prerrequisito
+55256,practica profesional,55213,teoria general de sistemas,prerrequisito
+55256,practica profesional,55213,pensamiento sistemico aplicado,prerrequisito
+55256,practica profesional,55214,programacion basica,prerrequisito
+55256,practica profesional,55214,programacion basica,prerrequisito
+55256,practica profesional,55215,informatica basica,prerrequisito
+55256,practica profesional,55215,informatica basica,prerrequisito
+55256,practica profesional,55216,estadistica inferencial,prerrequisito
+55256,practica profesional,55216,estadistica inferencial,prerrequisito
+55256,practica profesional,55217,ingles i,prerrequisito
+55256,practica profesional,55217,ingles i,prerrequisito
+55256,practica profesional,55218,estructuras de datos,prerrequisito
+55256,practica profesional,55218,estructuras de datos,prerrequisito
+55256,practica profesional,55219,estadistica descriptiva,prerrequisito
+55256,practica profesional,55219,estadistica descriptiva,prerrequisito
+55256,practica profesional,55220,formacion integral ii,prerrequisito
+55256,practica profesional,55220,formacion integral ii,prerrequisito
+55256,practica profesional,55221,programacion avanzada,prerrequisito
+55256,practica profesional,55221,programacion avanzada,prerrequisito
+55256,practica profesional,55222,ingles ii,prerrequisito
+55256,practica profesional,55222,ingles ii,prerrequisito
+55256,practica profesional,55223,humanidades,prerrequisito
+55256,practica profesional,55223,humanidades,prerrequisito
+55256,practica profesional,55224,ecuaciones diferenciales,prerrequisito
+55256,practica profesional,55224,ecuaciones diferenciales,prerrequisito
+55256,practica profesional,55225,fluidos y ondas,prerrequisito
+55256,practica profesional,55226,metodologia y practica de la investigacion,prerrequisito
+55256,practica profesional,55226,metodologia y practica de la investigacion,prerrequisito
+55256,practica profesional,55227,redes de computadores i,prerrequisito
+55256,practica profesional,55227,redes de computadores i,prerrequisito
+55256,practica profesional,55228,arquitectura de computadores,prerrequisito
+55256,practica profesional,55228,arquitectura de computadores,prerrequisito
+55256,practica profesional,55229,bases de datos,prerrequisito
+55256,practica profesional,55229,bases de datos,prerrequisito
+55256,practica profesional,55230,electiva libre i,prerrequisito
+55256,practica profesional,55230,electiva libre i,prerrequisito
+55256,practica profesional,55231,electromagnetismo,prerrequisito
+55256,practica profesional,55231,electromagnetismo,prerrequisito
+55256,practica profesional,55232,redes de computadores ii,prerrequisito
+55256,practica profesional,55232,redes de computadores ii,prerrequisito
+55256,practica profesional,55233,sistemas operativos,prerrequisito
+55256,practica profesional,55233,sistemas operativos,prerrequisito
+55256,practica profesional,55234,ingenieria del software i,prerrequisito
+55256,practica profesional,55234,ingenieria del software i,prerrequisito
+55256,practica profesional,55235,administracion basica,prerrequisito
+55256,practica profesional,55236,electronica,prerrequisito
+55256,practica profesional,55236,electronica,prerrequisito
+55256,practica profesional,55238,informatica teorica,prerrequisito
+55256,practica profesional,55238,teoria de la computacion,prerrequisito
+55256,practica profesional,55239,ingenieria del software ii,prerrequisito
+55256,practica profesional,55239,ingenieria de software ii,prerrequisito
+55256,practica profesional,55240,contabilidad y presupuesto,prerrequisito
+55256,practica profesional,55240,contabilidad general,prerrequisito
+55256,practica profesional,55241,etica general,prerrequisito
+55256,practica profesional,55241,etica general,prerrequisito
+55256,practica profesional,55242,matematicas discretas,prerrequisito
+55256,practica profesional,55242,matematicas discretas,prerrequisito
+55256,practica profesional,55243,investigacion de operaciones i,prerrequisito
+55256,practica profesional,55244,electiva de profundizacion i,prerrequisito
+55256,practica profesional,55244,electiva de profundizacion i,prerrequisito
+55256,practica profesional,55245,inteligencia artificial,prerrequisito
+55256,practica profesional,55245,inteligencia artificial,prerrequisito
+55256,practica profesional,55247,electiva libre ii,prerrequisito
+55256,practica profesional,55247,electiva libre ii,prerrequisito
+55256,practica profesional,55248,electiva complementaria i,prerrequisito
+55256,practica profesional,55248,electiva complementaria i,prerrequisito
+55256,practica profesional,55249,optimizacion de modelos,prerrequisito
+55256,practica profesional,55249,investigacion de operaciones ii,prerrequisito
+55256,practica profesional,55250,electiva de profundizacion ii,prerrequisito
+55256,practica profesional,55250,electiva de profundizacion ii,prerrequisito
+55256,practica profesional,55251,auditoria en tecnologias de informacion,prerrequisito
+55256,practica profesional,55252,seminario de investigacion,prerrequisito
+55256,practica profesional,55252,seminario de investigacion,prerrequisito
+55256,practica profesional,55254,electiva complementaria ii,prerrequisito
+55256,practica profesional,55254,electiva complementaria ii,prerrequisito
+55256,practica profesional,55255,problemas del contexto,prerrequisito
+55256,practica profesional,55255,problemas de contexto,prerrequisito
+55256,practica profesional,55258,gerencia de proyectos de tecnologia,prerrequisito
+55256,practica profesional,55258,gerencia de proyectos de tecnologia,prerrequisito
+55256,practica profesional,55260,etica profesional,prerrequisito
+55256,practica profesional,55260,etica profesional,prerrequisito
+55256,practica profesional,55261,sistemas de informacion,prerrequisito
+55256,practica profesional,55262,redes de computadores iii,prerrequisito
+55256,practica profesional,55263,emprendimiento e innovacion ti,prerrequisito
+55256,practica profesional,55264,ingles iii,prerrequisito
+55256,practica profesional,55265,sistemas distribuidos,prerrequisito
+55256,practica profesional,55266,ingenieria del software iii,prerrequisito
+55256,practica profesional,55267,formulacion de proyectos ti,prerrequisito
+55260,etica profesional,55241,etica general,prerrequisito
+55260,etica profesional,55241,etica general,prerrequisito
+55262,redes de computadores iii,55232,redes de computadores ii,prerrequisito
+55264,ingles iii,55222,ingles ii,prerrequisito
+55265,sistemas distribuidos,55233,sistemas operativos,prerrequisito
+55265,sistemas distribuidos,55262,redes de computadores iii,prerrequisito
+55266,ingenieria del software iii,55239,ingenieria del software ii,prerrequisito
+55267,formulacion de proyectos ti,55240,contabilidad y presupuesto,prerrequisito
+55308,calculo integral,55311,calculo diferencial,prerrequisito
+55308,calculo integral,55311,calculo diferencial,prerrequisito
+55309,mecanica,55301,matematica basica,prerrequisito
+55309,mecanica,55311,calculo diferencial,prerrequisito
+55310,estadistica inferencial,55319,estadistica descriptiva,prerrequisito
+55310,estadistica inferencial,55319,estadistica descriptiva,prerrequisito
+55311,calculo diferencial,55301,matematica basica,prerrequisito
+55311,calculo diferencial,55301,matematica basica,prerrequisito
+55319,estadistica descriptiva,55301,matematica basica,prerrequisito
+55322,ingles ii,55317,ingles i,prerrequisito
+55322,ingles ii,55317,ingles i,prerrequisito
+55323,ecuaciones diferenciales,55308,calculo integral,prerrequisito
+55323,ecuaciones diferenciales,55311,calculo diferencial,prerrequisito
+55324,fluidos y ondas,55309,mecanica,prerrequisito
+55324,fluidos y ondas,55309,mecanica,prerrequisito
+55325,ciencia de los materiales,55309,mecanica,prerrequisito
+55326,metodologia y practica de la investigacion,55310,estadistica inferencial,prerrequisito
+55327,costos y presupuestos,55316,contabilidad general,prerrequisito
+55327,costos,55316,contabilidad general,prerrequisito
+55329,electromagnetismo,55309,mecanica,prerrequisito
+55329,electromagnetismo,55309,mecanica,prerrequisito
+55331,mecanica de materiales,55309,mecanica,prerrequisito
+55332,presupuestos,55327,costos,prerrequisito
+55333,matematica financiera,55301,matematica basica,prerrequisito
+55333,matematica financiera,55301,matematica basica,prerrequisito
+55336,fundamentos de produccion,55343,diseno y metodos,prerrequisito
+55339,investigacion de operaciones i,55366,logica de la programacion,prerrequisito
+55341,constitucion y formacion ciudadana,55362,etica profesional,prerrequisito
+55345,investigacion de operaciones ii,55339,investigacion de operaciones i,prerrequisito
+55345,investigacion de operaciones ii,55339,investigacion de operaciones i,prerrequisito
+55346,evaluacion de proyectos,55333,matematica financiera,prerrequisito
+55346,evaluacion de proyectos,55340,formulacion de proyectos,prerrequisito
+55346,evaluacion de proyectos,55340,formulacion de proyectos,prerrequisito
+55353,seminario de investigacion,55326,metodologia y practica de la investigacion,prerrequisito
+55353,seminario de investigacion,55326,metodologia y practica de la investigacion,prerrequisito
+55354,electiva de profundizacion ii,55336,fundamentos de produccion,prerrequisito
+55358,simulacion,55345,investigacion de operaciones ii,prerrequisito
+55358,simulacion,55345,investigacion de operaciones ii,prerrequisito
+55359,practica profesional,55301,matematica basica,prerrequisito
+55359,practica profesional,55301,matematica basica,prerrequisito
+55359,practica profesional,55302,logica,prerrequisito
+55359,practica profesional,55302,logica,prerrequisito
+55359,practica profesional,55303,introduccion al programa,prerrequisito
+55359,practica profesional,55303,introduccion al programa,prerrequisito
+55359,practica profesional,55304,quimica general,prerrequisito
+55359,practica profesional,55304,quimica general,prerrequisito
+55359,practica profesional,55305,expresion oral y escrita,prerrequisito
+55359,practica profesional,55305,expresion oral y escrita,prerrequisito
+55359,practica profesional,55306,deporte formativo,prerrequisito
+55359,practica profesional,55306,deporte formativo,prerrequisito
+55359,practica profesional,55307,formacion integral i,prerrequisito
+55359,practica profesional,55307,formacion integral i,prerrequisito
+55359,practica profesional,55308,calculo integral,prerrequisito
+55359,practica profesional,55308,calculo integral,prerrequisito
+55359,practica profesional,55309,mecanica,prerrequisito
+55359,practica profesional,55309,mecanica,prerrequisito
+55359,practica profesional,55310,estadistica inferencial,prerrequisito
+55359,practica profesional,55310,estadistica inferencial,prerrequisito
+55359,practica profesional,55311,calculo diferencial,prerrequisito
+55359,practica profesional,55311,calculo diferencial,prerrequisito
+55359,practica profesional,55312,algebra lineal,prerrequisito
+55359,practica profesional,55312,algebra lineal,prerrequisito
+55359,practica profesional,55313,administracion basica,prerrequisito
+55359,practica profesional,55313,administracion basica,prerrequisito
+55359,practica profesional,55314,expresion grafica,prerrequisito
+55359,practica profesional,55314,expresion grafica,prerrequisito
+55359,practica profesional,55315,herramientas tic,prerrequisito
+55359,practica profesional,55315,informatica basica,prerrequisito
+55359,practica profesional,55316,contabilidad general,prerrequisito
+55359,practica profesional,55316,contabilidad general,prerrequisito
+55359,practica profesional,55317,ingles i,prerrequisito
+55359,practica profesional,55317,ingles i,prerrequisito
+55359,practica profesional,55318,microeconomia,prerrequisito
+55359,practica profesional,55318,microeconomia,prerrequisito
+55359,practica profesional,55319,estadistica descriptiva,prerrequisito
+55359,practica profesional,55319,estadistica descriptiva,prerrequisito
+55359,practica profesional,55320,formacion integral ii,prerrequisito
+55359,practica profesional,55320,formacion integral ii,prerrequisito
+55359,practica profesional,55321,electiva libre,prerrequisito
+55359,practica profesional,55321,electiva libre i,prerrequisito
+55359,practica profesional,55322,ingles ii,prerrequisito
+55359,practica profesional,55322,ingles ii,prerrequisito
+55359,practica profesional,55323,ecuaciones diferenciales,prerrequisito
+55359,practica profesional,55323,ecuaciones diferenciales,prerrequisito
+55359,practica profesional,55324,fluidos y ondas,prerrequisito
+55359,practica profesional,55324,fluidos y ondas,prerrequisito
+55359,practica profesional,55325,materiales de ingenieria,prerrequisito
+55359,practica profesional,55325,ciencia de los materiales,prerrequisito
+55359,practica profesional,55326,metodologia y practica de la investigacion,prerrequisito
+55359,practica profesional,55326,metodologia y practica de la investigacion,prerrequisito
+55359,practica profesional,55327,costos,prerrequisito
+55359,practica profesional,55327,costos y presupuestos,prerrequisito
+55359,practica profesional,55328,humanidades,prerrequisito
+55359,practica profesional,55328,humanidades,prerrequisito
+55359,practica profesional,55329,electromagnetismo,prerrequisito
+55359,practica profesional,55329,electromagnetismo,prerrequisito
+55359,practica profesional,55330,procesos industriales,prerrequisito
+55359,practica profesional,55330,procesos industriales,prerrequisito
+55359,practica profesional,55331,mecanica de materiales,prerrequisito
+55359,practica profesional,55332,presupuestos,prerrequisito
+55359,practica profesional,55333,matematica financiera,prerrequisito
+55359,practica profesional,55333,matematica financiera,prerrequisito
+55359,practica profesional,55334,etica general,prerrequisito
+55359,practica profesional,55334,etica general,prerrequisito
+55359,practica profesional,55335,electiva libre ii,prerrequisito
+55359,practica profesional,55336,fundamentos de produccion,prerrequisito
+55359,practica profesional,55336,fundamentos de produccion,prerrequisito
+55359,practica profesional,55337,gestion de calidad,prerrequisito
+55359,practica profesional,55337,gestion de calidad,prerrequisito
+55359,practica profesional,55338,termodinamica,prerrequisito
+55359,practica profesional,55338,termodinamica,prerrequisito
+55359,practica profesional,55339,investigacion de operaciones i,prerrequisito
+55359,practica profesional,55339,investigacion de operaciones i,prerrequisito
+55359,practica profesional,55340,formulacion de proyectos,prerrequisito
+55359,practica profesional,55340,formulacion de proyectos,prerrequisito
+55359,practica profesional,55341,constitucion y formacion ciudadana,prerrequisito
+55359,practica profesional,55342,electiva complementaria i,prerrequisito
+55359,practica profesional,55342,electiva complementaria interdisciplinaria,prerrequisito
+55359,practica profesional,55343,diseno y metodos,prerrequisito
+55359,practica profesional,55343,diseno y metodos,prerrequisito
+55359,practica profesional,55344,marketing,prerrequisito
+55359,practica profesional,55345,investigacion de operaciones ii,prerrequisito
+55359,practica profesional,55345,investigacion de operaciones ii,prerrequisito
+55359,practica profesional,55346,evaluacion de proyectos,prerrequisito
+55359,practica profesional,55346,evaluacion de proyectos,prerrequisito
+55359,practica profesional,55347,electiva de profundizacion i,prerrequisito
+55359,practica profesional,55347,electiva de profundizacion i,prerrequisito
+55359,practica profesional,55349,electiva complementaria ii,prerrequisito
+55359,practica profesional,55350,seguridad y salud ocupacional,prerrequisito
+55359,practica profesional,55350,seguridad y salud en el trabajo,prerrequisito
+55359,practica profesional,55351,gestion humana,prerrequisito
+55359,practica profesional,55351,gerencia del talento humano,prerrequisito
+55359,practica profesional,55352,legislacion laboral y salarios,prerrequisito
+55359,practica profesional,55352,legislacion laboral y salarios,prerrequisito
+55359,practica profesional,55353,seminario de investigacion,prerrequisito
+55359,practica profesional,55353,seminario de investigacion,prerrequisito
+55359,practica profesional,55354,electiva de profundizacion ii,prerrequisito
+55359,practica profesional,55355,problemas del contexto,prerrequisito
+55359,practica profesional,55357,nuevas tecnologias industriales,prerrequisito
+55359,practica profesional,55358,simulacion,prerrequisito
+55359,practica profesional,55358,simulacion,prerrequisito
+55359,practica profesional,55362,etica profesional,prerrequisito
+55359,practica profesional,55363,ingenieria de plantas,prerrequisito
+55359,practica profesional,55364,ingles iii,prerrequisito
+55359,practica profesional,55365,innovacion y emprendimiento,prerrequisito
+55359,practica profesional,55366,logica de la programacion,prerrequisito
+55359,practica profesional,55367,sistemas logisticos,prerrequisito
+55362,etica profesional,55334,etica general,prerrequisito
+55363,ingenieria de plantas,55343,diseno y metodos,prerrequisito
+55364,ingles iii,55322,ingles ii,prerrequisito
+55365,innovacion y emprendimiento,55313,administracion basica,prerrequisito
+55367,sistemas logisticos,55339,investigacion de operaciones i,prerrequisito
+55408,calculo integral,55411,calculo diferencial,prerrequisito
+55408,calculo integral,55411,calculo diferencial,prerrequisito
+55409,mecanica,55401,matematica basica,prerrequisito
+55409,mecanica,55411,calculo diferencial,prerrequisito
+55410,estadistica inferencial,55419,estadistica descriptiva,prerrequisito
+55410,estadistica inferencial,55419,estadistica descriptiva,prerrequisito
+55411,calculo diferencial,55401,matematica basica,prerrequisito
+55411,calculo diferencial,55401,matematica basica,prerrequisito
+55422,ingles ii,55417,ingles i,prerrequisito
+55422,ingles ii,55417,ingles i,prerrequisito
+55423,ecuaciones diferenciales,55408,calculo integral,prerrequisito
+55423,ecuaciones diferenciales,55408,calculo integral,prerrequisito
+55424,fluidos y ondas,55409,mecanica,prerrequisito
+55424,fluidos y ondas,55409,mecanica,prerrequisito
+55425,ciencia de los materiales,55409,mecanica,prerrequisito
+55427,costos,55416,contabilidad general,prerrequisito
+55427,costos y presupuestos,55416,contabilidad general,prerrequisito
+55429,electromagnetismo,55409,mecanica,prerrequisito
+55429,electromagnetismo,55409,mecanica,prerrequisito
+55431,mecanica de materiales,55409,mecanica,prerrequisito
+55432,presupuestos,55427,costos,prerrequisito
+55433,matematica financiera,55401,matematica basica,prerrequisito
+55433,matematica financiera,55401,matematica basica,prerrequisito
+55439,investigacion de operaciones i,55466,logica de la programacion,prerrequisito
+55441,constitucion y formacion ciudadana,55462,etica profesional,prerrequisito
+55445,investigacion de operaciones ii,55439,investigacion de operaciones i,prerrequisito
+55445,investigacion de operaciones ii,55439,investigacion de operaciones i,prerrequisito
+55446,evaluacion de proyectos,55433,matematica financiera,prerrequisito
+55446,evaluacion de proyectos,55440,formulacion de proyectos,prerrequisito
+55446,evaluacion de proyectos,55440,formulacion de proyectos,prerrequisito
+55453,seminario de investigacion,55426,metodologia y practica de la investigacion,prerrequisito
+55453,seminario de investigacion,55426,metodologia y practica de la investigacion,prerrequisito
+55454,electiva de profundizacion ii,55436,fundamentos de produccion,prerrequisito
+55458,simulacion,55445,investigacion de operaciones ii,prerrequisito
+55458,simulacion,55445,investigacion de operaciones ii,prerrequisito
+55459,practica profesional,55401,matematica basica,prerrequisito
+55459,practica profesional,55401,matematica basica,prerrequisito
+55459,practica profesional,55402,logica,prerrequisito
+55459,practica profesional,55402,logica,prerrequisito
+55459,practica profesional,55403,introduccion al programa,prerrequisito
+55459,practica profesional,55403,introduccion al programa,prerrequisito
+55459,practica profesional,55404,quimica general,prerrequisito
+55459,practica profesional,55404,quimica general,prerrequisito
+55459,practica profesional,55405,expresion oral y escrita,prerrequisito
+55459,practica profesional,55405,expresion oral y escrita,prerrequisito
+55459,practica profesional,55406,deporte formativo,prerrequisito
+55459,practica profesional,55406,deporte formativo,prerrequisito
+55459,practica profesional,55407,formacion integral i,prerrequisito
+55459,practica profesional,55407,formacion integral i,prerrequisito
+55459,practica profesional,55408,calculo integral,prerrequisito
+55459,practica profesional,55408,calculo integral,prerrequisito
+55459,practica profesional,55409,mecanica,prerrequisito
+55459,practica profesional,55409,mecanica,prerrequisito
+55459,practica profesional,55410,estadistica inferencial,prerrequisito
+55459,practica profesional,55410,estadistica inferencial,prerrequisito
+55459,practica profesional,55411,calculo diferencial,prerrequisito
+55459,practica profesional,55411,calculo diferencial,prerrequisito
+55459,practica profesional,55412,algebra lineal,prerrequisito
+55459,practica profesional,55412,algebra lineal,prerrequisito
+55459,practica profesional,55413,administracion basica,prerrequisito
+55459,practica profesional,55413,administracion basica,prerrequisito
+55459,practica profesional,55414,expresion grafica,prerrequisito
+55459,practica profesional,55414,expresion grafica,prerrequisito
+55459,practica profesional,55415,informatica basica,prerrequisito
+55459,practica profesional,55415,herramientas tic,prerrequisito
+55459,practica profesional,55416,contabilidad general,prerrequisito
+55459,practica profesional,55416,contabilidad general,prerrequisito
+55459,practica profesional,55417,ingles i,prerrequisito
+55459,practica profesional,55417,ingles i,prerrequisito
+55459,practica profesional,55418,microeconomia,prerrequisito
+55459,practica profesional,55418,microeconomia,prerrequisito
+55459,practica profesional,55419,estadistica descriptiva,prerrequisito
+55459,practica profesional,55419,estadistica descriptiva,prerrequisito
+55459,practica profesional,55420,formacion integral ii,prerrequisito
+55459,practica profesional,55420,formacion integral ii,prerrequisito
+55459,practica profesional,55421,electiva libre,prerrequisito
+55459,practica profesional,55421,electiva libre i,prerrequisito
+55459,practica profesional,55422,ingles ii,prerrequisito
+55459,practica profesional,55422,ingles ii,prerrequisito
+55459,practica profesional,55423,ecuaciones diferenciales,prerrequisito
+55459,practica profesional,55423,ecuaciones diferenciales,prerrequisito
+55459,practica profesional,55424,fluidos y ondas,prerrequisito
+55459,practica profesional,55424,fluidos y ondas,prerrequisito
+55459,practica profesional,55425,ciencia de los materiales,prerrequisito
+55459,practica profesional,55425,materiales de ingenieria,prerrequisito
+55459,practica profesional,55426,metodologia y practica de la investigacion,prerrequisito
+55459,practica profesional,55426,metodologia y practica de la investigacion,prerrequisito
+55459,practica profesional,55427,costos y presupuestos,prerrequisito
+55459,practica profesional,55427,costos,prerrequisito
+55459,practica profesional,55428,humanidades,prerrequisito
+55459,practica profesional,55428,humanidades,prerrequisito
+55459,practica profesional,55429,electromagnetismo,prerrequisito
+55459,practica profesional,55429,electromagnetismo,prerrequisito
+55459,practica profesional,55430,procesos industriales,prerrequisito
+55459,practica profesional,55430,procesos industriales,prerrequisito
+55459,practica profesional,55431,mecanica de materiales,prerrequisito
+55459,practica profesional,55432,presupuestos,prerrequisito
+55459,practica profesional,55433,matematica financiera,prerrequisito
+55459,practica profesional,55433,matematica financiera,prerrequisito
+55459,practica profesional,55434,etica general,prerrequisito
+55459,practica profesional,55434,etica general,prerrequisito
+55459,practica profesional,55435,electiva libre ii,prerrequisito
+55459,practica profesional,55436,fundamentos de produccion,prerrequisito
+55459,practica profesional,55436,fundamentos de produccion,prerrequisito
+55459,practica profesional,55437,gestion de calidad,prerrequisito
+55459,practica profesional,55437,gestion de calidad,prerrequisito
+55459,practica profesional,55438,termodinamica,prerrequisito
+55459,practica profesional,55438,termodinamica,prerrequisito
+55459,practica profesional,55439,investigacion de operaciones i,prerrequisito
+55459,practica profesional,55439,investigacion de operaciones i,prerrequisito
+55459,practica profesional,55440,formulacion de proyectos,prerrequisito
+55459,practica profesional,55440,formulacion de proyectos,prerrequisito
+55459,practica profesional,55441,constitucion y formacion ciudadana,prerrequisito
+55459,practica profesional,55442,electiva complementaria i,prerrequisito
+55459,practica profesional,55442,electiva complementaria interdisciplinaria,prerrequisito
+55459,practica profesional,55443,diseno y metodos,prerrequisito
+55459,practica profesional,55443,diseno y metodos,prerrequisito
+55459,practica profesional,55444,marketing,prerrequisito
+55459,practica profesional,55445,investigacion de operaciones ii,prerrequisito
+55459,practica profesional,55445,investigacion de operaciones ii,prerrequisito
+55459,practica profesional,55446,evaluacion de proyectos,prerrequisito
+55459,practica profesional,55446,evaluacion de proyectos,prerrequisito
+55459,practica profesional,55447,electiva de profundizacion i,prerrequisito
+55459,practica profesional,55447,electiva de profundizacion i,prerrequisito
+55459,practica profesional,55449,electiva complementaria ii,prerrequisito
+55459,practica profesional,55450,seguridad y salud ocupacional,prerrequisito
+55459,practica profesional,55450,seguridad y salud en el trabajo,prerrequisito
+55459,practica profesional,55451,gestion humana,prerrequisito
+55459,practica profesional,55451,gerencia del talento humano,prerrequisito
+55459,practica profesional,55452,legislacion laboral y salarios,prerrequisito
+55459,practica profesional,55452,legislacion laboral y salarios,prerrequisito
+55459,practica profesional,55453,seminario de investigacion,prerrequisito
+55459,practica profesional,55453,seminario de investigacion,prerrequisito
+55459,practica profesional,55454,electiva de profundizacion ii,prerrequisito
+55459,practica profesional,55455,problemas de contexto,prerrequisito
+55459,practica profesional,55457,nuevas tecnologias industriales,prerrequisito
+55459,practica profesional,55458,simulacion,prerrequisito
+55459,practica profesional,55458,simulacion,prerrequisito
+55459,practica profesional,55462,etica profesional,prerrequisito
+55459,practica profesional,55463,ingenieria de plantas,prerrequisito
+55459,practica profesional,55464,ingles iii,prerrequisito
+55459,practica profesional,55465,innovacion y emprendimiento,prerrequisito
+55459,practica profesional,55466,logica de la programacion,prerrequisito
+55459,practica profesional,55467,sistemas logisticos,prerrequisito
+55462,etica profesional,55434,etica general,prerrequisito
+55463,ingenieria de plantas,55443,diseno y metodos,prerrequisito
+55464,ingles iii,55422,ingles ii,prerrequisito
+55465,innovacion y emprendimiento,55413,administracion basica,prerrequisito
+55467,sistemas logisticos,55439,investigacion de operaciones i,prerrequisito
+55510,calculo diferencial,55501,matematica basica,prerrequisito
+55512,quimica ii,55503,quimica i,prerrequisito
+55517,calculo integral,55510,calculo diferencial,prerrequisito
+55518,mecanica,55501,matematica basica,prerrequisito
+55522,estadistica inferencial,55513,estadistica descriptiva,prerrequisito
+55523,ecologia y ecosistemas estrategicos,55514,biologia,prerrequisito
+55524,ecuaciones diferenciales,55517,calculo integral,prerrequisito
+55525,fluidos y ondas,55518,mecanica,prerrequisito
+55526,termodinamica,55517,calculo integral,prerrequisito
+55527,quimica ambiental i,55512,quimica ii,prerrequisito
+55528,ingles ii,55521,ingles i,prerrequisito
+55529,metodologia y practica de la investigacion,55522,estadistica inferencial,prerrequisito
+55530,meteorologia y climatologia,55526,termodinamica,prerrequisito
+55531,electromagnetismo,55518,mecanica,prerrequisito
+55532,microbiologia ambiental,55514,biologia,prerrequisito
+55533,mecanica de fluidos,55524,ecuaciones diferenciales,prerrequisito
+55534,quimica ambiental ii,55527,quimica ambiental i,prerrequisito
+55536,hidraulica,55533,mecanica de fluidos,prerrequisito
+55541,residuos solidos,55532,microbiologia ambiental,prerrequisito
+55542,procesos ambientales,55524,ecuaciones diferenciales,prerrequisito
+55542,procesos ambientales,55534,quimica ambiental ii,prerrequisito
+55543,contaminacion y calidad del aire,55530,meteorologia y climatologia,prerrequisito
+55543,contaminacion y calidad del aire,55530,meteorologia y climatologia,prerrequisito
+55544,geologia ambiental,55534,quimica ambiental ii,prerrequisito
+55545,procesos unitarios de potabilizacion,55534,quimica ambiental ii,prerrequisito
+55546,procesos unitarios para agua residual,55534,quimica ambiental ii,prerrequisito
+55549,tecnologias alternativas,55526,termodinamica,prerrequisito
+55551,sistemas de informacion geografica,55519,expresion grafica,prerrequisito
+55552,modelacion de sistemas ambientales,55542,procesos ambientales,prerrequisito
+55553,tratamiento de aguas,55545,procesos unitarios de potabilizacion,prerrequisito
+55553,tratamiento de aguas,55546,procesos unitarios para agua residual,prerrequisito
+55555,seminario de investigacion,55529,metodologia y practica de la investigacion,prerrequisito
+55559,practica profesional,55501,matematica basica,prerrequisito
+55559,practica profesional,55502,logica,prerrequisito
+55559,practica profesional,55503,quimica i,prerrequisito
+55559,practica profesional,55504,informatica basica,prerrequisito
+55559,practica profesional,55505,expresion oral y escrita,prerrequisito
+55559,practica profesional,55506,introduccion al programa,prerrequisito
+55559,practica profesional,55507,electiva libre i,prerrequisito
+55559,practica profesional,55508,formacion integral i,prerrequisito
+55559,practica profesional,55509,deporte formativo,prerrequisito
+55559,practica profesional,55510,calculo diferencial,prerrequisito
+55559,practica profesional,55511,algebra lineal,prerrequisito
+55559,practica profesional,55512,quimica ii,prerrequisito
+55559,practica profesional,55513,estadistica descriptiva,prerrequisito
+55559,practica profesional,55514,biologia,prerrequisito
+55559,practica profesional,55515,formacion integral ii,prerrequisito
+55559,practica profesional,55516,humanidades,prerrequisito
+55559,practica profesional,55517,calculo integral,prerrequisito
+55559,practica profesional,55518,mecanica,prerrequisito
+55559,practica profesional,55519,expresion grafica,prerrequisito
+55559,practica profesional,55520,principios de economia,prerrequisito
+55559,practica profesional,55521,ingles i,prerrequisito
+55559,practica profesional,55522,estadistica inferencial,prerrequisito
+55559,practica profesional,55523,ecologia y ecosistemas estrategicos,prerrequisito
+55559,practica profesional,55524,ecuaciones diferenciales,prerrequisito
+55559,practica profesional,55525,fluidos y ondas,prerrequisito
+55559,practica profesional,55526,termodinamica,prerrequisito
+55559,practica profesional,55527,quimica ambiental i,prerrequisito
+55559,practica profesional,55528,ingles ii,prerrequisito
+55559,practica profesional,55529,metodologia y practica de la investigacion,prerrequisito
+55559,practica profesional,55530,meteorologia y climatologia,prerrequisito
+55559,practica profesional,55531,electromagnetismo,prerrequisito
+55559,practica profesional,55532,microbiologia ambiental,prerrequisito
+55559,practica profesional,55533,mecanica de fluidos,prerrequisito
+55559,practica profesional,55534,quimica ambiental ii,prerrequisito
+55559,practica profesional,55535,electiva libre ii,prerrequisito
+55559,practica profesional,55536,hidraulica,prerrequisito
+55559,practica profesional,55537,constitucion y formacion ciudadana,prerrequisito
+55559,practica profesional,55538,educacion ambiental,prerrequisito
+55559,practica profesional,55539,electiva complementaria i,prerrequisito
+55559,practica profesional,55540,hidrologia,prerrequisito
+55559,practica profesional,55541,residuos solidos,prerrequisito
+55559,practica profesional,55542,procesos ambientales,prerrequisito
+55559,practica profesional,55543,contaminacion y calidad del aire,prerrequisito
+55559,practica profesional,55544,geologia ambiental,prerrequisito
+55559,practica profesional,55545,procesos unitarios de potabilizacion,prerrequisito
+55559,practica profesional,55546,procesos unitarios para agua residual,prerrequisito
+55559,practica profesional,55547,evaluacion ambiental,prerrequisito
+55559,practica profesional,55548,electiva de profundizacion i,prerrequisito
+55559,practica profesional,55549,tecnologias alternativas,prerrequisito
+55559,practica profesional,55550,electiva complementaria ii,prerrequisito
+55559,practica profesional,55551,sistemas de informacion geografica,prerrequisito
+55559,practica profesional,55552,modelacion de sistemas medioambientales,prerrequisito
+55559,practica profesional,55552,modelacion de sistemas ambientales,prerrequisito
+55559,practica profesional,55553,tratamiento de aguas,prerrequisito
+55559,practica profesional,55554,produccion mas limpia,prerrequisito
+55559,practica profesional,55555,seminario de investigacion,prerrequisito
+55559,practica profesional,55556,electiva de profundizacion ii,prerrequisito
+55559,practica profesional,55557,problemas de contexto,prerrequisito
+55559,practica profesional,55558,etica general,prerrequisito
+55562,etica profesional,55558,etica general,prerrequisito
+55609,calculo diferencial,55601,matematica basica,prerrequisito
+55610,mecanica,55601,matematica basica,prerrequisito
+55617,calculo integral,55609,calculo diferencial,prerrequisito
+55618,electromagnetismo,55610,mecanica,prerrequisito
+55619,estadistica inferencial,55611,estadistica descriptiva,prerrequisito
+55620,mecanica analitica,55610,mecanica,prerrequisito
+55621,taller i de introduccion a la ingenieria mecatronica,55606,introduccion al programa,prerrequisito
+55622,ingles ii,55614,ingles i,prerrequisito
+55625,ecuaciones diferenciales,55617,calculo integral,prerrequisito
+55626,fluidos y ondas,55610,mecanica,prerrequisito
+55627,diseno asistido por computador,55613,expresion grafica,prerrequisito
+55629,mediciones tecnicas,55610,mecanica,prerrequisito
+55630,taller ii de introduccion a ingenieria mecatronica,55621,taller i de introduccion a la ingenieria mecatronica,prerrequisito
+55631,metodologia y practica de la investigacion,55619,estadistica inferencial,prerrequisito
+55632,matematica avanzada,55625,ecuaciones diferenciales,prerrequisito
+55633,fisica del estado solido,55626,fluidos y ondas,prerrequisito
+55635,mecanica de materiales,55610,mecanica,prerrequisito
+55636,electronica analoga,55628,circuitos electricos y mediciones,prerrequisito
+55637,proyecto i de ingenieria mecatronica,55630,taller ii de introduccion a ingenieria mecatronica,prerrequisito
+55638,maquinas electricas,55628,circuitos electricos y mediciones,prerrequisito
+55639,programacion de computadores,55634,logica de la programacion,prerrequisito
+55640,mecanica termofluidica,55626,fluidos y ondas,prerrequisito
+55641,mecanismos,55610,mecanica,prerrequisito
+55642,electronica digital,55636,electronica analoga,prerrequisito
+55643,proyecto ii de ingenieria mecatronica,55637,proyecto i de ingenieria mecatronica,prerrequisito
+55644,control analogo digital,55632,matematica avanzada,prerrequisito
+55647,transferencia de calor,55640,mecanica termofluidica,prerrequisito
+55648,diseno de elementos de maquinas,55641,mecanismos,prerrequisito
+55649,electronica industrial,55642,electronica digital,prerrequisito
+55650,proyecto iii de ingenieria mecatronica,55643,proyecto ii de ingenieria mecatronica,prerrequisito
+55651,programacion de sistemas digitales,55639,programacion de computadores,prerrequisito
+55654,simulacion digital,55639,programacion de computadores,prerrequisito
+55656,robotica,55644,control analogo digital,prerrequisito
+55656,robotica,55648,diseno de elementos de maquinas,prerrequisito
+55657,microcontroladores,55642,electronica digital,prerrequisito
+55662,instrumentacion industrial,55659,automatizacion,prerrequisito
+55663,redes de comunicacion industrial,55657,microcontroladores,prerrequisito
+55664,oleoneumatica,55659,automatizacion,prerrequisito
+55669,etica profesional,55666,etica general,prerrequisito
+55670,practica profesional,55601,matematica basica,prerrequisito
+55670,practica profesional,55602,logica,prerrequisito
+55670,practica profesional,55603,informatica basica,prerrequisito
+55670,practica profesional,55604,quimica general,prerrequisito
+55670,practica profesional,55605,expresion oral y escrita,prerrequisito
+55670,practica profesional,55606,introduccion al programa,prerrequisito
+55670,practica profesional,55607,deporte formativo,prerrequisito
+55670,practica profesional,55608,formacion integral i,prerrequisito
+55670,practica profesional,55609,calculo diferencial,prerrequisito
+55670,practica profesional,55610,mecanica,prerrequisito
+55670,practica profesional,55611,estadistica descriptiva,prerrequisito
+55670,practica profesional,55612,algebra lineal,prerrequisito
+55670,practica profesional,55613,expresion grafica,prerrequisito
+55670,practica profesional,55614,ingles i,prerrequisito
+55670,practica profesional,55615,formacion integral ii,prerrequisito
+55670,practica profesional,55616,humanidades,prerrequisito
+55670,practica profesional,55617,calculo integral,prerrequisito
+55670,practica profesional,55618,electromagnetismo,prerrequisito
+55670,practica profesional,55619,estadistica inferencial,prerrequisito
+55670,practica profesional,55620,mecanica analitica,prerrequisito
+55670,practica profesional,55621,taller i de introduccion a la ingenieria mecatronica,prerrequisito
+55670,practica profesional,55622,ingles ii,prerrequisito
+55670,practica profesional,55623,electiva libre i,prerrequisito
+55670,practica profesional,55624,constitucion y formacion ciudadana,prerrequisito
+55670,practica profesional,55625,ecuaciones diferenciales,prerrequisito
+55670,practica profesional,55626,fluidos y ondas,prerrequisito
+55670,practica profesional,55627,diseno asistido por computador,prerrequisito
+55670,practica profesional,55628,circuitos electricos y mediciones,prerrequisito
+55670,practica profesional,55629,mediciones tecnicas,prerrequisito
+55670,practica profesional,55630,taller ii de introduccion a ingenieria mecatronica,prerrequisito
+55670,practica profesional,55631,metodologia y practica de la investigacion,prerrequisito
+55670,practica profesional,55632,matematica avanzada,prerrequisito
+55670,practica profesional,55633,fisica del estado solido,prerrequisito
+55670,practica profesional,55634,logica de la programacion,prerrequisito
+55670,practica profesional,55635,mecanica de materiales,prerrequisito
+55670,practica profesional,55636,electronica analoga,prerrequisito
+55670,practica profesional,55637,proyecto i de ingenieria mecatronica,prerrequisito
+55670,practica profesional,55638,maquinas electricas,prerrequisito
+55670,practica profesional,55639,programacion de computadores,prerrequisito
+55670,practica profesional,55640,mecanica termofluidica,prerrequisito
+55670,practica profesional,55641,mecanismos,prerrequisito
+55670,practica profesional,55642,electronica digital,prerrequisito
+55670,practica profesional,55643,proyecto ii de ingenieria mecatronica,prerrequisito
+55670,practica profesional,55644,control analogo digital,prerrequisito
+55670,practica profesional,55645,electiva complementaria i,prerrequisito
+55670,practica profesional,55646,ingenieria de produccion,prerrequisito
+55670,practica profesional,55647,transferencia de calor,prerrequisito
+55670,practica profesional,55648,diseno de elementos de maquinas,prerrequisito
+55670,practica profesional,55649,electronica industrial,prerrequisito
+55670,practica profesional,55650,proyecto iii de ingenieria mecatronica,prerrequisito
+55670,practica profesional,55651,programacion de sistemas digitales,prerrequisito
+55670,practica profesional,55652,electiva libre ii,prerrequisito
+55670,practica profesional,55653,produccion mas limpia,prerrequisito
+55670,practica profesional,55654,simulacion digital,prerrequisito
+55670,practica profesional,55655,electiva de profundizacion i,prerrequisito
+55670,practica profesional,55656,robotica,prerrequisito
+55670,practica profesional,55657,microcontroladores,prerrequisito
+55670,practica profesional,55658,proyecto iv de ingenieria mecatronica,prerrequisito
+55670,practica profesional,55659,automatizacion,prerrequisito
+55670,practica profesional,55660,problemas de contexto,prerrequisito
+55670,practica profesional,55661,electiva de profundizacion ii,prerrequisito
+55670,practica profesional,55662,instrumentacion industrial,prerrequisito
+55670,practica profesional,55663,redes de comunicacion industrial,prerrequisito
+55670,practica profesional,55664,oleoneumatica,prerrequisito
+55670,practica profesional,55665,seminario de investigacion,prerrequisito
+55670,practica profesional,55666,etica general,prerrequisito
+55670,practica profesional,55667,electiva complementaria ii,prerrequisito
+55710,calculo diferencial,55701,matematica basica,prerrequisito
+55712,quimica ii,55703,quimica i,prerrequisito
+55717,calculo integral,55710,calculo diferencial,prerrequisito
+55718,mecanica,55701,matematica basica,prerrequisito
+55722,estadistica inferencial,55713,estadistica descriptiva,prerrequisito
+55723,ecologia y ecosistemas estrategicos,55714,biologia,prerrequisito
+55724,ecuaciones diferenciales,55717,calculo integral,prerrequisito
+55725,fluidos y ondas,55718,mecanica,prerrequisito
+55726,termodinamica,55717,calculo integral,prerrequisito
+55727,quimica ambiental i,55712,quimica ii,prerrequisito
+55728,ingles ii,55721,ingles i,prerrequisito
+55729,metodologia y practica de la investigacion,55722,estadistica inferencial,prerrequisito
+55730,meteorologia y climatologia,55726,termodinamica,prerrequisito
+55731,electromagnetismo,55718,mecanica,prerrequisito
+55732,microbiologia ambiental,55714,biologia,prerrequisito
+55733,mecanica de fluidos,55724,ecuaciones diferenciales,prerrequisito
+55734,quimica ambiental ii,55727,quimica ambiental i,prerrequisito
+55736,hidraulica,55733,mecanica de fluidos,prerrequisito
+55741,residuos solidos,55732,microbiologia ambiental,prerrequisito
+55742,procesos ambientales,55734,quimica ambiental ii,prerrequisito
+55743,contaminacion y calidad del aire,55730,meteorologia y climatologia,prerrequisito
+55744,geologia ambiental,55734,quimica ambiental ii,prerrequisito
+55745,procesos unitarios de potabilizacion,55734,quimica ambiental ii,prerrequisito
+55746,procesos unitarios para agua residual,55734,quimica ambiental ii,prerrequisito
+55749,tecnologias alternativas,55726,termodinamica,prerrequisito
+55751,sistemas de informacion geografica,55719,expresion grafica,prerrequisito
+55752,modelacion de sistemas ambientales,55742,procesos ambientales,prerrequisito
+55753,tratamiento de aguas,55745,procesos unitarios de potabilizacion,prerrequisito
+55753,tratamiento de aguas,55746,procesos unitarios para agua residual,prerrequisito
+55754,produccion mas limpia,55724,ecuaciones diferenciales,prerrequisito
+55755,seminario de investigacion,55729,metodologia y practica de la investigacion,prerrequisito
+55759,practica profesional,55701,matematica basica,prerrequisito
+55759,practica profesional,55702,logica,prerrequisito
+55759,practica profesional,55703,quimica i,prerrequisito
+55759,practica profesional,55704,informatica basica,prerrequisito
+55759,practica profesional,55705,expresion oral y escrita,prerrequisito
+55759,practica profesional,55706,introduccion al programa,prerrequisito
+55759,practica profesional,55707,electiva libre i,prerrequisito
+55759,practica profesional,55708,formacion integral i,prerrequisito
+55759,practica profesional,55709,deporte formativo,prerrequisito
+55759,practica profesional,55710,calculo diferencial,prerrequisito
+55759,practica profesional,55711,algebra lineal,prerrequisito
+55759,practica profesional,55712,quimica ii,prerrequisito
+55759,practica profesional,55713,estadistica descriptiva,prerrequisito
+55759,practica profesional,55714,biologia,prerrequisito
+55759,practica profesional,55715,formacion integral ii,prerrequisito
+55759,practica profesional,55716,humanidades,prerrequisito
+55759,practica profesional,55717,calculo integral,prerrequisito
+55759,practica profesional,55718,mecanica,prerrequisito
+55759,practica profesional,55719,expresion grafica,prerrequisito
+55759,practica profesional,55720,principios de economia,prerrequisito
+55759,practica profesional,55721,ingles i,prerrequisito
+55759,practica profesional,55722,estadistica inferencial,prerrequisito
+55759,practica profesional,55723,ecologia y ecosistemas estrategicos,prerrequisito
+55759,practica profesional,55724,ecuaciones diferenciales,prerrequisito
+55759,practica profesional,55725,fluidos y ondas,prerrequisito
+55759,practica profesional,55726,termodinamica,prerrequisito
+55759,practica profesional,55727,quimica ambiental i,prerrequisito
+55759,practica profesional,55728,ingles ii,prerrequisito
+55759,practica profesional,55729,metodologia y practica de la investigacion,prerrequisito
+55759,practica profesional,55730,meteorologia y climatologia,prerrequisito
+55759,practica profesional,55731,electromagnetismo,prerrequisito
+55759,practica profesional,55732,microbiologia ambiental,prerrequisito
+55759,practica profesional,55733,mecanica de fluidos,prerrequisito
+55759,practica profesional,55734,quimica ambiental ii,prerrequisito
+55759,practica profesional,55735,electiva libre ii,prerrequisito
+55759,practica profesional,55736,hidraulica,prerrequisito
+55759,practica profesional,55737,constitucion y formacion ciudadana,prerrequisito
+55759,practica profesional,55738,educacion ambiental,prerrequisito
+55759,practica profesional,55739,electiva complementaria i,prerrequisito
+55759,practica profesional,55740,hidrologia,prerrequisito
+55759,practica profesional,55741,residuos solidos,prerrequisito
+55759,practica profesional,55742,procesos ambientales,prerrequisito
+55759,practica profesional,55743,contaminacion y calidad del aire,prerrequisito
+55759,practica profesional,55744,geologia ambiental,prerrequisito
+55759,practica profesional,55745,procesos unitarios de potabilizacion,prerrequisito
+55759,practica profesional,55746,procesos unitarios para agua residual,prerrequisito
+55759,practica profesional,55747,evaluacion ambiental,prerrequisito
+55759,practica profesional,55748,electiva de profundizacion i,prerrequisito
+55759,practica profesional,55749,tecnologias alternativas,prerrequisito
+55759,practica profesional,55750,electiva complementaria ii,prerrequisito
+55759,practica profesional,55751,sistemas de informacion geografica,prerrequisito
+55759,practica profesional,55752,modelacion de sistemas ambientales,prerrequisito
+55759,practica profesional,55752,modelacion de sistemas medioambientales,prerrequisito
+55759,practica profesional,55753,tratamiento de aguas,prerrequisito
+55759,practica profesional,55754,produccion mas limpia,prerrequisito
+55759,practica profesional,55755,seminario de investigacion,prerrequisito
+55759,practica profesional,55756,electiva de profundizacion ii,prerrequisito
+55759,practica profesional,55757,problemas de contexto,prerrequisito
+55759,practica profesional,55758,etica general,prerrequisito
+55762,etica profesional,55758,etica general,prerrequisito
+55810,calculo diferencial,55808,matematica basica,prerrequisito
+55811,estadistica,55808,matematica basica,prerrequisito
+55814,narrativa visual,55802,dibujo artistico,prerrequisito
+55815,programacion basica,55807,logica de la programacion,prerrequisito
+55816,bases de datos multimedia,55815,programacion basica,prerrequisito
+55817,calculo integral,55810,calculo diferencial,prerrequisito
+55819,mecanica,55808,matematica basica,prerrequisito
+55820,programacion avanzada,55815,programacion basica,prerrequisito
+55821,taller de diseno grafico digital,55812,expresion grafica,prerrequisito
+55822,diseno de peersonajes para animacion digital,55821,taller de diseno grafico digital,prerrequisito
+55823,ecuaciones diferenciales,55817,calculo integral,prerrequisito
+55824,electromagnetismo,55819,mecanica,prerrequisito
+55825,ingenieria del software,55820,programacion avanzada,prerrequisito
+55826,ingles ii,55818,ingles i,prerrequisito
+55828,ilustracion y animacion 2d,55822,diseno de peersonajes para animacion digital,prerrequisito
+55829,ingles iii,55826,ingles ii,prerrequisito
+55831,seminario de investigacion,55827,metodologia y practica de la investigacion,prerrequisito
+55836,edicion audio y video,55834,video y fotografia digital,prerrequisito
+55839,modelado y animacion 3d,55822,diseno de peersonajes para animacion digital,prerrequisito
+55840,taller aplicaciones moviles,55825,ingenieria del software,prerrequisito
+55841,arquitectura de videojuegos,55820,programacion avanzada,prerrequisito
+55845,formulacion de proyectos de ti,55837,emprendimiento e innovacion ti,prerrequisito
+55846,produccion multimedia,55836,edicion audio y video,prerrequisito
+55847,realidad mixta (rv/ra),55839,modelado y animacion 3d,prerrequisito
+55849,etica profesional,55844,etica general,prerrequisito
+55850,gerencia de proyectos de tecnologia,55845,formulacion de proyectos de ti,prerrequisito
+55851,integracion multimedia,55846,produccion multimedia,prerrequisito
+55853,produccion de videojuegos,55841,arquitectura de videojuegos,prerrequisito
+55857,practica profesional,55801,deporte formativo,prerrequisito
+55857,practica profesional,55802,dibujo artistico,prerrequisito
+55857,practica profesional,55803,expresion oral y escrita,prerrequisito
+55857,practica profesional,55804,formacion integral i,prerrequisito
+55857,practica profesional,55805,introduccion al programa,prerrequisito
+55857,practica profesional,55806,logica,prerrequisito
+55857,practica profesional,55807,logica de la programacion,prerrequisito
+55857,practica profesional,55808,matematica basica,prerrequisito
+55857,practica profesional,55809,algebra lineal,prerrequisito
+55857,practica profesional,55810,calculo diferencial,prerrequisito
+55857,practica profesional,55811,estadistica,prerrequisito
+55857,practica profesional,55812,expresion grafica,prerrequisito
+55857,practica profesional,55813,formacion integral ii,prerrequisito
+55857,practica profesional,55814,narrativa visual,prerrequisito
+55857,practica profesional,55815,programacion basica,prerrequisito
+55857,practica profesional,55816,bases de datos multimedia,prerrequisito
+55857,practica profesional,55817,calculo integral,prerrequisito
+55857,practica profesional,55818,ingles i,prerrequisito
+55857,practica profesional,55819,mecanica,prerrequisito
+55857,practica profesional,55820,programacion avanzada,prerrequisito
+55857,practica profesional,55821,taller de diseno grafico digital,prerrequisito
+55857,practica profesional,55822,diseno de peersonajes para animacion digital,prerrequisito
+55857,practica profesional,55823,ecuaciones diferenciales,prerrequisito
+55857,practica profesional,55824,electromagnetismo,prerrequisito
+55857,practica profesional,55825,ingenieria del software,prerrequisito
+55857,practica profesional,55826,ingles ii,prerrequisito
+55857,practica profesional,55827,metodologia y practica de la investigacion,prerrequisito
+55857,practica profesional,55828,ilustracion y animacion 2d,prerrequisito
+55857,practica profesional,55829,ingles iii,prerrequisito
+55857,practica profesional,55830,redes y servicios multimedia,prerrequisito
+55857,practica profesional,55831,seminario de investigacion,prerrequisito
+55857,practica profesional,55832,taller diseno multimedia,prerrequisito
+55857,practica profesional,55833,usabilidad y accesibilidad,prerrequisito
+55857,practica profesional,55834,video y fotografia digital,prerrequisito
+55857,practica profesional,55835,cultura y comunicacion visual,prerrequisito
+55857,practica profesional,55836,edicion audio y video,prerrequisito
+55857,practica profesional,55837,emprendimiento e innovacion ti,prerrequisito
+55857,practica profesional,55838,humanidades,prerrequisito
+55857,practica profesional,55839,modelado y animacion 3d,prerrequisito
+55857,practica profesional,55840,taller aplicaciones moviles,prerrequisito
+55857,practica profesional,55841,arquitectura de videojuegos,prerrequisito
+55857,practica profesional,55842,electiva de profundizacion i,prerrequisito
+55857,practica profesional,55843,electiva libre,prerrequisito
+55857,practica profesional,55844,etica general,prerrequisito
+55857,practica profesional,55845,formulacion de proyectos de ti,prerrequisito
+55857,practica profesional,55846,produccion multimedia,prerrequisito
+55857,practica profesional,55847,realidad mixta (rv/ra),prerrequisito
+55857,practica profesional,55848,electiva de profundizacion ii,prerrequisito
+55857,practica profesional,55849,etica profesional,prerrequisito
+55857,practica profesional,55850,gerencia de proyectos de tecnologia,prerrequisito
+55857,practica profesional,55851,integracion multimedia,prerrequisito
+55857,practica profesional,55852,marketing digital,prerrequisito
+55857,practica profesional,55853,produccion de videojuegos,prerrequisito
+55910,calculo diferencial,55907,matematica basica,prerrequisito
+55915,mecanica,55907,matematica basica,prerrequisito
+55916,calculo integral,55910,calculo diferencial,prerrequisito
+55917,electromagnetismo,55915,mecanica,prerrequisito
+55918,estadistica inferencial,55912,estadistica descriptiva,prerrequisito
+55919,estatica,55915,mecanica,prerrequisito
+55922,ecuaciones diferenciales,55916,calculo integral,prerrequisito
+55923,ingles ii,55921,ingles i,prerrequisito
+55924,mecanica de materiales,55919,estatica,prerrequisito
+55925,mecanica de suelos,55919,estatica,prerrequisito
+55926,principios de economia,55907,matematica basica,prerrequisito
+55927,topografia y fotointerpretacion,55913,expresion grafica,prerrequisito
+55928,analisis estructural,55924,mecanica de materiales,prerrequisito
+55929,diseno geometrico de vias,55927,topografia y fotointerpretacion,prerrequisito
+55930,fluidos y ondas,55917,electromagnetismo,prerrequisito
+55931,geomatica,55927,topografia y fotointerpretacion,prerrequisito
+55932,geotecnia basica,55925,mecanica de suelos,prerrequisito
+55933,ingles iii,55923,ingles ii,prerrequisito
+55934,geotecnia aplicada,55932,geotecnia basica,prerrequisito
+55936,ingenieria de construccion i,55924,mecanica de materiales,prerrequisito
+55937,mecanica de fluidos e hidraulica,55930,fluidos y ondas,prerrequisito
+55938,metodologia y practica de la investigacion,55912,estadistica descriptiva,prerrequisito
+55939,transito y transporte,55929,diseno geometrico de vias,prerrequisito
+55940,concreto i,55928,analisis estructural,prerrequisito
+55943,estructuras de pavimentos,55939,transito y transporte,prerrequisito
+55945,ingenieria de construccion ii,55936,ingenieria de construccion i,prerrequisito
+55946,seminario de investigacion,55938,metodologia y practica de la investigacion,prerrequisito
+55947,acueductos y alcantarillados,55937,mecanica de fluidos e hidraulica,prerrequisito
+55948,concreto ii,55940,concreto i,prerrequisito
+55950,estructuras hidraulicas,55928,analisis estructural,prerrequisito
+55951,etica profesional,55944,etica general,prerrequisito
+55952,evaluacion ambiental,55945,ingenieria de construccion ii,prerrequisito
+55953,ingenieria de construccion iii,55945,ingenieria de construccion ii,prerrequisito
+55956,legislacion para ingenieria,55945,ingenieria de construccion ii,prerrequisito
+55957,practica profesional,55901,deporte formativo,prerrequisito
+55957,practica profesional,55902,expresion oral y escrita,prerrequisito
+55957,practica profesional,55903,formacion integral i,prerrequisito
+55957,practica profesional,55904,herramientas tic,prerrequisito
+55957,practica profesional,55905,introduccion al programa,prerrequisito
+55957,practica profesional,55906,logica,prerrequisito
+55957,practica profesional,55907,matematica basica,prerrequisito
+55957,practica profesional,55908,quimica general,prerrequisito
+55957,practica profesional,55909,algebra lineal,prerrequisito
+55957,practica profesional,55910,calculo diferencial,prerrequisito
+55957,practica profesional,55911,electiva libre,prerrequisito
+55957,practica profesional,55912,estadistica descriptiva,prerrequisito
+55957,practica profesional,55913,expresion grafica,prerrequisito
+55957,practica profesional,55914,formacion integral ii,prerrequisito
+55957,practica profesional,55915,mecanica,prerrequisito
+55957,practica profesional,55916,calculo integral,prerrequisito
+55957,practica profesional,55917,electromagnetismo,prerrequisito
+55957,practica profesional,55918,estadistica inferencial,prerrequisito
+55957,practica profesional,55919,estatica,prerrequisito
+55957,practica profesional,55920,geologia aplicada,prerrequisito
+55957,practica profesional,55921,ingles i,prerrequisito
+55957,practica profesional,55922,ecuaciones diferenciales,prerrequisito
+55957,practica profesional,55923,ingles ii,prerrequisito
+55957,practica profesional,55924,mecanica de materiales,prerrequisito
+55957,practica profesional,55925,mecanica de suelos,prerrequisito
+55957,practica profesional,55926,principios de economia,prerrequisito
+55957,practica profesional,55927,topografia y fotointerpretacion,prerrequisito
+55957,practica profesional,55928,analisis estructural,prerrequisito
+55957,practica profesional,55929,diseno geometrico de vias,prerrequisito
+55957,practica profesional,55930,fluidos y ondas,prerrequisito
+55957,practica profesional,55931,geomatica,prerrequisito
+55957,practica profesional,55932,geotecnia basica,prerrequisito
+55957,practica profesional,55933,ingles iii,prerrequisito
+55957,practica profesional,55934,geotecnia aplicada,prerrequisito
+55957,practica profesional,55935,humanidades,prerrequisito
+55957,practica profesional,55936,ingenieria de construccion i,prerrequisito
+55957,practica profesional,55937,mecanica de fluidos e hidraulica,prerrequisito
+55957,practica profesional,55938,metodologia y practica de la investigacion,prerrequisito
+55957,practica profesional,55939,transito y transporte,prerrequisito
+55957,practica profesional,55940,concreto i,prerrequisito
+55957,practica profesional,55941,electiva complementaria interdisciplinaria,prerrequisito
+55957,practica profesional,55942,electiva de profundizacion i,prerrequisito
+55957,practica profesional,55943,estructuras de pavimentos,prerrequisito
+55957,practica profesional,55944,etica general,prerrequisito
+55957,practica profesional,55945,ingenieria de construccion ii,prerrequisito
+55957,practica profesional,55946,seminario de investigacion,prerrequisito
+55957,practica profesional,55947,acueductos y alcantarillados,prerrequisito
+55957,practica profesional,55948,concreto ii,prerrequisito
+55957,practica profesional,55949,constitucion y formacion ciudadana,prerrequisito
+55957,practica profesional,55950,estructuras hidraulicas,prerrequisito
+55957,practica profesional,55951,etica profesional,prerrequisito
+55957,practica profesional,55952,evaluacion ambiental,prerrequisito
+55957,practica profesional,55953,ingenieria de construccion iii,prerrequisito
+66105,fisiologia general,66111,bioquimica general,prerrequisito
+66105,fisiologia general,66111,bioquimica,prerrequisito
+66105,fisiologia general,66112,morfologia i,prerrequisito
+66110,biomecanica,66109,fisica,prerrequisito
+66110,biomecanica,66112,morfologia i,prerrequisito
+66111,bioquimica,66104,quimica general,prerrequisito
+66112,morfologia i,66118,biologia,prerrequisito
+66119,ingles ii,66117,ingles i,prerrequisito
+66124,patologia general,66101,morfologia ii,prerrequisito
+66124,patologia general,66105,fisiologia general,prerrequisito
+66125,fisiologia del ejercicio,66105,fisiologia general,prerrequisito
+66127,semiologia,66101,morfologia ii,prerrequisito
+66127,semiologia,66105,fisiologia general,prerrequisito
+66128,kinesioterapia basica,66110,biomecanica,prerrequisito
+66131,metodologia y practica de la investigacion,66160,estadistica descriptiva,prerrequisito
+66132,epidemiologia,66160,estadistica descriptiva,prerrequisito
+66133,tecnicas de  intervencion  fisioterapeutica i,66124,patologia general,prerrequisito
+66134,salud comunitaria,66159,aptitudes fisicas,prerrequisito
+66135,ejercicios terapeuticos,66128,kinesioterapia basica,prerrequisito
+66136,modalidades fisicas y mecanicas,66124,patologia general,prerrequisito
+66136,modalidades fisicas y mecanicas,66127,semiologia,prerrequisito
+66138,modalidades fisicas,66124,patologia general,prerrequisito
+66138,modalidades fisicas,66127,semiologia,prerrequisito
+66139,modalidades mecanicas,66124,patologia general,prerrequisito
+66139,modalidades mecanicas,66127,semiologia,prerrequisito
+66140,farmacologia,66111,bioquimica general,prerrequisito
+66141,tecnicas de intervencion fisioterapeutica ii,66133,tecnicas de  intervencion  fisioterapeutica i,prerrequisito
+66142,habilitacion-rehabilitacion en ninos,66133,tecnicas de  intervencion  fisioterapeutica i,prerrequisito
+66143,salud ocupacional y ergonomia,66127,semiologia,prerrequisito
+66143,salud ocupacional y ergonomia,66128,kinesioterapia basica,prerrequisito
+66144,observacion participacion,66133,tecnicas de  intervencion  fisioterapeutica i,prerrequisito
+66144,observacion participacion,66134,salud comunitaria,prerrequisito
+66144,observacion participacion,66135,ejercicios terapeuticos,prerrequisito
+66144,observacion participacion,66136,modalidades fisicas y mecanicas,prerrequisito
+66146,tecnicas de intervencion fisioterapeutica iii,66141,tecnicas de intervencion fisioterapeutica ii,prerrequisito
+66147,practica de intervencion primaria,66144,observacion participacion,prerrequisito
+66148,administracion en salud,66134,salud comunitaria,prerrequisito
+66151,practica asistencial de intervencion integral,66147,practica de intervencion primaria,prerrequisito
+66153,seminario de investigacion,66131,metodologia y practica de la investigacion,prerrequisito
+66154,alternativa de grado,66153,seminario de investigacion,prerrequisito
+66155,practica asistencial de intervencion especializada,66151,practica asistencial de intervencion integral,prerrequisito
+66158,neurocinetica,66101,morfologia ii,prerrequisito
+66158,neurocinetica,66105,fisiologia general,prerrequisito
+66159,aptitudes fisicas,66101,morfologia ii,prerrequisito
+66159,aptitudes fisicas,66105,fisiologia general,prerrequisito
+66160,estadistica descriptiva,66115,informatica basica,prerrequisito
+66161,bioetica,66126,etica general,prerrequisito
+66161,bioetica,66144,observacion participacion,prerrequisito
+66201,patologia,66216,morfologia ii,prerrequisito
+66201,patologia,66223,fisiologia general,prerrequisito
+66211,bioquimica general,66204,quimica,prerrequisito
+66212,microbiologia,66218,biologia,prerrequisito
+66213,epidemiologia,66260,estadistica descriptiva,prerrequisito
+66217,fundamentos y procesos quirurgicos i,66201,patologia,correquisito
+66217,fundamentos y procesos quirurgicos i,66216,morfologia ii,prerrequisito
+66217,fundamentos y procesos quirurgicos i,66219,practica prequirurgica,correquisito
+66217,fundamentos y procesos quirurgicos i,66223,fisiologia general,prerrequisito
+66219,practica prequirurgica,66224,bioseguridad y esterilizacion,correquisito
+66224,bioseguridad y esterilizacion,66212,microbiologia,prerrequisito
+66224,bioseguridad y esterilizacion,66219,practica prequirurgica,correquisito
+66228,ingles ii,66208,ingles i,prerrequisito
+66230,fundamentos y procesos quirurgicos ii,66217,fundamentos y procesos quirurgicos i,prerrequisito
+66230,fundamentos y procesos quirurgicos ii,66217,fundamentos y procesos quirurgicos i,prerrequisito
+66231,farmacologia y anestesia,66211,bioquimica general,prerrequisito
+66236,fundamentos y procesos quirurgicos iii,66230,fundamentos y procesos quirurgicos ii,prerrequisito
+66236,fundamentos y procesos quirurgicos iii,66230,fundamentos y procesos quirurgicos ii,prerrequisito
+66240,metodologia y practica de la investigacion,66213,epidemiologia,correquisito
+66240,metodologia y practica de la investigacion,66260,estadistica descriptiva,prerrequisito
+66252,practica clinica i,66201,patologia,prerrequisito
+66252,practica clinica i,66217,fundamentos y procesos quirurgicos i,prerrequisito
+66252,practica clinica i,66224,bioseguridad y esterilizacion,prerrequisito
+66252,practica clinica i,66230,fundamentos y procesos quirurgicos ii,prerrequisito
+66252,practica clinica i,66231,farmacologia y anestesia,prerrequisito
+66257,fundamentos y procesos quirurgicos iv,66236,fundamentos y procesos quirurgicos iii,prerrequisito
+66268,bioetica,66233,etica general,prerrequisito
+66301,bioquimica general,66304,quimica,prerrequisito
+66308,valoracion y diagnostico cardiorrespiratorio,66310,patologia general,correquisito
+66308,valoracion y diagnostico cardiorrespiratorio,66311,fisiologia general,prerrequisito
+66308,valoracion y diagnostico cardiorrespiratorio,66323,fisiologia cardiorrespiratoria,correquisito
+66310,patologia general,66311,fisiologia general,prerrequisito
+66311,fisiologia general,66312,morfologia ii,correquisito
+66311,fisiologia general,66314,morfologia i,prerrequisito
+66314,morfologia i,66318,biologia,correquisito
+66318,biologia,66314,morfologia i,correquisito
+66319,ingles ii,66317,ingles i,prerrequisito
+66321,cuidado cardiorrespiratorio basico,66308,valoracion y diagnostico cardiorrespiratorio,prerrequisito
+66321,cuidado cardiorrespiratorio basico,66323,fisiologia cardiorrespiratoria,prerrequisito
+66321,cuidado cardiorrespiratorio basico,66355,neumologia y cardiologia,correquisito
+66323,fisiologia cardiorrespiratoria,66311,fisiologia general,prerrequisito
+66324,microbiologia,66301,bioquimica general,prerrequisito
+66324,microbiologia,66310,patologia general,correquisito
+66325,farmacologia,66301,bioquimica general,prerrequisito
+66325,farmacologia,66310,patologia general,prerrequisito
+66326,epidemiologia,66354,estadistica descriptiva,prerrequisito
+66327,metodologia y practica de la investigacion,66326,epidemiologia,correquisito
+66327,metodologia y practica de la investigacion,66354,estadistica descriptiva,prerrequisito
+66329,cuidado cardiorrespiratorio especializado,66321,cuidado cardiorrespiratorio basico,prerrequisito
+66329,cuidado cardiorrespiratorio especializado,66355,neumologia y cardiologia,prerrequisito
+66330,pruebas de funcion pulmonar,66323,fisiologia cardiorrespiratoria,prerrequisito
+66330,pruebas de funcion pulmonar,66325,farmacologia,correquisito
+66333,salud publica,66326,epidemiologia,prerrequisito
+66333,salud publica,66347,administracion en salud,correquisito
+66334,rehabilitacion pulmonar,66335,rehabilitacion cardiaca,correquisito
+66334,rehabilitacion pulmonar,66355,neumologia y cardiologia,prerrequisito
+66335,rehabilitacion cardiaca,66334,rehabilitacion pulmonar,correquisito
+66335,rehabilitacion cardiaca,66355,neumologia y cardiologia,prerrequisito
+66336,cuidado cardiorrespiratorio critico del adulto,66329,cuidado cardiorrespiratorio especializado,correquisito
+66336,cuidado cardiorrespiratorio critico del adulto,66330,pruebas de funcion pulmonar,prerrequisito
+66336,cuidado cardiorrespiratorio critico del adulto,66355,neumologia y cardiologia,prerrequisito
+66337,prac. clinica y proyeccion comunitaria: consulta ext. hospitalizacion,66321,cuidado cardiorrespiratorio basico,prerrequisito
+66337,prac. clinica y proyeccion comunitaria: consulta ext. hospitalizacion,66325,farmacologia,prerrequisito
+66337,prac. clinica y proyeccion comunitaria: consulta ext. hospitalizacion,66329,cuidado cardiorrespiratorio especializado,correquisito
+66337,prac. clinica y proyeccion comunitaria: consulta ext. hospitalizacion,66334,rehabilitacion pulmonar,correquisito
+66337,prac. clinica y proyeccion comunitaria: consulta ext. hospitalizacion,66335,rehabilitacion cardiaca,correquisito
+66337,prac. clinica y proyeccion comunitaria: consulta ext. hospitalizacion,66355,neumologia y cardiologia,prerrequisito
+66348,cuidado cardiorrespiratorio critico neonatal y pediatrico,66336,cuidado cardiorrespiratorio critico del adulto,prerrequisito
+66349,practica clinica : urgencias,66329,cuidado cardiorrespiratorio especializado,prerrequisito
+66349,practica clinica : urgencias,66336,cuidado cardiorrespiratorio critico del adulto,prerrequisito
+66349,practica clinica : urgencias,66337,prac. clinica y proyeccion comunitaria: consulta ext. hospitalizacion,prerrequisito
+66353,bioetica,66345,etica,prerrequisito
+66354,estadistica descriptiva,66315,informatica basica,prerrequisito
+66355,neumologia y cardiologia,66308,valoracion y diagnostico cardiorrespiratorio,prerrequisito
+66356,practica clinica: uci adulto y cardiovascular,66349,practica clinica : urgencias,prerrequisito
+66359,seminario de investigacion,66326,epidemiologia,prerrequisito
+66359,seminario de investigacion,66327,metodologia y practica de la investigacion,prerrequisito
+66366,practica clinica: uci neonatal y pediatrica,66348,cuidado cardiorrespiratorio critico neonatal y pediatrico,prerrequisito
+66366,practica clinica: uci neonatal y pediatrica,66356,practica clinica: uci adulto y cardiovascular,prerrequisito
+66368,alternativa de grado,66359,seminario de investigacion,prerrequisito
+66401,bioestadistica,66430,informatica basica,prerrequisito
+66408,ingles ii,66414,ingles i,prerrequisito
+66410,morfologia i,66412,fisiologia i,correquisito
+66410,morfologia i,66416,biologia molecular,prerrequisito
+66410,morfologia i,66417,biologia celular,prerrequisito
+66410,morfologia,66451,biologia celular y molecular,prerrequisito
+66411,bioquimica i,66404,quimica general,prerrequisito
+66411,bioquimica i,66416,biologia molecular,prerrequisito
+66411,bioquimica i,66417,biologia celular,prerrequisito
+66412,fisiologia i,66416,biologia molecular,prerrequisito
+66412,fisiologia i,66417,biologia celular,prerrequisito
+66413,bioquimica ii,66411,bioquimica i,prerrequisito
+66422,embriologia i,66416,biologia molecular,prerrequisito
+66422,embriologia i,66417,biologia celular,prerrequisito
+66422,embriologia i,66423,histologia i,correquisito
+66423,histologia i,66416,biologia molecular,prerrequisito
+66423,histologia i,66417,biologia celular,prerrequisito
+66423,histologia,66451,biologia celular y molecular,prerrequisito
+66425,genetica,66416,biologia molecular,prerrequisito
+66425,genetica,66417,biologia celular,prerrequisito
+66425,genetica,66461,fisiologia,prerrequisito
+66425,genetica,66462,embriologia,prerrequisito
+66429,inmunologia,66423,histologia,prerrequisito
+66431,microbiologia,66461,fisiologia,prerrequisito
+66432,parasitologia,66461,fisiologia,prerrequisito
+66433,patologia,66461,fisiologia,prerrequisito
+66435,epidemiologia,66401,bioestadistica,prerrequisito
+66436,salud familiar y comunitaria ii,66428,salud familiar y comunitaria i,prerrequisito
+66439,psicopatologia,66446,psicologia del desarrollo,prerrequisito
+66440,farmacologia,66431,microbiologia,prerrequisito
+66440,farmacologia,66432,parasitologia,prerrequisito
+66440,farmacologia,66433,patologia,prerrequisito
+66441,semiologia,66431,microbiologia,prerrequisito
+66441,semiologia,66432,parasitologia,prerrequisito
+66441,semiologia,66433,patologia,prerrequisito
+66441,semiologia,66436,salud familiar y comunitaria ii,prerrequisito
+66441,semiologia,66463,procedimientos medicos basicos,prerrequisito
+66442,metodologia y practica de la investigacion,66435,epidemiologia,prerrequisito
+66443,medicina interna,66441,semiologia,prerrequisito
+66447,pediatria,66443,medicina interna,prerrequisito
+66453,cirugia,66447,pediatria,prerrequisito
+66454,bioetica,66438,etica general,prerrequisito
+66456,psiquiatria,66439,psicopatologia,prerrequisito
+66459,salud publica,66435,epidemiologia,prerrequisito
+66461,fisiologia,66409,fisica,prerrequisito
+66461,fisiologia,66411,bioquimica i,prerrequisito
+66462,embriologia,66423,histologia,prerrequisito
+66463,procedimientos medicos basicos,66461,fisiologia,prerrequisito
+66465,ginecoobstetricia,66453,cirugia,prerrequisito
+66466,internado rotatorio i,66454,bioetica,prerrequisito
+66466,internado rotatorio i,66455,problemas de contexto,prerrequisito
+66466,internado rotatorio i,66456,psiquiatria,prerrequisito
+66466,internado rotatorio i,66457,medicina legal toxicologia,prerrequisito
+66466,internado rotatorio i,66458,administracion en salud,prerrequisito
+66466,internado rotatorio i,66459,salud publica,prerrequisito
+66466,internado rotatorio i,66460,salud ocupacional,prerrequisito
+66466,internado rotatorio i,66464,electiva de profundizacion iii,prerrequisito
+66466,internado rotatorio i,66465,ginecoobstetricia,prerrequisito
+66467,internado rotatorio ii,66466,internado rotatorio i,prerrequisito
+66501,bioquimica,66511,biologia molecular,prerrequisito
+66501,bioquimica,66512,quimica analitica,prerrequisito
+66508,genetica,66511,biologia molecular,prerrequisito
+66510,morfofisiologia ii,66514,morfofisiologia i,prerrequisito
+66510,morfofisiologia ii,66516,histologia,prerrequisito
+66511,biologia molecular,66518,biologia celular,prerrequisito
+66512,quimica analitica,66504,quimica general,prerrequisito
+66514,morfofisiologia i,66518,biologia celular,prerrequisito
+66516,histologia,66518,biologia celular,prerrequisito
+66519,bacteriologia i,66511,biologia molecular,prerrequisito
+66523,ingles ii,66517,ingles i,prerrequisito
+66525,fisiopatologia,66510,morfofisiologia ii,prerrequisito
+66526,hematologia i,66510,morfofisiologia ii,prerrequisito
+66526,hematologia i,66529,inmunologia,correquisito
+66527,micologia i,66519,bacteriologia i,prerrequisito
+66528,bacteriologia ii,66519,bacteriologia i,prerrequisito
+66529,inmunologia,66510,morfofisiologia ii,prerrequisito
+66531,epidemiologia,66524,estadistica descriptiva,prerrequisito
+66532,metodologia y practica de la investigacion,66531,epidemiologia,prerrequisito
+66533,hematologia ii y banco de sangre,66526,hematologia i,prerrequisito
+66533,hematologia ii y banco de sangre,66529,inmunologia,prerrequisito
+66534,micologia ii,66527,micologia i,prerrequisito
+66534,micologia ii,66529,inmunologia,prerrequisito
+66535,bacteriologia iii,66528,bacteriologia ii,prerrequisito
+66535,bacteriologia iii,66529,inmunologia,prerrequisito
+66536,bioquimica clinica,66525,fisiopatologia,prerrequisito
+66537,parasitologia i,66529,inmunologia,prerrequisito
+66543,virologia,66529,inmunologia,prerrequisito
+66544,parasitologia ii,66529,inmunologia,prerrequisito
+66545,farmacotoxicologia,66536,bioquimica clinica,prerrequisito
+66547,correlacion clinica i,66533,hematologia ii y banco de sangre,prerrequisito
+66547,correlacion clinica i,66534,micologia ii,prerrequisito
+66547,correlacion clinica i,66535,bacteriologia iii,prerrequisito
+66547,correlacion clinica i,66536,bioquimica clinica,prerrequisito
+66547,correlacion clinica i,66543,virologia,prerrequisito
+66547,correlacion clinica i,66544,parasitologia ii,prerrequisito
+66547,correlacion clinica i,66545,farmacotoxicologia,prerrequisito
+66548,administracion en salud,66531,epidemiologia,prerrequisito
+66551,laboratorio clinico.  practica de proyeccion social,66533,hematologia ii y banco de sangre,prerrequisito
+66551,laboratorio clinico.  practica de proyeccion social,66534,micologia ii,prerrequisito
+66551,laboratorio clinico.  practica de proyeccion social,66535,bacteriologia iii,prerrequisito
+66551,laboratorio clinico.  practica de proyeccion social,66536,bioquimica clinica,prerrequisito
+66551,laboratorio clinico.  practica de proyeccion social,66543,virologia,prerrequisito
+66551,laboratorio clinico.  practica de proyeccion social,66544,parasitologia ii,prerrequisito
+66551,laboratorio clinico.  practica de proyeccion social,66545,farmacotoxicologia,prerrequisito
+66552,seminarios y monitorias,66547,correlacion clinica i,prerrequisito
+66552,seminarios y monitorias,66548,administracion en salud,prerrequisito
+66552,seminarios y monitorias,66549,electiva de profundizacion ii,prerrequisito
+66552,seminarios y monitorias,66550,salud ocupacional,prerrequisito
+66552,seminarios y monitorias,66551,laboratorio clinico.  practica de proyeccion social,prerrequisito
+66553,salud publica,66548,administracion en salud,prerrequisito
+66554,correlacion clinica ii,66547,correlacion clinica i,prerrequisito
+66554,correlacion clinica ii,66548,administracion en salud,prerrequisito
+66554,correlacion clinica ii,66550,salud ocupacional,prerrequisito
+66554,correlacion clinica ii,66551,laboratorio clinico.  practica de proyeccion social,prerrequisito
+66555,practica basica,66547,correlacion clinica i,prerrequisito
+66555,practica basica,66548,administracion en salud,prerrequisito
+66555,practica basica,66549,electiva de profundizacion ii,prerrequisito
+66555,practica basica,66550,salud ocupacional,prerrequisito
+66555,practica basica,66551,laboratorio clinico.  practica de proyeccion social,prerrequisito
+66557,bioetica,66542,etica general,prerrequisito
+66558,practica clinica,66552,seminarios y monitorias,prerrequisito
+66558,practica clinica,66553,salud publica,prerrequisito
+66558,practica clinica,66554,correlacion clinica ii,prerrequisito
+66558,practica clinica,66555,practica basica,prerrequisito
+66558,practica clinica,66556,electiva de profundizacion iii,prerrequisito
+66558,practica clinica,66557,bioetica,prerrequisito
+66559,seminario de investigacion,66532,metodologia y practica de la investigacion,prerrequisito
+66559,seminario de investigacion,66557,bioetica,prerrequisito
+66560,practica aplicada,66558,practica clinica,prerrequisito
+66561,alternativa de grado,66559,seminario de investigacion,prerrequisito
+66613,bioquimica,66604,quimica,prerrequisito
+66613,bioquimica,66605,biologia,prerrequisito
+66614,morfofisiologia i,66605,biologia,prerrequisito
+66616,fundamentos del cuidado de enfermeria,66608,introduccion al programa,prerrequisito
+66617,principios basicos en salud,66608,introduccion al programa,prerrequisito
+66617,principios basicos en salud,66614,morfofisiologia i,correquisito
+66622,inmunologia,66605,biologia,prerrequisito
+66622,inmunologia,66623,microbiologia,correquisito
+66623,microbiologia,66613,bioquimica,prerrequisito
+66624,morfofisiologia ii,66614,morfofisiologia i,prerrequisito
+66625,epidemiologia,66615,estadistica descriptiva,prerrequisito
+66626,cuidados de enfermeria a la persona y a la familia,66616,fundamentos del cuidado de enfermeria,prerrequisito
+66626,cuidados de enfermeria a la persona y a la familia,66617,principios basicos en salud,prerrequisito
+66627,salud ocupacional,66616,fundamentos del cuidado de enfermeria,prerrequisito
+66628,bioetica,66619,etica,prerrequisito
+66629,ingles ii,66621,ingles i,prerrequisito
+66630,patologia,66624,morfofisiologia ii,prerrequisito
+66631,farmacologia,66613,bioquimica,prerrequisito
+66631,farmacologia,66624,morfofisiologia ii,prerrequisito
+66632,metodologia y practica de la investigacion,66625,epidemiologia,prerrequisito
+66633,cuidado de enfermeria a comunidades,66626,cuidados de enfermeria a la persona y a la familia,prerrequisito
+66637,"cuidado integral a la mujer, al lactante, al nino y al adolescente",66630,patologia,prerrequisito
+66637,"cuidado integral a la mujer, al lactante, al nino y al adolescente",66631,farmacologia,prerrequisito
+66637,"cuidado integral a la mujer, al lactante, al nino y al adolescente",66633,cuidado de enfermeria a comunidades,prerrequisito
+66642,cuidado integral al adulto,66637,"cuidado integral a la mujer, al lactante, al nino y al adolescente",prerrequisito
+66644,seminario de investigacion,66632,metodologia y practica de la investigacion,prerrequisito
+66645,administracion del recurso humano,66641,administracion en salud,prerrequisito
+66646,"cuidado enfermeria en urgencias, unidad de cuidado intensivo y cirugia",66642,cuidado integral al adulto,prerrequisito
+66648,practica profesional,66601,formacion integral i,prerrequisito
+66648,practica profesional,66602,expresion oral y escrita,prerrequisito
+66648,practica profesional,66603,deporte formativo,prerrequisito
+66648,practica profesional,66604,quimica,prerrequisito
+66648,practica profesional,66605,biologia,prerrequisito
+66648,practica profesional,66606,logica,prerrequisito
+66648,practica profesional,66607,informatica basica,prerrequisito
+66648,practica profesional,66608,introduccion al programa,prerrequisito
+66648,practica profesional,66609,constitucion y formacion ciudadana,prerrequisito
+66648,practica profesional,66610,humanidades,prerrequisito
+66648,practica profesional,66611,formacion integral ii,prerrequisito
+66648,practica profesional,66612,saneamiento ambiental,prerrequisito
+66648,practica profesional,66613,bioquimica,prerrequisito
+66648,practica profesional,66614,morfofisiologia i,prerrequisito
+66648,practica profesional,66615,estadistica descriptiva,prerrequisito
+66648,practica profesional,66616,fundamentos del cuidado de enfermeria,prerrequisito
+66648,practica profesional,66617,principios basicos en salud,prerrequisito
+66648,practica profesional,66618,electiva libre i,prerrequisito
+66648,practica profesional,66619,etica,prerrequisito
+66648,practica profesional,66620,psicologia,prerrequisito
+66648,practica profesional,66621,ingles i,prerrequisito
+66648,practica profesional,66622,inmunologia,prerrequisito
+66648,practica profesional,66623,microbiologia,prerrequisito
+66648,practica profesional,66624,morfofisiologia ii,prerrequisito
+66648,practica profesional,66625,epidemiologia,prerrequisito
+66648,practica profesional,66626,cuidados de enfermeria a la persona y a la familia,prerrequisito
+66648,practica profesional,66627,salud ocupacional,prerrequisito
+66648,practica profesional,66628,bioetica,prerrequisito
+66648,practica profesional,66629,ingles ii,prerrequisito
+66648,practica profesional,66630,patologia,prerrequisito
+66648,practica profesional,66631,farmacologia,prerrequisito
+66648,practica profesional,66632,metodologia y practica de la investigacion,prerrequisito
+66648,practica profesional,66633,cuidado de enfermeria a comunidades,prerrequisito
+66648,practica profesional,66634,electiva libre ii,prerrequisito
+66648,practica profesional,66635,electiva complementaria i,prerrequisito
+66648,practica profesional,66636,enfermeria en salud mental,prerrequisito
+66648,practica profesional,66637,"cuidado integral a la mujer, al lactante, al nino y al adolescente",prerrequisito
+66648,practica profesional,66638,electiva de profundizacion i,prerrequisito
+66648,practica profesional,66639,electiva complementaria ii,prerrequisito
+66648,practica profesional,66640,problemas de contexto,prerrequisito
+66648,practica profesional,66641,administracion en salud,prerrequisito
+66648,practica profesional,66642,cuidado integral al adulto,prerrequisito
+66648,practica profesional,66643,electiva de profundizacion ii,prerrequisito
+66648,practica profesional,66644,seminario de investigacion,prerrequisito
+66648,practica profesional,66645,administracion del recurso humano,prerrequisito
+66648,practica profesional,66646,"cuidado enfermeria en urgencias, unidad de cuidado intensivo y cirugia",prerrequisito
+66648,practica profesional,66647,electiva de profundizacion iii,prerrequisito
+66649,alternativa de grado,66644,seminario de investigacion,prerrequisito
+77104,taller de diseno unidades habitacionales,77114,taller de diseno composicion forma y funcion,prerrequisito
+77104,taller composicion espacial,77114,"taller forma, funcion y significado",prerrequisito
+77104,taller de proyectos iii: vivienda unifamiliar,77114,taller de proyectos ii comp. forma,prerrequisito
+77109,construccion y estructuras de baja complejidad,77111,principios de construccion,prerrequisito
+77109,construccion y estructura de la casa,77111,principios de construccion,prerrequisito
+77113,geometria descriptiva basica,77112,expresion grafica basica,prerrequisito
+77114,taller de diseno composicion forma y funcion,77110,taller de diseno basico,prerrequisito
+77114,taller de proyectos ii comp. forma,77110,taller i diseno basico,prerrequisito
+77114,"taller forma, funcion y significado",77110,taller diseno basico,prerrequisito
+77116,tecnologia ii estructuras especiales,77111,tecnologia i ppios construc. estruc,prerrequisito
+77116,expresion grafica avanzada,77112,expresion grafica basica,prerrequisito
+77116,planimetria arquitectonica,77112,percepcion y representacion grafica,prerrequisito
+77118,cad i basico,77112,dibujo tecnico y arquitectonico,prerrequisito
+77119,mecanica,77101,matematica basica,prerrequisito
+77119,mecanica,77111,tecnologia i ppios construc. estruc,prerrequisito
+77120,formacion integral ii,77107,formacion integral i,prerrequisito
+77122,ingles ii,77117,ingles i,prerrequisito
+77122,ingles ii,77117,ingles i,prerrequisito
+77122,idioma extranjero ii,77117,idioma extranjero i,prerrequisito
+77123,geometria descriptiva avanzada,77113,geometria descriptiva basica,prerrequisito
+77123,geometria descriptiva ii,77113,geometria descriptiva i,prerrequisito
+77123,geometria descriptiva avanzada,77113,geometria descriptiva basica,prerrequisito
+77124,"taller espacio, escala y complejidad",77104,taller composicion espacial,prerrequisito
+77124,taller de diseno: centros habitacionales,77104,taller de diseno unidades habitacionales,prerrequisito
+77127,construccion y estructuras de mediana complejidad,77109,construccion y estructuras de baja complejidad,prerrequisito
+77127,construccion y estructura del edificio,77109,construccion y estructura de la casa,prerrequisito
+77128,expresion digital avanzada 3d,77118,expresion digital ii - archicad,prerrequisito
+77128,"representacion digital, modelado y diagramacion",77118,representacion digital 3d,prerrequisito
+77133,presupuesto y programacion de obra,77127,construccion y estructura del edificio,prerrequisito
+77133,presupuesto y  programacion de obra,77127,construccion y estructuras de mediana complejidad,prerrequisito
+77134,estructuras especiales,77119,mecanica,prerrequisito
+77134,estructuras especiales,77127,construccion y estructura del edificio,prerrequisito
+77134,construccion y estructuras de alta complejidad,77127,construccion y estructuras de mediana complejidad,prerrequisito
+77136,taller sistemas espaciales,77104,taller composicion espacial,prerrequisito
+77137,taller espacio y territorio,77104,taller composicion espacial,prerrequisito
+77138,metodologia y practica de la investigacion,77167,estadistica descriptiva,prerrequisito
+77139,teorias de la planificacion y el desarrollo urbano,77131,instrumentos de planificacion,prerrequisito
+77140,coordinacion tecnica de proyectos,77127,construccion y estructuras de mediana complejidad,prerrequisito
+77141,construccion e instalaciones de la ciudad,77127,construccion y estructura del edificio,prerrequisito
+77142,perspectivas y sombras,77116,planimetria arquitectonica,prerrequisito
+77149,seminario de investigacion,77138,metodologia y practica de la investigacion,prerrequisito
+77149,seminario de investigacion,77138,metodologia y practica de la investigacion,prerrequisito
+77156,taller de diseno vivienda social,77124,taller de diseno: centros habitacionales,prerrequisito
+77156,taller de diseno vivienda social,77136,taller de diseno equipamientos,prerrequisito
+77156,taller de diseno vivienda social,77137,taller de diseno espacio publico y medio ambiente,prerrequisito
+77157,etica profesional,77153,etica general,prerrequisito
+77162,alternativa de  grado,77149,seminario de investigacion,prerrequisito
+77162,alternativa de grado,77149,seminario de investigacion,prerrequisito
+77163,practica profesional,77101,matematica basica,prerrequisito
+77163,practica profesional,77101,matematica basica,prerrequisito
+77163,practica profesional,77102,logica,prerrequisito
+77163,practica profesional,77102,logica,prerrequisito
+77163,practica profesional,77103,introduccion al programa,prerrequisito
+77163,practica profesional,77103,introduccion a la arquitectura,prerrequisito
+77163,practica profesional,77104,taller de diseno unidades habitacionales,prerrequisito
+77163,practica profesional,77104,taller composicion espacial,prerrequisito
+77163,practica profesional,77105,ergonomia de la arquitectura y la ciudad,prerrequisito
+77163,practica profesional,77105,ergonomia de la arquitectura y la ciudad,prerrequisito
+77163,practica profesional,77106,deporte formativo,prerrequisito
+77163,practica profesional,77106,deporte formativo,prerrequisito
+77163,practica profesional,77107,formacion integral i,prerrequisito
+77163,practica profesional,77107,formacion integral i,prerrequisito
+77163,practica profesional,77108,historia de la arquitectura y ciudad antigua y media,prerrequisito
+77163,practica profesional,77108,historia de la arquitectura y la ciudad antigua y clasica,prerrequisito
+77163,practica profesional,77109,construccion y estructuras de baja complejidad,prerrequisito
+77163,practica profesional,77109,construccion y estructura de la casa,prerrequisito
+77163,practica profesional,77110,taller de diseno basico,prerrequisito
+77163,practica profesional,77110,taller diseno basico,prerrequisito
+77163,practica profesional,77111,principios de construccion,prerrequisito
+77163,practica profesional,77111,principios de construccion,prerrequisito
+77163,practica profesional,77112,percepcion y representacion grafica,prerrequisito
+77163,practica profesional,77112,expresion grafica basica,prerrequisito
+77163,practica profesional,77113,geometria descriptiva basica,prerrequisito
+77163,practica profesional,77113,geometria descriptiva basica,prerrequisito
+77163,practica profesional,77114,"taller forma, funcion y significado",prerrequisito
+77163,practica profesional,77114,taller de diseno composicion forma y funcion,prerrequisito
+77163,practica profesional,77115,informatica basica,prerrequisito
+77163,practica profesional,77115,informatica basica,prerrequisito
+77163,practica profesional,77116,planimetria arquitectonica,prerrequisito
+77163,practica profesional,77116,expresion grafica avanzada,prerrequisito
+77163,practica profesional,77117,ingles i,prerrequisito
+77163,practica profesional,77117,ingles i,prerrequisito
+77163,practica profesional,77118,representacion digital 3d,prerrequisito
+77163,practica profesional,77118,expresion digital ii - archicad,prerrequisito
+77163,practica profesional,77119,mecanica,prerrequisito
+77163,practica profesional,77120,formacion integral ii,prerrequisito
+77163,practica profesional,77120,formacion integral ii,prerrequisito
+77163,practica profesional,77121,expresion oral y escrita,prerrequisito
+77163,practica profesional,77121,expresion oral y escrita,prerrequisito
+77163,practica profesional,77122,ingles ii,prerrequisito
+77163,practica profesional,77122,ingles ii,prerrequisito
+77163,practica profesional,77123,geometria descriptiva avanzada,prerrequisito
+77163,practica profesional,77123,geometria descriptiva avanzada,prerrequisito
+77163,practica profesional,77124,"taller espacio, escala y complejidad",prerrequisito
+77163,practica profesional,77124,taller de diseno: centros habitacionales,prerrequisito
+77163,practica profesional,77125,teoria de lo urbano,prerrequisito
+77163,practica profesional,77126,historia de la arquitectura y la ciudad  medieval,prerrequisito
+77163,practica profesional,77126,historia de la arquitectura y  la ciudad del renacimiento al neoclasico,prerrequisito
+77163,practica profesional,77127,construccion y estructuras de mediana complejidad,prerrequisito
+77163,practica profesional,77127,construccion y estructura del edificio,prerrequisito
+77163,practica profesional,77128,expresion digital avanzada 3d,prerrequisito
+77163,practica profesional,77128,"representacion digital, modelado y diagramacion",prerrequisito
+77163,practica profesional,77129,humanidades,prerrequisito
+77163,practica profesional,77129,humanidades,prerrequisito
+77163,practica profesional,77130,electiva libre i,prerrequisito
+77163,practica profesional,77130,electiva libre i,prerrequisito
+77163,practica profesional,77131,instrumentos de planificacion,prerrequisito
+77163,practica profesional,77132,historia de la arquitectura y  la ciudad moderna,prerrequisito
+77163,practica profesional,77132,historia  de la arquitectura y la ciudad moderna,prerrequisito
+77163,practica profesional,77133,presupuesto y programacion de obra,prerrequisito
+77163,practica profesional,77133,presupuesto y  programacion de obra,prerrequisito
+77163,practica profesional,77134,estructuras especiales,prerrequisito
+77163,practica profesional,77134,construccion y estructuras de alta complejidad,prerrequisito
+77163,practica profesional,77135,problemas del contexto,prerrequisito
+77163,practica profesional,77135,problemas de contexto,prerrequisito
+77163,practica profesional,77136,taller de diseno equipamientos,prerrequisito
+77163,practica profesional,77136,taller sistemas espaciales,prerrequisito
+77163,practica profesional,77137,taller de diseno espacio publico y medio ambiente,prerrequisito
+77163,practica profesional,77137,taller espacio y territorio,prerrequisito
+77163,practica profesional,77138,metodologia y practica de la investigacion,prerrequisito
+77163,practica profesional,77138,metodologia y practica de la investigacion,prerrequisito
+77163,practica profesional,77139,teorias de la planificacion y el desarrollo urbano,prerrequisito
+77163,practica profesional,77140,coordinacion tecnica de proyectos,prerrequisito
+77163,practica profesional,77140,coordinacion tecnica de proyectos,prerrequisito
+77163,practica profesional,77141,construccion e instalaciones de la ciudad,prerrequisito
+77163,practica profesional,77142,perspectivas y sombras,prerrequisito
+77163,practica profesional,77142,perspectivas y sombras,prerrequisito
+77163,practica profesional,77143,representacion digital 2d,prerrequisito
+77163,practica profesional,77143,expresion digital i - autocad,prerrequisito
+77163,practica profesional,77144,electiva  libre ii,prerrequisito
+77163,practica profesional,77144,electiva libre ii,prerrequisito
+77163,practica profesional,77145,taller de proyectos urbanisticos y territoriales,prerrequisito
+77163,practica profesional,77145,taller de diseno intervencion urbana integral,prerrequisito
+77163,practica profesional,77146,historia de la arquitectura y la ciudad latinoamericana,prerrequisito
+77163,practica profesional,77146,historia de la arquitectura y la ciudad  hispanoamericana,prerrequisito
+77163,practica profesional,77147,electiva complementaria i,prerrequisito
+77163,practica profesional,77147,electiva complementaria i,prerrequisito
+77163,practica profesional,77148,electiva de profundizacion  i,prerrequisito
+77163,practica profesional,77148,electiva de profundizacion i,prerrequisito
+77163,practica profesional,77149,seminario de investigacion,prerrequisito
+77163,practica profesional,77149,seminario de investigacion,prerrequisito
+77163,practica profesional,77150,taller de diseno intervencion en centros historicos,prerrequisito
+77163,practica profesional,77150,taller de proyectos patrimoniales,prerrequisito
+77163,practica profesional,77151,historia de la arquitectura y la ciudad en colombia,prerrequisito
+77163,practica profesional,77152,administracion de proyectos de construccion,prerrequisito
+77163,practica profesional,77152,administracion de proyectos de construccion,prerrequisito
+77163,practica profesional,77153,etica general,prerrequisito
+77163,practica profesional,77153,etica general,prerrequisito
+77163,practica profesional,77154,electiva complementaria ii,prerrequisito
+77163,practica profesional,77154,electiva complementaria ii,prerrequisito
+77163,practica profesional,77155,electiva de profundizacion  ii,prerrequisito
+77163,practica profesional,77155,electiva de profundizacion ii,prerrequisito
+77163,practica profesional,77156,taller de proyectos de tecnologia experimental,prerrequisito
+77163,practica profesional,77156,taller de diseno vivienda social,prerrequisito
+77163,practica profesional,77157,etica profesional,prerrequisito
+77163,practica profesional,77157,etica profesional,prerrequisito
+77163,practica profesional,77158,legislacion de la arquitectura y el urbanismo  en colombia,prerrequisito
+77163,practica profesional,77158,legislacion de la arquitectura y el urbanismo en colombia,prerrequisito
+77163,practica profesional,77159,actualizacion en procesos tecnologicos,prerrequisito
+77163,practica profesional,77160,portafolio digital,prerrequisito
+77163,practica profesional,77160,portafolio digital,prerrequisito
+77163,practica profesional,77161,electiva de profundizacion  iii,prerrequisito
+77163,practica profesional,77161,electiva de profundizacion iii,prerrequisito
+77163,practica profesional,77164,tecnicas de expresion,prerrequisito
+77163,practica profesional,77165,constitucion y formacion ciudadana,prerrequisito
+77163,practica profesional,77165,constitucion y formacion ciudadana,prerrequisito
+77163,practica profesional,77167,estadistica descriptiva,prerrequisito
+77163,practica profesional,77168,antropologia y sociologia  del territorio,prerrequisito
+77163,practica profesional,77169,enfoques y estrategias de planificacion,prerrequisito
+77163,practica profesional,77170,redes e instalaciones,prerrequisito
+77163,practica profesional,77171,sistemas urbanos y territoriales,prerrequisito
+77163,practica profesional,77172,tecnicas de intervencion patrimonial,prerrequisito
+77163,practica profesional,77173,nuevas tecnologias,prerrequisito
+77163,practica profesional,77174,sostenibilidad y medio ambiente,prerrequisito
+77163,practica profesional,77175,gestion empresarial,prerrequisito
+77164,tecnicas de expresion,77112,expresion grafica basica,prerrequisito
+77166,taller de diseno proyectos de ciudad,77145,taller de diseno intervencion urbana integral,prerrequisito
+77166,taller de diseno proyectos de ciudad,77150,taller de diseno intervencion en centros historicos,prerrequisito
+77166,taller de diseno proyectos de ciudad,77156,taller de diseno vivienda social,prerrequisito
+77167,estadistica descriptiva,77101,matematica basica,prerrequisito
+77201,diseno tipografico,77214,diseno basico tridimensional,prerrequisito
+77201,taller de composicion tipografica,77214,taller de diseno ii,prerrequisito
+77208,semiotica y comunicacion visual,77216,fundamentos de la comunicacion visual,prerrequisito
+77209,historia del arte ii,77265,historia del arte i,prerrequisito
+77211,historia del arte antiguedad,77265,historia del arte: prehistoria,prerrequisito
+77214,diseno basico tridimensional,77210,diseno basico bidimensional,prerrequisito
+77214,taller de diseno ii,77210,taller de diseno i,prerrequisito
+77218,historia del arte ii renacimiento,77211,historia del arte i antigua,prerrequisito
+77221,ingles ii,77217,ingles i,prerrequisito
+77221,ingles ii,77217,ingles i,prerrequisito
+77225,taller de diseno de identidad visual,77201,taller de composicion tipografica,prerrequisito
+77225,diseno de imagen corporativa,77201,diseno tipografico,prerrequisito
+77228,grafica digital: retoque,77267,dibujo vectorial,prerrequisito
+77232,nuevas teorias del diseno,77241,seminario de investigacion,prerrequisito
+77239,metodologia y practica de la investigacion,77202,logica,prerrequisito
+77241,seminario de investigacion,77239,metodologia y practica de la investigacion,prerrequisito
+77241,seminario de investigacion,77239,metodologia y practica de la investigacion,prerrequisito
+77245,fotografia de estudio,77237,fotografia digital y analoga,prerrequisito
+77245,fotografia ii,77237,fotografia i,prerrequisito
+77246,ilustracion ii,77229,ilustracion i,prerrequisito
+77261,etica profesional,77252,etica general,prerrequisito
+77261,etica profesional,77252,etica general,prerrequisito
+77262,diseno de portafolios,77254,diseno de empaques,prerrequisito
+77264,practica profesional,77201,taller de composicion tipografica,prerrequisito
+77264,practica profesional,77201,diseno tipografico,prerrequisito
+77264,practica profesional,77202,logica,prerrequisito
+77264,practica profesional,77202,logica,prerrequisito
+77264,practica profesional,77203,introduccion al diseno,prerrequisito
+77264,practica profesional,77203,introduccion al programa,prerrequisito
+77264,practica profesional,77204,humanidades,prerrequisito
+77264,practica profesional,77204,humanidades,prerrequisito
+77264,practica profesional,77205,expresion oral y escrita,prerrequisito
+77264,practica profesional,77205,expresion oral y escrita,prerrequisito
+77264,practica profesional,77206,deporte formativo,prerrequisito
+77264,practica profesional,77206,deporte formativo,prerrequisito
+77264,practica profesional,77207,formacion integral i,prerrequisito
+77264,practica profesional,77207,formacion integral i,prerrequisito
+77264,practica profesional,77208,semiotica y comunicacion visual,prerrequisito
+77264,practica profesional,77208,semiotica y comunicacion visual,prerrequisito
+77264,practica profesional,77209,historia del arte:  moderno,prerrequisito
+77264,practica profesional,77209,historia del arte ii,prerrequisito
+77264,practica profesional,77210,diseno basico bidimensional,prerrequisito
+77264,practica profesional,77210,taller de diseno i,prerrequisito
+77264,practica profesional,77211,historia del arte antiguedad,prerrequisito
+77264,practica profesional,77212,dibujo tecnico y descriptivo,prerrequisito
+77264,practica profesional,77212,dibujo tecnico,prerrequisito
+77264,practica profesional,77213,dibujo i,prerrequisito
+77264,practica profesional,77213,dibujo artistico: basico,prerrequisito
+77264,practica profesional,77214,taller de diseno ii,prerrequisito
+77264,practica profesional,77214,diseno basico tridimensional,prerrequisito
+77264,practica profesional,77215,informatica basica,prerrequisito
+77264,practica profesional,77216,fundamentos de la comunicacion visual,prerrequisito
+77264,practica profesional,77217,ingles i,prerrequisito
+77264,practica profesional,77217,ingles i,prerrequisito
+77264,practica profesional,77218,historia del arte: renacimiento,prerrequisito
+77264,practica profesional,77219,expresion: color,prerrequisito
+77264,practica profesional,77219,expresion color,prerrequisito
+77264,practica profesional,77220,formacion integral ii,prerrequisito
+77264,practica profesional,77220,formacion integral ii,prerrequisito
+77264,practica profesional,77221,ingles ii,prerrequisito
+77264,practica profesional,77221,ingles ii,prerrequisito
+77264,practica profesional,77222,electiva complementaria interdisciplinaria,prerrequisito
+77264,practica profesional,77222,electiva complementaria i,prerrequisito
+77264,practica profesional,77223,dibujo anatomico,prerrequisito
+77264,practica profesional,77224,electiva libre i,prerrequisito
+77264,practica profesional,77224,electiva libre,prerrequisito
+77264,practica profesional,77225,diseno de imagen corporativa,prerrequisito
+77264,practica profesional,77225,taller de diseno de identidad visual,prerrequisito
+77264,practica profesional,77226,territorio y cultura,prerrequisito
+77264,practica profesional,77226,cultura y comunicacion visual,prerrequisito
+77264,practica profesional,77228,grafica digital: retoque,prerrequisito
+77264,practica profesional,77229,ilustracion i,prerrequisito
+77264,practica profesional,77229,expresion: tecnicas,prerrequisito
+77264,practica profesional,77230,electiva libre ii,prerrequisito
+77264,practica profesional,77231,electiva complementaria ii,prerrequisito
+77264,practica profesional,77232,nuevas teorias del diseno,prerrequisito
+77264,practica profesional,77233,taller de diseno editorial,prerrequisito
+77264,practica profesional,77233,diseno editorial,prerrequisito
+77264,practica profesional,77234,problemas del contexto,prerrequisito
+77264,practica profesional,77235,historia del arte: latinoamericano,prerrequisito
+77264,practica profesional,77236,grafica digital diagramacion,prerrequisito
+77264,practica profesional,77236,grafica digital: diagramacion,prerrequisito
+77264,practica profesional,77237,fotografia digital y analoga,prerrequisito
+77264,practica profesional,77237,fotografia i,prerrequisito
+77264,practica profesional,77238,senalizacion,prerrequisito
+77264,practica profesional,77238,taller de diseno sistemas de orientacion,prerrequisito
+77264,practica profesional,77239,metodologia y practica de la investigacion,prerrequisito
+77264,practica profesional,77239,metodologia y practica de la investigacion,prerrequisito
+77264,practica profesional,77240,diseno de piezas publicitarias,prerrequisito
+77264,practica profesional,77240,publicidad y medios,prerrequisito
+77264,practica profesional,77241,seminario de investigacion,prerrequisito
+77264,practica profesional,77241,seminario de investigacion,prerrequisito
+77264,practica profesional,77242,historia del diseno grafico en colombia,prerrequisito
+77264,practica profesional,77242,historia del diseno,prerrequisito
+77264,practica profesional,77243,administracion,prerrequisito
+77264,practica profesional,77243,administracion y mercadeo,prerrequisito
+77264,practica profesional,77244,grafica digital tridimensional,prerrequisito
+77264,practica profesional,77244,grafica digital tridimensional,prerrequisito
+77264,practica profesional,77245,fotografia de estudio,prerrequisito
+77264,practica profesional,77245,fotografia ii,prerrequisito
+77264,practica profesional,77246,ilustracion ii,prerrequisito
+77264,practica profesional,77246,ilustracion,prerrequisito
+77264,practica profesional,77247,electiva de profundizacion i,prerrequisito
+77264,practica profesional,77247,electiva de profundizacion i,prerrequisito
+77264,practica profesional,77248,legislacion de comunicaciones,prerrequisito
+77264,practica profesional,77248,propiedad intelectual,prerrequisito
+77264,practica profesional,77249,grafica digital web,prerrequisito
+77264,practica profesional,77249,grafica digital:  diseno web,prerrequisito
+77264,practica profesional,77250,industria grafica,prerrequisito
+77264,practica profesional,77250,sistemas de impresion en artes graficas,prerrequisito
+77264,practica profesional,77251,medios audiovisuales,prerrequisito
+77264,practica profesional,77252,etica general,prerrequisito
+77264,practica profesional,77252,etica general,prerrequisito
+77264,practica profesional,77253,electiva de profundizacion ii,prerrequisito
+77264,practica profesional,77253,electiva de profundizacion ii,prerrequisito
+77264,practica profesional,77254,taller de diseno grafica para exhibiciones,prerrequisito
+77264,practica profesional,77254,diseno de empaques,prerrequisito
+77264,practica profesional,77255,grafica digital multimedia,prerrequisito
+77264,practica profesional,77255,grafica digital:  diseno de multimedia,prerrequisito
+77264,practica profesional,77256,eventos y campanas publicitarias,prerrequisito
+77264,practica profesional,77256,eventos y campanas publicitarias,prerrequisito
+77264,practica profesional,77257,constitucion y formacion ciudadana,prerrequisito
+77264,practica profesional,77257,constitucion y formacion ciudadana,prerrequisito
+77264,practica profesional,77258,preprensa y control de calidad,prerrequisito
+77264,practica profesional,77258,preprensa y control de calidad,prerrequisito
+77264,practica profesional,77259,grabacion audio,prerrequisito
+77264,practica profesional,77260,electiva de profundizacion iii,prerrequisito
+77264,practica profesional,77261,etica profesional,prerrequisito
+77264,practica profesional,77261,etica profesional,prerrequisito
+77264,practica profesional,77262,portafolio profesional,prerrequisito
+77264,practica profesional,77265,historia del arte i,prerrequisito
+77264,practica profesional,77265,historia del arte: prehistoria,prerrequisito
+77264,practica profesional,77266,dibujo ii,prerrequisito
+77264,practica profesional,77266,dibujo artistico: perspectiva y sombras,prerrequisito
+77264,practica profesional,77267,grafica vectorial y retoque,prerrequisito
+77264,practica profesional,77267,dibujo vectorial,prerrequisito
+77264,practica profesional,77268,industrias creativas y culturales,prerrequisito
+77264,practica profesional,77269,grafica digital audiovisual,prerrequisito
+77264,practica profesional,77270,ingles iii,prerrequisito
+77264,practica profesional,77271,diseno e innovacion,prerrequisito
+77264,practica profesional,77273,video basico,prerrequisito
+77266,dibujo artistico: perspectiva y sombras,77213,dibujo artistico: basico,prerrequisito
+77266,dibujo ii,77213,dibujo i,prerrequisito
+77270,ingles iii,77221,ingles ii,prerrequisito
+77272,taller gestion del diseno,77254,taller de diseno grafica para exhibiciones,prerrequisito
+77323,patronaje y confeccion vestuario masculino,77304,tecnica de confeccion basica,prerrequisito
+77327,taller de diseno moda industrial,77301,taller de diseno basico,prerrequisito
+77329,ingles ii,77321,ingles i,prerrequisito
+77331,patronaje y confeccion moda industrial,77304,tecnica de confeccion basica,prerrequisito
+77332,expresion de moda para la industria,77302,expresion e ilustracion,prerrequisito
+77335,taller de diseno vestido de bano y ropa interior,77301,taller de diseno basico,prerrequisito
+77339,patronaje y confeccion vestidos de bano y ropa interior,77304,tecnica de confeccion basica,prerrequisito
+77340,expresion vestidos de bano y ropa interior,77302,expresion e ilustracion,prerrequisito
+77341,creacion de empresa,77317,gestion empresarial,prerrequisito
+77343,taller de diseno alta moda,77301,taller de diseno basico,prerrequisito
+77347,patronaje y confeccion vestido alta moda,77304,tecnica de confeccion basica,prerrequisito
+77347,patronaje y confeccion vestido alta moda,77315,patronaje y confeccion vestuario femenino,prerrequisito
+77348,expresion vestido de alta moda,77302,expresion e ilustracion,prerrequisito
+77349,comercio exterior,77317,gestion empresarial,prerrequisito
+77352,taller de diseno portafolio,77343,taller de diseno alta moda,prerrequisito
+77353,seminario de investigacion,77319,metodologia y practica de la investigacion,prerrequisito
+77354,etica profesional,77336,etica general,prerrequisito
+77355,patronaje asistido por computador,77304,tecnica de confeccion basica,prerrequisito
+77355,patronaje asistido por computador,77315,patronaje y confeccion vestuario femenino,prerrequisito
+77356,expresion asistida por computador,77302,expresion e ilustracion,prerrequisito
+77356,expresion asistida por computador,77316,expresion figurin femenino,prerrequisito
+77359,alternativa de grado,77353,seminario de investigacion,prerrequisito
+77360,practica profesional,77301,taller de diseno basico,prerrequisito
+77360,practica profesional,77302,expresion e ilustracion,prerrequisito
+77360,practica profesional,77303,historia y apreciacion del arte,prerrequisito
+77360,practica profesional,77304,tecnica de confeccion basica,prerrequisito
+77360,practica profesional,77305,introduccion al programa,prerrequisito
+77360,practica profesional,77306,formacion integral i,prerrequisito
+77360,practica profesional,77307,deporte formativo,prerrequisito
+77360,practica profesional,77308,logica,prerrequisito
+77360,practica profesional,77309,taller de diseno vestuario femenino,prerrequisito
+77360,practica profesional,77310,informatica basica,prerrequisito
+77360,practica profesional,77311,historia del diseno y la moda siglo i - xv,prerrequisito
+77360,practica profesional,77312,formacion integral ii,prerrequisito
+77360,practica profesional,77313,expresion oral y escrita,prerrequisito
+77360,practica profesional,77314,fibras textiles,prerrequisito
+77360,practica profesional,77315,patronaje y confeccion vestuario femenino,prerrequisito
+77360,practica profesional,77316,expresion figurin femenino,prerrequisito
+77360,practica profesional,77317,gestion empresarial,prerrequisito
+77360,practica profesional,77318,taller de diseno vestuario masculino,prerrequisito
+77360,practica profesional,77319,metodologia y practica de la investigacion,prerrequisito
+77360,practica profesional,77320,historia del diseno y la moda siglo xvi - xviii,prerrequisito
+77360,practica profesional,77321,ingles i,prerrequisito
+77360,practica profesional,77322,procesos textiles,prerrequisito
+77360,practica profesional,77323,patronaje y confeccion vestuario masculino,prerrequisito
+77360,practica profesional,77324,expresion figurin masculino,prerrequisito
+77360,practica profesional,77325,costos y presupuestos,prerrequisito
+77360,practica profesional,77326,electiva libre i,prerrequisito
+77360,practica profesional,77327,taller de diseno moda industrial,prerrequisito
+77360,practica profesional,77328,historia del diseno y la moda siglo xix - xxi,prerrequisito
+77360,practica profesional,77329,ingles ii,prerrequisito
+77360,practica profesional,77330,produccion,prerrequisito
+77360,practica profesional,77331,patronaje y confeccion moda industrial,prerrequisito
+77360,practica profesional,77332,expresion de moda para la industria,prerrequisito
+77360,practica profesional,77333,mercadeo,prerrequisito
+77360,practica profesional,77334,electiva complementaria i,prerrequisito
+77360,practica profesional,77335,taller de diseno vestido de bano y ropa interior,prerrequisito
+77360,practica profesional,77336,etica general,prerrequisito
+77360,practica profesional,77337,humanidades,prerrequisito
+77360,practica profesional,77338,metodos y tiempos,prerrequisito
+77360,practica profesional,77339,patronaje y confeccion vestidos de bano y ropa interior,prerrequisito
+77360,practica profesional,77340,expresion vestidos de bano y ropa interior,prerrequisito
+77360,practica profesional,77341,creacion de empresa,prerrequisito
+77360,practica profesional,77342,electiva de profundizacion i,prerrequisito
+77360,practica profesional,77343,taller de diseno alta moda,prerrequisito
+77360,practica profesional,77344,problemas de contexto,prerrequisito
+77360,practica profesional,77345,constitucion y formacion ciudadana,prerrequisito
+77360,practica profesional,77346,control de calidad,prerrequisito
+77360,practica profesional,77347,patronaje y confeccion vestido alta moda,prerrequisito
+77360,practica profesional,77348,expresion vestido de alta moda,prerrequisito
+77360,practica profesional,77349,comercio exterior,prerrequisito
+77360,practica profesional,77350,electiva libre ii,prerrequisito
+77360,practica profesional,77351,electiva de profundizacion ii,prerrequisito
+77360,practica profesional,77352,taller de diseno portafolio,prerrequisito
+77360,practica profesional,77353,seminario de investigacion,prerrequisito
+77360,practica profesional,77354,etica profesional,prerrequisito
+77360,practica profesional,77355,patronaje asistido por computador,prerrequisito
+77360,practica profesional,77356,expresion asistida por computador,prerrequisito
+77360,practica profesional,77357,electiva complementaria ii,prerrequisito
+77360,practica profesional,77358,electiva de profundizacion iii,prerrequisito
+77404,taller de diseno unidades habitacionales,77414,taller de diseno composicion forma y funcion,prerrequisito
+77404,taller composicion espacial,77414,"taller forma, funcion y significado",prerrequisito
+77409,construccion y estructuras de baja complejidad,77411,principios de construccion,prerrequisito
+77409,construccion y estructura de la casa,77411,principios de construccion,prerrequisito
+77413,geometria descriptiva basica,77412,expresion grafica basica,prerrequisito
+77414,taller de diseno composicion forma y funcion,77410,taller de diseno basico,prerrequisito
+77414,"taller forma, funcion y significado",77410,taller diseno basico,prerrequisito
+77416,expresion grafica avanzada,77412,expresion grafica basica,prerrequisito
+77416,planimetria arquitectonica,77412,percepcion y representacion grafica,prerrequisito
+77418,expresion digital ii - archicad,77412,expresion grafica basica,prerrequisito
+77418,expresion digital ii - archicad,77415,informatica basica,prerrequisito
+77419,mecanica,77401,matematica basica,prerrequisito
+77420,formacion integral ii,77407,formacion integral i,prerrequisito
+77420,formacion integral ii,77407,formacion integral i,prerrequisito
+77422,ingles ii,77417,ingles i,prerrequisito
+77422,ingles ii,77417,ingles i,prerrequisito
+77423,geometria descriptiva avanzada,77413,geometria descriptiva basica,prerrequisito
+77423,geometria descriptiva avanzada,77413,geometria descriptiva basica,prerrequisito
+77424,taller de diseno: centros habitacionales,77404,taller de diseno unidades habitacionales,prerrequisito
+77424,"taller espacio, escala y complejidad",77404,taller composicion espacial,prerrequisito
+77427,construccion y estructura del edificio,77409,construccion y estructura de la casa,prerrequisito
+77427,construccion y estructuras de mediana complejidad,77409,construccion y estructuras de baja complejidad,prerrequisito
+77428,expresion digital avanzada 3d,77418,expresion digital ii - archicad,prerrequisito
+77428,"representacion digital, modelado y diagramacion",77418,representacion digital 3d,prerrequisito
+77428,expresion digital avanzada 3d,77443,expresion digital i - autocad,prerrequisito
+77433,presupuesto y programacion de obra,77427,construccion y estructura del edificio,prerrequisito
+77433,presupuesto y  programacion de obra,77427,construccion y estructuras de mediana complejidad,prerrequisito
+77434,estructuras especiales,77419,mecanica,prerrequisito
+77434,estructuras especiales,77427,construccion y estructura del edificio,prerrequisito
+77434,construccion y estructuras de alta complejidad,77427,construccion y estructuras de mediana complejidad,prerrequisito
+77436,taller sistemas espaciales,77404,taller composicion espacial,prerrequisito
+77437,taller espacio y territorio,77404,taller composicion espacial,prerrequisito
+77438,metodologia y practica de la investigacion,77467,estadistica descriptiva,prerrequisito
+77440,coordinacion tecnica de proyectos,77427,construccion y estructuras de mediana complejidad,prerrequisito
+77442,perspectivas y sombras,77416,planimetria arquitectonica,prerrequisito
+77443,expresion digital i - autocad,77412,expresion grafica basica,prerrequisito
+77443,expresion digital i - autocad,77415,informatica basica,prerrequisito
+77449,seminario de investigacion,77438,metodologia y practica de la investigacion,prerrequisito
+77456,taller de diseno vivienda social,77424,taller de diseno: centros habitacionales,prerrequisito
+77456,taller de diseno vivienda social,77436,taller de diseno equipamientos,prerrequisito
+77456,taller de diseno vivienda social,77437,taller de diseno espacio publico y medio ambiente,prerrequisito
+77457,etica profesional,77453,etica general,prerrequisito
+77462,alternativa de  grado,77449,seminario de investigacion,prerrequisito
+77463,practica profesional,77401,matematica basica,prerrequisito
+77463,practica profesional,77401,matematica basica,prerrequisito
+77463,practica profesional,77402,logica,prerrequisito
+77463,practica profesional,77402,logica,prerrequisito
+77463,practica profesional,77403,introduccion al programa,prerrequisito
+77463,practica profesional,77403,introduccion a la arquitectura,prerrequisito
+77463,practica profesional,77404,taller composicion espacial,prerrequisito
+77463,practica profesional,77404,taller de diseno unidades habitacionales,prerrequisito
+77463,practica profesional,77405,ergonomia de la arquitectura y la ciudad,prerrequisito
+77463,practica profesional,77405,ergonomia de la arquitectura y la ciudad,prerrequisito
+77463,practica profesional,77406,deporte formativo,prerrequisito
+77463,practica profesional,77406,deporte formativo,prerrequisito
+77463,practica profesional,77407,formacion integral i,prerrequisito
+77463,practica profesional,77407,formacion integral i,prerrequisito
+77463,practica profesional,77408,historia de la arquitectura y la ciudad antigua y clasica,prerrequisito
+77463,practica profesional,77408,historia de la arquitectura y ciudad antigua y media,prerrequisito
+77463,practica profesional,77409,construccion y estructuras de baja complejidad,prerrequisito
+77463,practica profesional,77409,construccion y estructura de la casa,prerrequisito
+77463,practica profesional,77410,taller de diseno basico,prerrequisito
+77463,practica profesional,77410,taller diseno basico,prerrequisito
+77463,practica profesional,77411,principios de construccion,prerrequisito
+77463,practica profesional,77411,principios de construccion,prerrequisito
+77463,practica profesional,77412,expresion grafica basica,prerrequisito
+77463,practica profesional,77412,percepcion y representacion grafica,prerrequisito
+77463,practica profesional,77413,geometria descriptiva basica,prerrequisito
+77463,practica profesional,77413,geometria descriptiva basica,prerrequisito
+77463,practica profesional,77414,taller de diseno composicion forma y funcion,prerrequisito
+77463,practica profesional,77414,"taller forma, funcion y significado",prerrequisito
+77463,practica profesional,77415,informatica basica,prerrequisito
+77463,practica profesional,77415,informatica basica,prerrequisito
+77463,practica profesional,77416,expresion grafica avanzada,prerrequisito
+77463,practica profesional,77416,planimetria arquitectonica,prerrequisito
+77463,practica profesional,77417,ingles i,prerrequisito
+77463,practica profesional,77417,ingles i,prerrequisito
+77463,practica profesional,77418,expresion digital ii - archicad,prerrequisito
+77463,practica profesional,77418,representacion digital 3d,prerrequisito
+77463,practica profesional,77419,mecanica,prerrequisito
+77463,practica profesional,77420,formacion integral ii,prerrequisito
+77463,practica profesional,77420,formacion integral ii,prerrequisito
+77463,practica profesional,77421,expresion oral y escrita,prerrequisito
+77463,practica profesional,77421,expresion oral y escrita,prerrequisito
+77463,practica profesional,77422,ingles ii,prerrequisito
+77463,practica profesional,77422,ingles ii,prerrequisito
+77463,practica profesional,77423,geometria descriptiva avanzada,prerrequisito
+77463,practica profesional,77423,geometria descriptiva avanzada,prerrequisito
+77463,practica profesional,77424,taller de diseno: centros habitacionales,prerrequisito
+77463,practica profesional,77424,"taller espacio, escala y complejidad",prerrequisito
+77463,practica profesional,77425,teoria de lo urbano,prerrequisito
+77463,practica profesional,77426,historia de la arquitectura y  la ciudad del renacimiento al neoclasico,prerrequisito
+77463,practica profesional,77426,historia de la arquitectura y la ciudad  medieval,prerrequisito
+77463,practica profesional,77427,construccion y estructura del edificio,prerrequisito
+77463,practica profesional,77427,construccion y estructuras de mediana complejidad,prerrequisito
+77463,practica profesional,77428,expresion digital avanzada 3d,prerrequisito
+77463,practica profesional,77428,"representacion digital, modelado y diagramacion",prerrequisito
+77463,practica profesional,77429,humanidades,prerrequisito
+77463,practica profesional,77429,humanidades,prerrequisito
+77463,practica profesional,77430,electiva libre i,prerrequisito
+77463,practica profesional,77430,electiva libre i,prerrequisito
+77463,practica profesional,77431,instrumentos de planificacion,prerrequisito
+77463,practica profesional,77432,historia de la arquitectura y  la ciudad moderna,prerrequisito
+77463,practica profesional,77432,historia  de la arquitectura y la ciudad moderna,prerrequisito
+77463,practica profesional,77433,presupuesto y programacion de obra,prerrequisito
+77463,practica profesional,77433,presupuesto y  programacion de obra,prerrequisito
+77463,practica profesional,77434,construccion y estructuras de alta complejidad,prerrequisito
+77463,practica profesional,77434,estructuras especiales,prerrequisito
+77463,practica profesional,77435,problemas del contexto,prerrequisito
+77463,practica profesional,77435,problemas de contexto,prerrequisito
+77463,practica profesional,77436,taller sistemas espaciales,prerrequisito
+77463,practica profesional,77436,taller de diseno equipamientos,prerrequisito
+77463,practica profesional,77437,taller espacio y territorio,prerrequisito
+77463,practica profesional,77437,taller de diseno espacio publico y medio ambiente,prerrequisito
+77463,practica profesional,77438,metodologia y practica de la investigacion,prerrequisito
+77463,practica profesional,77438,metodologia y practica de la investigacion,prerrequisito
+77463,practica profesional,77439,teorias de la planificacion y el desarrollo urbano,prerrequisito
+77463,practica profesional,77440,coordinacion tecnica de proyectos,prerrequisito
+77463,practica profesional,77440,coordinacion tecnica de proyectos,prerrequisito
+77463,practica profesional,77441,construccion e instalaciones de la ciudad,prerrequisito
+77463,practica profesional,77442,perspectivas y sombras,prerrequisito
+77463,practica profesional,77442,perspectivas y sombras,prerrequisito
+77463,practica profesional,77443,representacion digital 2d,prerrequisito
+77463,practica profesional,77443,expresion digital i - autocad,prerrequisito
+77463,practica profesional,77444,electiva libre ii,prerrequisito
+77463,practica profesional,77444,electiva libre ii,prerrequisito
+77463,practica profesional,77445,taller de proyectos urbanisticos y territoriales,prerrequisito
+77463,practica profesional,77445,taller de diseno intervencion urbana integral,prerrequisito
+77463,practica profesional,77446,historia de la arquitectura y la ciudad  hispanoamericana,prerrequisito
+77463,practica profesional,77446,historia de la arquitectura y la ciudad latinoamericana,prerrequisito
+77463,practica profesional,77447,electiva complementaria i,prerrequisito
+77463,practica profesional,77447,electiva complementaria i,prerrequisito
+77463,practica profesional,77448,electiva de profundizacion i,prerrequisito
+77463,practica profesional,77448,electiva de profundizacion  i,prerrequisito
+77463,practica profesional,77449,seminario de investigacion,prerrequisito
+77463,practica profesional,77449,seminario de investigacion,prerrequisito
+77463,practica profesional,77450,taller de diseno intervencion en centros historicos,prerrequisito
+77463,practica profesional,77450,taller de proyectos patrimoniales,prerrequisito
+77463,practica profesional,77451,historia de la arquitectura y la ciudad en colombia,prerrequisito
+77463,practica profesional,77452,administracion de proyectos de construccion,prerrequisito
+77463,practica profesional,77452,administracion de proyectos de construccion,prerrequisito
+77463,practica profesional,77453,etica general,prerrequisito
+77463,practica profesional,77453,etica general,prerrequisito
+77463,practica profesional,77454,electiva complementaria ii,prerrequisito
+77463,practica profesional,77454,electiva complementaria ii,prerrequisito
+77463,practica profesional,77455,electiva de profundizacion ii,prerrequisito
+77463,practica profesional,77455,electiva de profundizacion  ii,prerrequisito
+77463,practica profesional,77456,taller de proyectos de tecnologia experimental,prerrequisito
+77463,practica profesional,77456,taller de diseno vivienda social,prerrequisito
+77463,practica profesional,77457,etica profesional,prerrequisito
+77463,practica profesional,77457,etica profesional,prerrequisito
+77463,practica profesional,77458,legislacion de la arquitectura y el urbanismo  en colombia,prerrequisito
+77463,practica profesional,77458,legislacion de la arquitectura y el urbanismo en colombia,prerrequisito
+77463,practica profesional,77459,actualizacion en procesos tecnologicos,prerrequisito
+77463,practica profesional,77460,portafolio digital,prerrequisito
+77463,practica profesional,77460,portafolio digital,prerrequisito
+77463,practica profesional,77461,electiva de profundizacion iii,prerrequisito
+77463,practica profesional,77461,electiva de profundizacion  iii,prerrequisito
+77463,practica profesional,77464,tecnicas de expresion,prerrequisito
+77463,practica profesional,77465,constitucion y formacion ciudadana,prerrequisito
+77463,practica profesional,77465,constitucion y formacion ciudadana,prerrequisito
+77463,practica profesional,77467,estadistica descriptiva,prerrequisito
+77463,practica profesional,77468,antropologia y sociologia  del territorio,prerrequisito
+77463,practica profesional,77469,enfoques y estrategias de planificacion,prerrequisito
+77463,practica profesional,77470,redes e instalaciones,prerrequisito
+77463,practica profesional,77471,sistemas urbanos y territoriales,prerrequisito
+77463,practica profesional,77472,tecnicas de intervencion patrimonial,prerrequisito
+77463,practica profesional,77473,nuevas tecnologias,prerrequisito
+77463,practica profesional,77474,sostenibilidad y medio ambiente,prerrequisito
+77463,practica profesional,77475,gestion empresarial,prerrequisito
+77464,tecnicas de expresion,77412,expresion grafica basica,prerrequisito
+77464,tecnicas de expresion,77415,informatica basica,prerrequisito
+77466,taller de diseno proyectos de ciudad,77445,taller de diseno intervencion urbana integral,prerrequisito
+77466,taller de diseno proyectos de ciudad,77456,taller de diseno vivienda social,prerrequisito
+77467,estadistica descriptiva,77401,matematica basica,prerrequisito
+88119,neuropsicologia infantil y adolescente,88163,neurofisiologia,prerrequisito
+88121,diseno experimental y cuasiexperimental,88113,metodologia y practica de la investigacion,prerrequisito
+88122,ingles ii,88115,ingles i,prerrequisito
+88123,estadistica inferencial,88114,estadistica descriptiva,prerrequisito
+88128,"medicion, evaluacion y construccion de pruebas",88123,estadistica inferencial,prerrequisito
+88145,seminario de investigacion i,88113,metodologia y practica de la investigacion,prerrequisito
+88154,etica profesional,88141,etica general,prerrequisito
+88156,alternativa de grado,88153,proyecto de investigacion iii,prerrequisito
+88219,neuropsicologia infantil y adolescente,88263,neurofisiologia,prerrequisito
+88221,diseno experimental y cuasiexperimental,88213,metodologia y practica de la investigacion,prerrequisito
+88222,ingles ii,88215,ingles i,prerrequisito
+88222,ingles ii,88215,idioma extranjero i,prerrequisito
+88223,estadistica inferencial,88214,estadistica descriptiva,prerrequisito
+88228,"medicion, evaluacion y construccion de pruebas",88223,estadistica inferencial,prerrequisito
+88245,seminario de investigacion i,88234,metodos etnograficos y cualitativos,prerrequisito
+88254,etica profesional,88241,etica general,prerrequisito
+88256,alternativa de grado,88253,proyecto de investigacion iii,prerrequisito
+88368,practica profesional,88301,introduccion al programa,prerrequisito
+88368,practica profesional,88302,expresion oral y escrita,prerrequisito
+88368,practica profesional,88303,formacion integral i,prerrequisito
+88368,practica profesional,88304,deporte formativo,prerrequisito
+88368,practica profesional,88305,epistemologia de la educacion,prerrequisito
+88368,practica profesional,88306,informatica basica,prerrequisito
+88368,practica profesional,88307,ingles i,prerrequisito
+88368,practica profesional,88308,teoria de la educacion,prerrequisito
+88368,practica profesional,88309,matematica basica,prerrequisito
+88368,practica profesional,88310,humanidades,prerrequisito
+88368,practica profesional,88311,lenguaje y comunicacion,prerrequisito
+88368,practica profesional,88312,formacion integral ii,prerrequisito
+88368,practica profesional,88313,logica,prerrequisito
+88368,practica profesional,88314,ingles ii,prerrequisito
+88368,practica profesional,88315,la danza y el movimiento creativo,prerrequisito
+88368,practica profesional,88316,etica,prerrequisito
+88368,practica profesional,88317,didactica general,prerrequisito
+88368,practica profesional,88318,psicologia del desarrollo,prerrequisito
+88368,practica profesional,88319,practica formativa i,prerrequisito
+88368,practica profesional,88320,estadistica descriptiva,prerrequisito
+88368,practica profesional,88321,ingles iii,prerrequisito
+88368,practica profesional,88322,artes plasticas,prerrequisito
+88368,practica profesional,88323,problemas de contexto,prerrequisito
+88368,practica profesional,88324,constitucion y formacion ciudadana,prerrequisito
+88368,practica profesional,88325,psicologia del aprendizaje,prerrequisito
+88368,practica profesional,88326,didactica de la educacion infantil,prerrequisito
+88368,practica profesional,88327,neuropsicologia infantil,prerrequisito
+88368,practica profesional,88328,practica formativa ii,prerrequisito
+88368,practica profesional,88329,educacion musical,prerrequisito
+88368,practica profesional,88330,ingles iv,prerrequisito
+88368,practica profesional,88331,pedagogia general,prerrequisito
+88368,practica profesional,88332,didactica para el desarrollo de habilidades lecto-escritoras,prerrequisito
+88368,practica profesional,88333,evaluacion en educacion infantil,prerrequisito
+88368,practica profesional,88334,practica formativa iii,prerrequisito
+88368,practica profesional,88335,electiva de profundizacion i,prerrequisito
+88368,practica profesional,88336,ingles v,prerrequisito
+88368,practica profesional,88337,electiva complementaria i,prerrequisito
+88368,practica profesional,88338,modelos pedagogicos,prerrequisito
+88368,practica profesional,88339,didacticas para el desarrollo de habilidades logico-matematicas,prerrequisito
+88368,practica profesional,88340,necesidades educativas especiales,prerrequisito
+88368,practica profesional,88341,practica formativa iv,prerrequisito
+88368,practica profesional,88342,metodologia y practica de la investigacion,prerrequisito
+88368,practica profesional,88343,electiva de profundizacion ii,prerrequisito
+88368,practica profesional,88344,ingles vi,prerrequisito
+88368,practica profesional,88345,electiva libre i,prerrequisito
+88368,practica profesional,88346,foreing lenguage didactics,prerrequisito
+88368,practica profesional,88347,educacion inclusiva,prerrequisito
+88368,practica profesional,88348,practica formativa v,prerrequisito
+88368,practica profesional,88349,metodologia de investigacion en educacion,prerrequisito
+88368,practica profesional,88350,electiva de profuncizacion iii,prerrequisito
+88368,practica profesional,88351,ingles vii,prerrequisito
+88368,practica profesional,88352,electiva complementaria ii,prerrequisito
+88368,practica profesional,88353,pedagogias contemporaneas,prerrequisito
+88368,practica profesional,88354,practica formativa vi,prerrequisito
+88368,practica profesional,88355,seminario de investigacion i,prerrequisito
+88368,practica profesional,88356,complejidad y resolucion de problemas,prerrequisito
+88368,practica profesional,88357,innovacion del diseno y construccion curricular,prerrequisito
+88368,practica profesional,88358,"problematica actual, politicas y legislacion educativa",prerrequisito
+88368,practica profesional,88359,electiva libre ii,prerrequisito
+88368,practica profesional,88360,practica formativa vii,prerrequisito
+88368,practica profesional,88361,etica profesional,prerrequisito
+88368,practica profesional,88362,seminario de investigacion ii,prerrequisito
+88368,practica profesional,88363,fundamentos y modelos de innovacion educativa,prerrequisito
+88368,practica profesional,88364,pensamiento creativo e innovador,prerrequisito
+88368,practica profesional,88365,didacticas innovadoras,prerrequisito
+88368,practica profesional,88366,childre s literature,prerrequisito
+94312,investigacion ii,94306,investigacion i,prerrequisito
+94319,investigacion iii,94312,investigacion ii,prerrequisito
+94325,trabajo de grado,94319,investigacion iii,prerrequisito
