@@ -1,4 +1,48 @@
 
+/* Panel Lateral: */
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 16rem;
+    padding: 2rem 1rem;
+    background-color: #f8f9fa;
+}
+
+.content {
+    margin-left: 18rem;
+    margin-right: 2rem;
+    padding: 2rem 1rem;
+}
+
+.tabs {
+    color: white;
+    background-color: #b32424;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+    margin: 3%;
+}
+
+.tabs:hover {
+    color: white;
+    background-color: #e64a4a;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+    margin: 3%;
+}
+
+.tabs:active {
+    color: white;
+    background-color: #f37f7f;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+    margin: 3%;
+}
+
+/* Pagina demo (la primera que se hizo :D): */
+
 body {
     font-family: "Lato", sans-serif;
     margin: 0;
