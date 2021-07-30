@@ -5,7 +5,7 @@ from dash.dependencies import Input, Output
 
 from app import app
 from pages import demo
-
+from pages import datos
 
 sidebar = html.Div(
     [
@@ -47,9 +47,9 @@ def render_page_content(pathname):
     if pathname == "/":
         return demo.create_layout()
     elif pathname == "/page-1":
-        return html.P("Aca va la segunda pagina")
+        return html.P("Aca va la segunda pagina") 
     elif pathname == "/page-2":
-        return html.P("Aca va la terecera pagina")
+        return datos.create_layout2() 
     elif pathname == "/page-3":
         return html.P("Aca va la cuarta pagina")
     # If the user tries to reach a different page, return a 404 message
