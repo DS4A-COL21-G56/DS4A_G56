@@ -5,11 +5,11 @@ from dash.dependencies import Output, Input
 from app import app
 
 df = pd.read_csv('data/cleaned/mat_cursadas_rend_academico_v2.csv')
-data2 = df.groupby('TOT_MAT_INSCRITAS')[['MAT_APROBADAS']].sum().reset_index()
-# data2 = df
+data = df.groupby('TOT_MAT_INSCRITAS')[['MAT_APROBADAS']].sum().reset_index()
+# data = df
 
 
-def create_layout2():
+def create_layout():
 
     return html.Div(
         children=[
@@ -31,8 +31,8 @@ def create_layout2():
                 figure={
                     "data": [
                         {
-                            "x": data2["TOT_MAT_INSCRITAS"],
-                            "y": data2["MAT_APROBADAS"],
+                            "x": data["TOT_MAT_INSCRITAS"],
+                            "y": data["MAT_APROBADAS"],
                             "type": "lines",
                         },
                     ],

@@ -4,8 +4,7 @@ import dash_html_components as html
 from dash.dependencies import Input, Output
 
 from app import app
-from pages import demo
-from pages import datos
+from pages import demo, visualizacion, datos
 
 sidebar = html.Div(
     [
@@ -18,9 +17,10 @@ sidebar = html.Div(
         dbc.Nav(
             [
                 dbc.NavLink("General", href="/", active="exact", className="tabs"),
-                dbc.NavLink("Prediccion", href="/page-1", active="exact", className="tabs"),
+                dbc.NavLink("Predicción", href="/page-1", active="exact", className="tabs"),
                 dbc.NavLink("Datos", href="/page-2", active="exact", className="tabs"),
-                dbc.NavLink("Periodos", href="/page-3", active="exact", className="tabs"),
+                dbc.NavLink("Visualización", href="/page-3", active="exact", className="tabs"),
+                dbc.NavLink("Periodos", href="/page-4", active="exact", className="tabs"),
             ],
             vertical=True,
             # pills=True,
@@ -47,11 +47,13 @@ def render_page_content(pathname):
     if pathname == "/":
         return demo.create_layout()
     elif pathname == "/page-1":
-        return html.P("Aca va la segunda pagina") 
+        return html.P("Aca va la pagina")
     elif pathname == "/page-2":
-        return datos.create_layout2() 
+        return datos.create_layout() 
     elif pathname == "/page-3":
-        return html.P("Aca va la cuarta pagina")
+        return visualizacion.create_layout()
+    elif pathname == "/page-4":
+        return html.P("Aca va la pagina")
     # If the user tries to reach a different page, return a 404 message
     return dbc.Jumbotron(
         [

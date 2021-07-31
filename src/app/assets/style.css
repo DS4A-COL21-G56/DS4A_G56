@@ -50,7 +50,7 @@ body {
 }
 
 .header {
-    background-color: #222222;
+    background-color: #b32424;
     height: 288px;
     padding: 16px 0 0 0;
 }
@@ -118,4 +118,60 @@ body {
     margin-bottom: 6px;
     font-weight: bold;
     color: #079A82;
+}
+
+/* Pagina visualizacion */
+
+.selection-buttons {
+    background-color: #222222;
+    height: 48px;
+}
+
+.buttons {
+    color: white;
+    background-color: #b32424;
+    border-radius: 40px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+    margin: 5%;
+    width: 10rem;
+    height: 3rem;
+    text-align: center;
+    border: 0px;
+}
+
+.buttons:hover {
+    color: white;
+    background-color: #e64a4a;
+    border-radius: 40px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+    margin: 5%;
+    width: 10rem;
+    height: 3rem;
+    text-align: center;
+    border: 0px;
+}
+
+.buttons:active {
+    color: white;
+    background-color: #f37f7f;
+    border-radius: 40px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+    margin: 5%;
+    width: 10rem;
+    height: 3rem;
+    text-align: center;
+    border: 0px;
+}
+
+.buttons:focus {
+    color: white;
+    background-color: #b32424;
+    border-radius: 40px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+    margin: 5%;
+    width: 10rem;
+    height: 3rem;
+    text-align: center;
+    border: 0px;
+    box-sizing: border-box;
 }
