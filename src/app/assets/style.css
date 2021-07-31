@@ -51,7 +51,7 @@ body {
 
 .header {
     background-color: #b32424;
-    height: 288px;
+    height: 200px;
     padding: 16px 0 0 0;
 }
 
@@ -74,6 +74,64 @@ body {
     margin: 4px auto;
     text-align: center;
     max-width: 384px;
+}
+
+.body-description{
+    color: #0f0909;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    margin: 5%;  
+        
+}
+
+.info{
+    color: #110c0c;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 5%;
+    width: 11rem;
+    height: 3rem;
+}
+.activos{
+    color: #110c0c;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 5%;
+    width: 17rem;
+    height: 3rem;
+}
+
+
+.alertas{
+    color: #110c0c;
+    font-size: 21px;
+    font-weight: bold;
+    text-align: center;
+    margin: 5%;
+    width: 15rem;
+    height: 3rem;
+}
+
+.tituloFacultad{
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin:2%;
+    width: 10rem;
+    height: 3rem;
+}
+
+.facultades{
+    color: #110c0c;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    width: 15rem;
+    height: 3rem;
 }
 
 .wrapper {
@@ -175,3 +233,4 @@ body {
     border: 0px;
     box-sizing: border-box;
 }
+
