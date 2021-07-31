@@ -16,7 +16,7 @@ sidebar = html.Div(
         ),
         dbc.Nav(
             [
-                dbc.NavLink("General", href="/home", active="exact", className="tabs"),
+                dbc.NavLink("General", href="/", active="exact", className="tabs"),
                 dbc.NavLink("Prediction", href="/prediction", active="exact", className="tabs"),
                 dbc.NavLink("Data", href="/data", active="exact", className="tabs"),
                 dbc.NavLink("Visualization", href="/visualization", active="exact", className="tabs"),
@@ -44,7 +44,7 @@ app.layout = html.Div(
 
 @app.callback(Output("page-content", "children"), [Input("url", "pathname")])
 def render_page_content(pathname):
-    if pathname == "/home":
+    if pathname == "/":
         return demo.create_layout()
     elif pathname == "/prediction":
         return html.P("Aca va la pagina")
