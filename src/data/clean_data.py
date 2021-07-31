@@ -126,5 +126,9 @@ if __name__ == "__main__":
             # expandir datos: fecha (datetime para series temporales)
             df['FECHA'] = fecha_de_semestre(df['AÑO'], df['SEMESTRE'])
 
-        # save the df to a csv
+    # Fix "COD_FACTOR" - "NOM_FACTOR" in "eval_docentes_periodo" table:
+    eval_docentes_periodo['COD_FACTOR'] = fix_factor_codes(eval_docentes_periodo.NOM_FACTOR)
+   
+    # save each df to a csv
+    for table_name, df in dfs.items():
         df.to_csv(f'data/cleaned/{table_name}.csv', index=False)
