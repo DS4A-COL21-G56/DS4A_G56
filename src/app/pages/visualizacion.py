@@ -35,11 +35,76 @@ def create_layout():
         ),
     )
 
+    filters = html.Div(
+        children=[
+            html.Div(
+                children=[
+                    html.Div(children="Select Faculty", className="filter-title"),
+                    dcc.Dropdown(
+                        id="filter-1",
+                        options=[
+                            {"label": col, "value": col}
+                            for col in ['GENERO', 'EDAD', 'COLEGIO_PROCEDENCIA']
+                        ],
+                        clearable=True,
+                        className="dropdown",
+                    ),
+                ]
+            ),
+            html.Div(
+                children=[
+                    html.Div(children="Select Program", className="filter-title"),
+                    dcc.Dropdown(
+                        id="filter-2",
+                        options=[
+                            {"label": str(n_sample), "value": n_sample}
+                            for n_sample in range(1,31)
+                        ],
+                        clearable=True,
+                        searchable=False,
+                        className="dropdown",
+                    ),
+                ],
+            ),    
+            html.Div(
+                children=[
+                    html.Div(children="Select Subject", className="filter-title"),
+                    dcc.Dropdown(
+                        id="filter-3",
+                        options=[
+                            {"label": col, "value": col}
+                            for col in ['GENERO', 'EDAD', 'COLEGIO_PROCEDENCIA']
+                        ],
+                        clearable=True,
+                        className="dropdown",
+                    ),
+                ]
+            ),
+            html.Div(
+                children=[
+                    html.Div(children="View Deserters?", className="filter-title"),
+                    dcc.Dropdown(
+                        id="filter-4",
+                        options=[
+                            {"label": str(n_sample), "value": n_sample}
+                            for n_sample in range(1,31)
+                        ],
+                        clearable=True,
+                        searchable=False,
+                        className="dropdown",
+                    ),
+                ],
+            ),    
+        ],
+        className="filter-selector",
+    )
+
 
     return html.Div(
         [
             buttons,
             visualization,
+            filters,
         ])
 
 @app.callback(Output('visualization-content', 'figure'),
