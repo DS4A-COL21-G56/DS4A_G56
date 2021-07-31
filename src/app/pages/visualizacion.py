@@ -5,27 +5,36 @@ from dash.dependencies import Output, Input
 import dash
 from app import app
 import pandas as pd
+import plotly.express as px
+
+df = pd.read_csv('data/cleaned/perfil_ingreso_v2.csv')
+cols = ["COLEGIO_PROCEDENCIA","ES_DESERTOR", "CODIGO", "EDAD","GENERO"]
+data = df[df.COLEGIO_PROCEDENCIA != 'universidad'][cols]
+
+data2 = pd.read_csv('data/cleaned/rendimiento_academico.csv')["NOTA_DEF"]
 
 
 def create_layout():
 
     buttons = html.Div(
         [
-            html.H2("Visualización", className="display-5"),
+            html.H2("Visualization", className="display-5"),
             html.Div([
-                html.Button("Notas", id='btn-notas', n_clicks=0, className="buttons"),
-                html.Button("Género", id='btn-genero', n_clicks=0, className="buttons"),
-                html.Button("Colegio", id='btn-colegio', n_clicks=0, className="buttons"),
-                html.Button("Edad", id='btn-edad', n_clicks=0, className="buttons"),
+                html.Button("Grades", id='btn-grades', n_clicks=0, className="buttons"),
+                html.Button("Gender", id='btn-gender', n_clicks=0, className="buttons"),
+                html.Button("High school", id='btn-school', n_clicks=0, className="buttons"),
+                html.Button("Age", id='btn-age', n_clicks=0, className="buttons"),
                 ]
             )
         ]
     )
 
     visualization = html.Div(
-        id="visualization-content",
-        # className="content",
+        children=dcc.Graph(
+            id="visualization-content", config={"displayModeBar": False},
+        ),
     )
+
 
     return html.Div(
         [
@@ -33,21 +42,37 @@ def create_layout():
             visualization,
         ])
 
-@app.callback(Output('visualization-content', 'children'),
-              Input('btn-notas', 'n_clicks'),
-              Input('btn-genero', 'n_clicks'),
-              Input('btn-colegio', 'n_clicks'),
-              Input('btn-edad', 'n_clicks'))
+@app.callback(Output('visualization-content', 'figure'),
+              Input('btn-grades', 'n_clicks'),
+              Input('btn-gender', 'n_clicks'),
+              Input('btn-school', 'n_clicks'),
+              Input('btn-age', 'n_clicks'))
 def displayClick(btn1, btn2, btn3, btn4):
     changed_id = [p['prop_id'] for p in dash.callback_context.triggered][0]
-    if 'btn-notas' in changed_id:
-        msg = "Actualizar la grafica para Notas aqui"
-    elif 'btn-genero' in changed_id:
-        msg = "Actualizar la grafica para Género aqui"
-    elif 'btn-colegio' in changed_id:
-        msg = "Actualizar la grafica para Colegio aqui"
-    elif 'btn-edad' in changed_id:
-        msg = "Actualizar la grafica para Edad aqui"
+    if 'btn-grades' in changed_id:
+        Data = data2
+        x="NOTA_DEF"
+        color=None
+        title='Final Grade'
+    elif 'btn-gender' in changed_id:
+        Data = data
+        x="GENERO"
+        color= "GENERO"
+        title='Students Gender'
+    elif 'btn-school' in changed_id:
+        Data = data
+        x="COLEGIO_PROCEDENCIA"
+        color="ES_DESERTOR"
+        title='Origin High School'
+    elif 'btn-age' in changed_id:
+        Data = data
+        x="EDAD"
+        color="ES_DESERTOR"
+        title='Student Attrition by age'
     else:
-        msg = 'None of the buttons have been clicked yet'
-    return html.Div(msg)
+        Data = data
+        x="EDAD"
+        color="ES_DESERTOR"
+        title='Student Attrition by age'
+
+    return px.histogram(Data, x=x, color=color, color_discrete_sequence=["#DA7879", "#912F33"], title=title)

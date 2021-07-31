@@ -8,7 +8,7 @@ from pages import demo, visualizacion, datos
 
 sidebar = html.Div(
     [
-        html.H2("Universidad de Boyaca", className="display-6"),
+        html.H2("University of Boyaca", className="display-6"),
         html.Hr(),
         html.P(
             "Analyzing the behavior of student's attrition"
@@ -16,11 +16,11 @@ sidebar = html.Div(
         ),
         dbc.Nav(
             [
-                dbc.NavLink("General", href="/", active="exact", className="tabs"),
-                dbc.NavLink("Predicción", href="/page-1", active="exact", className="tabs"),
-                dbc.NavLink("Datos", href="/page-2", active="exact", className="tabs"),
-                dbc.NavLink("Visualización", href="/page-3", active="exact", className="tabs"),
-                dbc.NavLink("Periodos", href="/page-4", active="exact", className="tabs"),
+                dbc.NavLink("General", href="/home", active="exact", className="tabs"),
+                dbc.NavLink("Prediction", href="/prediction", active="exact", className="tabs"),
+                dbc.NavLink("Data", href="/data", active="exact", className="tabs"),
+                dbc.NavLink("Visualization", href="/visualization", active="exact", className="tabs"),
+                dbc.NavLink("Periods", href="/periods", active="exact", className="tabs"),
             ],
             vertical=True,
             # pills=True,
@@ -44,15 +44,15 @@ app.layout = html.Div(
 
 @app.callback(Output("page-content", "children"), [Input("url", "pathname")])
 def render_page_content(pathname):
-    if pathname == "/":
+    if pathname == "/home":
         return demo.create_layout()
-    elif pathname == "/page-1":
+    elif pathname == "/prediction":
         return html.P("Aca va la pagina")
-    elif pathname == "/page-2":
+    elif pathname == "/data":
         return datos.create_layout() 
-    elif pathname == "/page-3":
+    elif pathname == "/visualization":
         return visualizacion.create_layout()
-    elif pathname == "/page-4":
+    elif pathname == "/periods":
         return html.P("Aca va la pagina")
     # If the user tries to reach a different page, return a 404 message
     return dbc.Jumbotron(
