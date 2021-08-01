@@ -22,8 +22,8 @@ def create_layout():
                         children="¡Bienvenido a Baco!", className="header-title"
                     ),
                     html.P(
-                        children="Analyzing the behavior of student's attrition"
-                        " in the university of boyaca",
+                        children="Analyzing the behavior of student's attrition",
+                       
                         className="header-description",
                     ),
                 ],
@@ -34,11 +34,11 @@ def create_layout():
             html.Div(
                 
                     html.P(
-                    " Being able to identify the factors that contribute to Universidad de Boyaca’s student attrition"
+                    " Being able to identify the factors that contribute to University student attrition"
                     " rates will greatly increase its capability of taking early action in their current struggle to help maintain"
                     " its student body in their institution and help them complete their bachelors and masters programs. We are hopeful"
                     " that by determining what variables contribute the most to a student’s decision to drop out of its selected program,"
-                    " the Universidad de Boyaca will create new retention strategies and strengthen its institutional programs that tackle"
+                    " the Universty will create new retention strategies and strengthen its institutional programs that tackle"
                     " the desertion issue.",
 
 

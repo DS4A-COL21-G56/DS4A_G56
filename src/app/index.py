@@ -8,11 +8,11 @@ from pages import demo, visualizacion, datos
 
 sidebar = html.Div(
     [
-        html.H2("University of Boyaca", className="display-6"),
+        html.H2("University", className="display-6"),
         html.Hr(),
         html.P(
-            "Analyzing the behavior of student's attrition"
-            " in the university of boyaca", className="lead"
+            "Analyzing the behavior of student's attrition",
+             className="lead"
         ),
         dbc.Nav(
             [
