@@ -25,6 +25,14 @@ def build_data():
 
 data = build_data()
 
+# Initial plot parameters
+plot_params = {
+    'data':data,
+    'x':"NOTA_DEF",
+    'color':"ES_DESERTOR",
+    'title':'Final Grade'
+}
+
 # df = pd.read_csv('data/cleaned/perfil_ingreso_v2.csv')
 # cols = ["COLEGIO_PROCEDENCIA","ES_DESERTOR", "CODIGO", "EDAD","GENERO"]
 # data = df[df.COLEGIO_PROCEDENCIA != 'universidad'][cols]
@@ -58,11 +66,12 @@ def create_layout():
                 children=[
                     html.Div(children="Select Faculty", className="filter-title"),
                     dcc.Dropdown(
-                        id="filter-1",
+                        id="filter-faculty",
                         options=[
-                            {"label": col, "value": col}
-                            for col in ['GENERO', 'EDAD', 'COLEGIO_PROCEDENCIA']
+                            {"label": facultad, "value": facultad}
+                            for facultad in data.FACULTAD.unique()
                         ],
+                        value=None,
                         clearable=True,
                         className="dropdown",
                     ),
@@ -72,13 +81,13 @@ def create_layout():
                 children=[
                     html.Div(children="Select Program", className="filter-title"),
                     dcc.Dropdown(
-                        id="filter-2",
+                        id="filter-program",
                         options=[
-                            {"label": str(n_sample), "value": n_sample}
-                            for n_sample in range(1,31)
+                            {"label": program, "value": program}
+                            for program in data.NOMBRE_PROGRAMA.unique()
                         ],
+                        value=None,
                         clearable=True,
-                        searchable=False,
                         className="dropdown",
                     ),
                 ],
@@ -87,11 +96,12 @@ def create_layout():
                 children=[
                     html.Div(children="Select Subject", className="filter-title"),
                     dcc.Dropdown(
-                        id="filter-3",
+                        id="filter-subject",
                         options=[
-                            {"label": col, "value": col}
-                            for col in ['GENERO', 'EDAD', 'COLEGIO_PROCEDENCIA']
+                            {"label": materia, "value": materia}
+                            for materia in data.NOMBRE_MAT.unique()
                         ],
+                        value=None,
                         clearable=True,
                         className="dropdown",
                     ),
@@ -101,13 +111,12 @@ def create_layout():
                 children=[
                     html.Div(children="View Deserters?", className="filter-title"),
                     dcc.Dropdown(
-                        id="filter-4",
+                        id="filter-deserter",
                         options=[
-                            {"label": str(n_sample), "value": n_sample}
-                            for n_sample in range(1,31)
+                            {"label": "Si", "value": "Si"},
+                            {"label": "No", "value": "No"},
                         ],
-                        clearable=True,
-                        searchable=False,
+                        value="Si",
                         className="dropdown",
                     ),
                 ],
@@ -124,37 +133,51 @@ def create_layout():
             filters,
         ])
 
+def filer(df, faculty=None, program=None, subject=None):
+    if faculty:
+        df = df[df.FACULTAD == faculty] 
+    if program:
+        df = df[df.NOMBRE_PROGRAMA == program]
+    if subject:
+        df = df[df.NOMBRE_MAT == subject]
+    
+    return df
+
 @app.callback(Output('visualization-content', 'figure'),
               Input('btn-grades', 'n_clicks'),
               Input('btn-gender', 'n_clicks'),
               Input('btn-school', 'n_clicks'),
-              Input('btn-age', 'n_clicks'))
-def displayClick(btn1, btn2, btn3, btn4):
+              Input('btn-age', 'n_clicks'),
+              Input("filter-faculty", "value"),
+              Input("filter-program", "value"),
+              Input("filter-subject", "value"),
+              Input("filter-deserter", "value"))
+def update_graph(btn1, btn2, btn3, btn4, faculty, program, subject, deserter):
     changed_id = [p['prop_id'] for p in dash.callback_context.triggered][0]
     if 'btn-grades' in changed_id:
-        Data = data
-        x="NOTA_DEF"
-        color="ES_DESERTOR"
-        title='Final Grade'
+        plot_params['x']="NOTA_DEF"
+        plot_params['title']='Final Grade'
     elif 'btn-gender' in changed_id:
-        Data = data
-        x="GENERO"
-        color= "GENERO"
-        title='Students Gender'
+        plot_params['x']="GENERO"
+        plot_params['title']='Students Gender'
     elif 'btn-school' in changed_id:
-        Data = data
-        x="COLEGIO_PROCEDENCIA"
-        color="ES_DESERTOR"
-        title='Origin High School'
+        plot_params['x']="COLEGIO_PROCEDENCIA"
+        plot_params['title']='Origin High School'
     elif 'btn-age' in changed_id:
-        Data = data
-        x="EDAD"
-        color="ES_DESERTOR"
-        title='Student Attrition by age'
-    else:
-        Data = data
-        x="EDAD"
-        color="ES_DESERTOR"
-        title='Student Attrition by age'
+        plot_params['x']="EDAD"
+        plot_params['title']='Student Attrition by age'
 
-    return px.histogram(Data, x=x, color=color, color_discrete_sequence=["#DA7879", "#912F33"], title=title)
+    plot_params['color'] = "ES_DESERTOR" if deserter=='Si' else None
+
+    df = data
+
+    if faculty:
+        df = df[df.FACULTAD == faculty] 
+    if program:
+        df = df[df.NOMBRE_PROGRAMA == program]
+    if subject:
+        df = df[df.NOMBRE_MAT == subject]
+    
+    plot_params['data'] = df
+
+    return px.histogram(plot_params['data'], x=plot_params['x'], color=plot_params['color'], color_discrete_sequence=["#DA7879", "#912F33"], title=plot_params['title'])
