@@ -7,12 +7,29 @@ from app import app
 import pandas as pd
 import plotly.express as px
 
-df = pd.read_csv('data/cleaned/perfil_ingreso_v2.csv')
-cols = ["COLEGIO_PROCEDENCIA","ES_DESERTOR", "CODIGO", "EDAD","GENERO"]
-data = df[df.COLEGIO_PROCEDENCIA != 'universidad'][cols]
+def build_data():
 
-data2 = pd.read_csv('data/cleaned/rendimiento_academico.csv')["NOTA_DEF"]
+    rendimiento_academico = pd.read_csv('data/cleaned/rendimiento_academico.csv')
 
+    cols = ["FACULTAD", "NOMBRE_PROGRAMA",  "COD_MAT", "NUM_CREDITOS"]
+    materias_programa = pd.read_csv('data/cleaned/materias_por_programa.csv')[cols]
+
+    cols = ["COLEGIO_PROCEDENCIA","ES_DESERTOR", "CODIGO", "EDAD","GENERO"]
+    perfil_ingreso = pd.read_csv('data/cleaned/perfil_ingreso_v2.csv')[cols]
+
+    data = perfil_ingreso[perfil_ingreso.COLEGIO_PROCEDENCIA != 'universidad']
+    data = data.merge(rendimiento_academico, left_on='CODIGO', right_on='CODIGO')
+    data = data.merge(materias_programa, left_on='COD_MAT', right_on='COD_MAT')
+
+    return data
+
+data = build_data()
+
+# df = pd.read_csv('data/cleaned/perfil_ingreso_v2.csv')
+# cols = ["COLEGIO_PROCEDENCIA","ES_DESERTOR", "CODIGO", "EDAD","GENERO"]
+# data = df[df.COLEGIO_PROCEDENCIA != 'universidad'][cols]
+
+# data2 = pd.read_csv('data/cleaned/rendimiento_academico.csv')["NOTA_DEF"]
 
 def create_layout():
 
@@ -115,9 +132,9 @@ def create_layout():
 def displayClick(btn1, btn2, btn3, btn4):
     changed_id = [p['prop_id'] for p in dash.callback_context.triggered][0]
     if 'btn-grades' in changed_id:
-        Data = data2
+        Data = data
         x="NOTA_DEF"
-        color=None
+        color="ES_DESERTOR"
         title='Final Grade'
     elif 'btn-gender' in changed_id:
         Data = data
