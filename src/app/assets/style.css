@@ -236,14 +236,25 @@ body {
 }
 
 .filter-selector {
-    height: 114px;
-    display: flex;
+    height: 280px;
+    /* display: flex; */
     border-radius: 10px;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     padding-top: 24px;
-    margin: 40px auto 0 auto;
+    padding-bottom: 24px;
+    margin: 40px auto 40px auto;
     background-color: #993737;
     box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+}
+
+.in-selector {
+    height: 80px;
+    display: flex;
+    /* border-radius: 10px; */
+    justify-content: space-evenly;
+    /* padding-top: 24px; */
+    margin: 20px auto 0 auto;
+    background-color: #993737;
 }
 
 .filter-title {
