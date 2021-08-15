@@ -240,6 +240,6 @@ def update_graph(btn1, btn2, btn3, btn4, faculty, program, subject, school, dese
     
     plot_params['data'] = df
 
-    chart = px.histogram(plot_params['data'], x=plot_params['x'], color=plot_params['color'], color_discrete_sequence=["#DA7879", "#912F33"], title=plot_params['title'])
+    chart = px.histogram(plot_params['data'], barmode='overlay', x=plot_params['x'], color=plot_params['color'], color_discrete_sequence=["#DA7879", "#912F33"], title=plot_params['title'])
 
     return chart, _faculty_opts ,_program_opts ,_subject_opts ,_school_opts
