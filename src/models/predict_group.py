@@ -61,7 +61,7 @@ while sw == True:
     # Keep the program running
     sw_2 = True    
     while sw_2 == True:
-        next_step = input("Do you want to check another student? (y/n)\n")
+        next_step = student_code = input("Do you want to check another student? (y/n)\n")
 
         if next_step == 'y':
             sw_2 = False
