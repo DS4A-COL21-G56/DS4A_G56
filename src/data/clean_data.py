@@ -17,7 +17,7 @@ def expandir_periodo(serie):
                         '21':'intersemestral 2'}
 
     año = serie.str.slice(0,4)
-    semestre = serie.str.slice(4).map(mapeo_cod_semestres)
+    semestre = serie.str.slice(4).map(mapeo_semestres)
     return año, semestre
 
 def fecha_de_semestre(años, semestres):
@@ -118,17 +118,5 @@ if __name__ == "__main__":
         text_cols = cols_by_type.pop('object', [])
         df[text_cols] = df[text_cols].apply(normalize_text, axis=0)
 
-        # expandir datos: año y semestre
-        periodo_col = [col for col in cols if col == 'PERIODO' or col == 'PERIODO_COHORTE']
-        if periodo_col:
-            df['ENTRY_YEAR'], df['SEMESTRE'] = expandir_periodo(df[periodo_col[0]])
-
-            # expandir datos: fecha (datetime para series temporales)
-            df['FECHA'] = fecha_de_semestre(df['ENTRY_YEAR'], df['SEMESTRE'])
-
-    # Fix "COD_FACTOR" - "NOM_FACTOR" in "eval_docentes_periodo" table:
-    eval_docentes_periodo['COD_FACTOR'] = fix_factor_codes(eval_docentes_periodo.NOM_FACTOR)
-   
-    # save each df to a csv
-    for table_name, df in dfs.items():
+        # save the df to a csv
         df.to_csv(f'data/cleaned/{table_name}.csv', index=False)
