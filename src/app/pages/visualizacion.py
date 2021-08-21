@@ -15,7 +15,7 @@ def build_data():
     cols = ["FACULTAD", "NOMBRE_PROGRAMA",  "COD_MAT", "NUM_CREDITOS"]
     materias_programa = pd.read_csv('data/cleaned/materias_por_programa.csv')[cols]
 
-    cols = ["COLEGIO_PROCEDENCIA","ES_DESERTOR", "CODIGO", "EDAD", "GENERO", "ENTRY_YEAR"]
+    cols = ["COLEGIO_PROCEDENCIA","ES_DESERTOR", "CODIGO", "EDAD", "GENERO", "AÑO"]
     perfil_ingreso = pd.read_csv('data/cleaned/perfil_ingreso_v2.csv')[cols]
 
     data = perfil_ingreso[perfil_ingreso.COLEGIO_PROCEDENCIA != 'universidad']
@@ -208,7 +208,7 @@ def update_graph(btn1, btn2, btn3, btn4, faculty, program, subject, school, dese
         plot_params['x']="GENERO"
         plot_params['title']='Students Gender'
     elif 'btn-year' in changed_id:
-        plot_params['x']="ENTRY_YEAR"
+        plot_params['x']="AÑO"
         plot_params['title']='Entry Year'
 
     elif 'btn-age' in changed_id:
