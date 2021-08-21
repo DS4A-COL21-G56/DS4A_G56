@@ -4,10 +4,11 @@ import dash_html_components as html
 from dash.dependencies import Input, Output
 
 from app import app
-from pages import demo, visualizacion, datos
+from pages import home, visualizacion, data, aboutUs
 
 sidebar = html.Div(
     [
+       
         html.H2("University", className="display-6"),
         html.Hr(),
         html.P(
@@ -16,11 +17,11 @@ sidebar = html.Div(
         ),
         dbc.Nav(
             [
-                dbc.NavLink("General", href="/", active="exact", className="tabs"),
-                dbc.NavLink("Prediction", href="/prediction", active="exact", className="tabs"),
-                dbc.NavLink("Data", href="/data", active="exact", className="tabs"),
-                dbc.NavLink("Visualization", href="/visualization", active="exact", className="tabs"),
-                dbc.NavLink("Periods", href="/periods", active="exact", className="tabs"),
+                dbc.NavLink("🎓 Home", href="/", active="exact", className="tabs"),
+                dbc.NavLink("📈 Prediction", href="/prediction", active="exact", className="tabs"),
+                dbc.NavLink("📑 Data", href="/data", active="exact", className="tabs"),
+                dbc.NavLink("📊 Visualization", href="/visualization", active="exact", className="tabs"),
+                dbc.NavLink("👥 About Us", href="/aboutUs", active="exact", className="tabs"),#👥
             ],
             vertical=True,
             # pills=True,
@@ -45,15 +46,15 @@ app.layout = html.Div(
 @app.callback(Output("page-content", "children"), [Input("url", "pathname")])
 def render_page_content(pathname):
     if pathname == "/":
-        return demo.create_layout()
+        return home.create_layout()
     elif pathname == "/prediction":
         return html.P("Aca va la pagina")
     elif pathname == "/data":
-        return datos.create_layout() 
+        return data.create_layout() 
     elif pathname == "/visualization":
         return visualizacion.create_layout()
-    elif pathname == "/periods":
-        return html.P("Aca va la pagina")
+    elif pathname == "/aboutUs":
+        return aboutUs.create_layout()
     # If the user tries to reach a different page, return a 404 message
     return dbc.Jumbotron(
         [
