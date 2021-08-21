@@ -1,0 +1,424 @@
+/* Panel Lateral: */
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 16rem;
+  padding: 2rem 1rem;
+  background-color: #f8f9fa;
+}
+
+.content {
+  margin-left: 18rem;
+  margin-right: 2rem;
+  padding: 2rem 1rem;
+}
+
+.tabs {
+  color: white;
+  background-color: #b32424;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+  margin: 3%;
+}
+
+.tabs:hover {
+  color: white;
+  background-color: #e64a4a;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+  margin: 3%;
+}
+
+.tabs:active {
+  color: white;
+  background-color: #f37f7f;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+  margin: 3%;
+}
+
+/* Pagina demo (la primera que se hizo :D): */
+
+body {
+  font-family: "Lato", 
+  sans-serif;
+  margin: 0;
+  background-color: #f7f7f7;
+}
+
+.header {
+  background-color: #b32424;
+  height: 200px;
+  padding: 5px 5px 5px 5px;
+ 
+}
+
+.header-emoji {
+  font-size: 48px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header-title {
+  color: #070606;
+  font-size: 48px;
+  font-weight: bold;
+  text-align:left;
+  margin: 10px;
+}
+
+.header-description {
+  color: #cfcfcf;
+  margin: 4px auto;
+  text-align: center;
+  max-width: 384px;
+}
+
+.body-description {
+  color: #0f0909;
+  font-size: 23px;
+  font-weight: bold;
+  text-align: center;
+  margin: 5%;
+}
+
+.pHome {
+  color: #271d1d;
+  font-size: 21px;
+  font-weight: bold;
+  text-align: center;
+  margin: 2%;
+}
+
+.tittle{
+  color: #0f0909;
+  font-size: 35px;
+  font-weight: bold;
+  margin: 2%;
+}
+
+.card-title{
+  color: #0f0909;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 5%;
+  text-align: center;
+}
+
+.card-text{
+  color: #362a2a;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 5%;
+  text-align: center;
+
+}
+
+.figura-1{
+  margin: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+ 
+}
+
+.imagen{
+  margin: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: 30%;
+ 
+}
+
+.btnCard{
+  margin: 15%;
+  
+  
+  
+}
+
+.btnCard2{
+  margin: 10%;
+  color: #e0dddd;
+  margin-left: 24%;
+  background-color: #b32424;
+  border-radius: 100px;
+  
+}
+
+.btnCard4{
+  margin: 29%;
+  color: #e0dddd;
+  margin-left: 24%;
+  background-color: #b32424;
+  border-radius: 100px;
+  
+}
+
+.btnAbout{
+  margin: 3%;
+  margin-left: 10%;
+  background-color: #b32424;
+  border-radius: 100px;
+  
+}
+
+.bodyCard{
+  width: 100%;
+  height: 100%;
+  margin: 10%;
+}
+
+.cardAbout{
+  width: 95%;
+  height: 95%;
+  margin: 5%;
+}
+
+.btnPrediction {
+  position: center;
+}
+
+.slice1 {
+
+    
+    position: absolute;
+    margin: 3px;
+    height: 10%;
+    text-align: center;
+    width: 15%;
+}
+
+.slice2 {
+
+  
+  position: relative;
+  height: 10%;
+  margin: auto;
+  text-align: center;
+  width: 15%;
+}
+
+.slice3 {
+
+  position: relative;
+  height: 10%;
+  margin: auto;
+  text-align: center;
+  width: 15%;
+}
+
+
+.container {
+  width: 80%;
+  padding-right: 20px;
+  padding-left: 00px;
+  margin-right: 10px;
+  margin-left: 10px;
+
+}
+
+
+.info {
+  color: #110c0c;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 5%;
+  width: 11rem;
+  height: 3rem;
+}
+.activos {
+  color: #110c0c;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 5%;
+  width: 17rem;
+  height: 3rem;
+}
+
+.alertas {
+  color: #110c0c;
+  font-size: 21px;
+  font-weight: bold;
+  text-align: center;
+  margin: 5%;
+  width: 15rem;
+  height: 3rem;
+}
+
+.tituloFacultad {
+  color: #000000;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin: 2%;
+  width: 10rem;
+  height: 3rem;
+}
+
+.facultades {
+  color: #110c0c;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  margin: 2%;
+  width: 15rem;
+  height: 3rem;
+}
+
+.wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1024px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: 32px;
+}
+
+.card {
+  margin-bottom: 24px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+}
+
+.menu {
+  height: 112px;
+  width: 912px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 24px;
+  margin: -80px auto 0 auto;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+}
+
+.Select-control {
+  width: 256px;
+  height: 48px;
+}
+
+.Select--single > .Select-control .Select-value,
+.Select-placeholder {
+  line-height: 48px;
+}
+
+.Select--multi .Select-value-label {
+  line-height: 32px;
+}
+
+.menu-title {
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #079a82;
+}
+
+/* Pagina visualizacion */
+
+.selection-buttons {
+  background-color: #222222;
+  height: 48px;
+}
+
+.buttons {
+  color: white;
+  background-color: #b32424;
+  border-radius: 40px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+  margin: 4%;
+  width: 10rem;
+  height: 3rem;
+  text-align: center;
+  border: 0px;
+}
+
+.buttons:hover {
+  color: white;
+  background-color: #e64a4a;
+  border-radius: 40px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+  margin: 4%;
+  width: 10rem;
+  height: 3rem;
+  text-align: center;
+  border: 0px;
+}
+
+.buttons:active {
+  color: white;
+  background-color: #f37f7f;
+  border-radius: 40px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+  margin: 4%;
+  width: 10rem;
+  height: 3rem;
+  text-align: center;
+  border: 0px;
+}
+
+.buttons:focus {
+  color: white;
+  background-color: #b32424;
+  border-radius: 40px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+  margin: 4%;
+  width: 10rem;
+  height: 3rem;
+  text-align: center;
+  border: 0px;
+  box-sizing: border-box;
+}
+
+.filter-selector {
+    height: 280px;
+    /* display: flex; */
+    border-radius: 10px;
+    /* justify-content: space-evenly; */
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin: 40px auto 40px auto;
+    background-color: #993737;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+}
+
+/* 
+.filter-selector {
+    height: 114px;
+  display: flex;
+  border-radius: 10px;
+  justify-content: space-evenly;
+  padding-top: 24px;
+  margin: 40px auto 0 auto;
+  background-color: #993737;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+}*/
+
+.in-selector {
+    height: 80px;
+    display: flex;
+    /* border-radius: 10px; */
+    justify-content: space-evenly;
+    /* padding-top: 24px; */
+    margin: 20px auto 0 auto;
+    background-color: #993737;
+}
+
+.filter-title {
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+
+.filter {
+  width: 20px;
+  background-color: #b32424;
+  padding-right: 10px;
+}
