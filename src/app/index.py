@@ -4,7 +4,11 @@ import dash_html_components as html
 from dash.dependencies import Input, Output
 
 from app import app
-from pages import home, visualizacion, data, aboutUs
+
+if __name__ == '__main__':
+    from pages import home, visualizacion, data, aboutUs
+else:
+    from app.pages import home, visualizacion, data, aboutUs
 
 sidebar = html.Div(
     [
