@@ -9,7 +9,6 @@ import pandas as pd
 from dash.dependencies import Output, Input
 from app import app
 
-from pages import data, visualizacion
 
 #df = pd.read_csv('data/cleaned/mat_cursadas_rend_academico_v2.csv')
 
