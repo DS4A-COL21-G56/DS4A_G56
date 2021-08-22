@@ -79,7 +79,7 @@ while sw == True:
             to_show = dropout_period[columns]
             to_show.columns = new_column_names
                 
-            display(to_show)
+            print(to_show)
             
         elif show_students == 'n':
             pass

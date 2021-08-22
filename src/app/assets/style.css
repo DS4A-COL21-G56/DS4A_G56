@@ -5,15 +5,17 @@
   top: 0;
   left: 0;
   bottom: 0;
-  width: 16rem;
+  width: 18rem;
   padding: 2rem 1rem;
   background-color: #f8f9fa;
 }
 
 .content {
+  height: 100%;
+  background-color: #eeeeee;
   margin-left: 18rem;
-  margin-right: 2rem;
-  padding: 2rem 1rem;
+  /* margin-right: 2rem; */
+  padding: 2rem 4rem;
 }
 
 .tabs {
@@ -376,6 +378,10 @@ body {
   box-sizing: border-box;
 }
 
+.table-cell {
+  background-color: #505050;
+}
+
 .filter-selector {
     height: 280px;
     /* display: flex; */
@@ -388,9 +394,8 @@ body {
     box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
 }
 
-/* 
-.filter-selector {
-    height: 114px;
+.s-filter-selector {
+  height: 114px;
   display: flex;
   border-radius: 10px;
   justify-content: space-evenly;
@@ -398,7 +403,7 @@ body {
   margin: 40px auto 0 auto;
   background-color: #993737;
   box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
-}*/
+}
 
 .in-selector {
     height: 80px;

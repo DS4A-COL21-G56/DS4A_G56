@@ -8,7 +8,7 @@ from app import app
 if __name__ == '__main__':
     from pages import home, visualizacion, data, aboutUs
 else:
-    from app.pages import home, visualizacion, data, aboutUs
+    from app.pages import home, visualizacion, data, aboutUs, prediction
 
 sidebar = html.Div(
     [
@@ -52,7 +52,7 @@ def render_page_content(pathname):
     if pathname == "/":
         return home.create_layout()
     elif pathname == "/prediction":
-        return html.P("Aca va la pagina")
+        return prediction.create_layout()
     elif pathname == "/data":
         return data.create_layout() 
     elif pathname == "/visualization":
