@@ -1,4 +1,4 @@
-# DS4A_G56 Students' attrition Analysis Universidad de Boyacá
+# BACO APP: Attrition Analysis Universidad de Boyacá
 
 Team 56 final project for Data Science 4 All / Colombia 2021
 
@@ -111,3 +111,11 @@ To create or update a requirements file from the current environment, run the fo
 ```sh
 pip freeze > requirements.txt
 ```
+
+### Team
+Paola Rojas Castañeda: @gpaolarojas
+Manuela Escobar: @manuelaescobar
+Alejandro Marin: @almarinca
+Alvaro Guijarro: @Alvaroguijarro97
+Alejandro Hurtado: @falejo
+Ricardo Ibarra: @ricardo8aib
