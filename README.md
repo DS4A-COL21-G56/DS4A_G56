@@ -113,9 +113,9 @@ pip freeze > requirements.txt
 ```
 
 ### Team
-Paola Rojas Castañeda: @gpaolarojas
-Manuela Escobar: @manuelaescobar
-Alejandro Marin: @almarinca
-Alvaro Guijarro: @Alvaroguijarro97
-Alejandro Hurtado: @falejo
-Ricardo Ibarra: @ricardo8aib
+* **Paola Rojas Castañeda:** [@gpaolarojas](https://github.com/gpaolarojas)
+* **Manuela Escobar:** [@manuelaescobar](https://github.com/manuelaescobar)
+* **Alejandro Marin:** [@almarinca](https://github.com/almarinca)
+* **Alvaro Guijarro:** [@Alvaroguijarro97](https://github.com/Alvaroguijarro97)
+* **Alejandro Hurtado:** [@falejo](https://github.com/Falejo)
+* **Ricardo Ibarra:** [@ricardo8aib](https://github.com/ricardo8aib)
