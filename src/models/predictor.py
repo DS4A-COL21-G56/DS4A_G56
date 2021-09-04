@@ -1,22 +1,14 @@
 #Import libraries
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-import matplotlib.ticker as mtick
-from datetime import datetime
-import math
-from sklearn.metrics import accuracy_score
-from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
+import pandas as pd
 import pickle
 import json
 import codecs
-
+from src import abs_path
 
 def load_model():
 
-    rf_model_file = 'models/best_random_model.pkl'
+    rf_model_file = abs_path + 'models/best_random_model.pkl'
     with open(rf_model_file, 'rb') as file:
         best_random_model = pickle.load(file)
 
@@ -30,7 +22,7 @@ def load_feature_names():
     # training_dummy = pd.get_dummies(training_dataset.drop(['CODIGO', 'PERIODO_ACADEMICO'], axis = 1), drop_first = True)
     # columns_names = training_dummy.columns
 
-    with codecs.open('models/columns.json', encoding='utf-8') as columns_file:
+    with codecs.open(abs_path + 'models/columns.json', encoding='utf-8') as columns_file:
         columns_str = columns_file.read()
     
     columns_names = json.loads(columns_str)
@@ -41,14 +33,26 @@ feature_names = load_feature_names()
 
 def load_data():
 
-    training_dataset_full = pd.read_csv('data/frontend/frontend_dataset.csv', index_col = 0)
+    training_dataset_full = pd.read_csv(abs_path + 'data/frontend/frontend_dataset.csv', index_col = 0)
     # training_dummy_full = pd.get_dummies(training_dataset_full.drop(['CODIGO', 'PERIODO_ACADEMICO'], axis=1),drop_first=True)
 
     return training_dataset_full
 
 training_dataset_full = load_data()
 
-def predict(year, semester, treshold):
+def predictFromFeatures(features: dict):
+
+    features_df = pd.DataFrame.from_dict(features)
+    features_df = pd.get_dummies(features_df)
+    features_df = features_df.reindex(columns=feature_names, fill_value=0)
+    features_df = features_df.drop(['ES_DESERTOR_SI'], axis = 1)
+
+    # Prediction
+    prob = best_random_model.predict_proba(features_df.values)[0][1]*100
+
+    return prob
+
+def predictFromDataset(year, semester, treshold):
 
         if semester == 1:
             period = int(str(year)+'10')
@@ -85,7 +89,7 @@ def predict(year, semester, treshold):
 
         return num_predicted, to_show
 
-def predict_student(student_code):
+def predictFromStudent(student_code):
 
     # Get a copy to work on
     student_df = training_dataset_full.copy()

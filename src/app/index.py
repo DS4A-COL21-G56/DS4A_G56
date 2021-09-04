@@ -3,17 +3,16 @@ import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
 
-from app import app
+from src.app import app
+from src.app.pages import home, visualizacion, data, aboutUs, prediction
 
-if __name__ == '__main__':
-    from pages import home, visualizacion, data, aboutUs
-else:
-    from app.pages import home, visualizacion, data, aboutUs, prediction
+server = app.server
 
 sidebar = html.Div(
     [
-       
-        html.H2("University", className="display-6"),
+        # html.Img(src="/static/baco.png",
+        html.Img(src="/assets/img/baco.png",
+                 className="figuraBaco"),
         html.Hr(),
         html.P(
             "Analyzing the behavior of student's attrition",

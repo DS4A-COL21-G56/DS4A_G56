@@ -1,3 +1,4 @@
+from dash_bootstrap_components._components.Button import Button
 import dash_core_components as dcc
 import dash_html_components as html
 from dash_html_components import Br
@@ -7,7 +8,7 @@ from dash_html_components.Link import Link
 import dash_bootstrap_components as dbc
 import pandas as pd
 from dash.dependencies import Output, Input
-from app import app
+from src.app import app
 
 
 #df = pd.read_csv('data/cleaned/mat_cursadas_rend_academico_v2.csv')
@@ -16,16 +17,15 @@ from app import app
 def create_layout():
 
     first_div = html.Div(
-
-        html.Img(src="/assets/header.png",
-                 className="figura-1"),
-
+        children = [
+            html.Img(src="/assets/img/header.png", className="figura-1"),
+        ],
         className="header",
     )
 
     second_div = html.Div([
 
-        html.P("¡WELCOME TO BACO!", className="tittle"),
+        html.P("WELCOME TO BACO", className="tittle"),
 
         html.P("Feel free to explore the main segments of Baco, in which you will be able to see some general information about the"
                "University and its students, the attrition prediction model and its different modules, visualize the most significant data from"
@@ -38,84 +38,83 @@ def create_layout():
     first_card = dbc.Card(
         [
 
-            dbc.CardImg(src="/assets/prediction.png", top=True, className="imagen"),
-            dbc.CardBody(
+            dbc.CardImg(src="/assets/img/prediction.png", top=True, className="imagen"),
+            html.Div(
                 [
                     html.H4("Attrition Prediction",
-                            className="card-title"),
-                    html.P("Check the attrition probabilityin every student’s case",
-                           className="card-text"),
-                    dcc.Link(html.Button('view detail', className="btnCard2"),
-                             href="/prediction"),
+                            className="title2"),
+                    html.P("Estimate attrition probability for different student’s cases.",
+                           className=""),
+                   dcc.Link(dbc.Button('view detail', className=" button"), href="/prediction"),
+
+                   
                 ]
             )
         ],
-        className="bodyCard",
+        className="bodyCard  md-3 sm-12 mb-2 text-center mt-5",
     )
 
     two_card = dbc.Card(
         [
 
-            dbc.CardImg(src="/assets/data.png", top=True, className="imagen"),
-            dbc.CardBody(
+            dbc.CardImg(src="/assets/img/data.png", top=True, className="imagen"),
+            html.Div(
                 [
                     html.H4("Data",
-                            className="card-title"),
-                    html.P("See some general information regarding the population of students",
-                           className="card-text"),
-                    dcc.Link(html.Button('view detail', className="btnCard2"),
-                             href="/data"),
+                            className="title2"),
+                    html.P("See some general information regarding the population of students.",
+                           className=""),
+                    dcc.Link(dbc.Button('view detail', className=" button"), href="/data"),
                 ]
             )
         ],
-        className="bodyCard",
+        className="bodyCard  md-3 sm-12 mb-2 text-center mt-5",
     )
 
     third_card = dbc.Card(
         [
 
-            dbc.CardImg(src="/assets/visualization.png", top=True, className="imagen"),
-            dbc.CardBody(
+            dbc.CardImg(src="/assets/img/visualization.png", top=True, className="imagen"),
+            html.Div(
                 [
                     html.H4("Visualization",
-                            className="card-title"),
-                    html.P("Discover the diferent relationships and trends the dataset has to offer",
-                           className="card-text"),
-                    dcc.Link(html.Button('view detail', className="btnCard2"),
-                             href="/visualization"),
+                            className="title2"),
+                    html.P("Discover the diferent relationships and trends the dataset has to offer.",
+                           className=""),
+                    dcc.Link(dbc.Button('view detail', className=" button"), href="/visualization"),
                 ]
             )
         ],
 
-        className="bodyCard",
+        className="bodyCard  md-3 sm-12 mb-2 text-center mt-5",
     )
 
     four_card = dbc.Card(
         [
 
-            dbc.CardImg(src="/assets/about.png", top=True, className="imagen"),
-            dbc.CardBody(
+            dbc.CardImg(src="/assets/img/about.png", top=True, className="imagen"),
+            html.Div(
                 [
                     html.H4("About Us",
-                            className="card-title"),
-                    html.P("Get to know the team that created Baco",
-                           className="card-text"),
-                    dcc.Link(html.Button('view detail', className="btnCard4"),
-                             href="/aboutUs"),
+                            className="title2"),
+                    html.P("Let's know abou the team which created Baco.",
+                           className=""),
+                    dcc.Link(dbc.Button('view detail', className=" button"), href="/aboutUs"),
+                    
                 ]
             )
            
         ],
 
-         className="bodyCard",
+         className="bodyCard  md-3 sm-12 mb-2 text-center mt-5 ",
     )
 
     cards = dbc.Row([
 
-        dbc.Col(first_card, width=3),
-        dbc.Col(two_card, width=3),
-        dbc.Col(third_card, width=3),
-        dbc.Col(four_card, width=3),
+        dbc.Col(first_card),
+        dbc.Col(two_card),
+        dbc.Col(third_card),
+        dbc.Col(four_card),
     ]
     )
 
