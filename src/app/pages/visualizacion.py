@@ -3,20 +3,21 @@ import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Output, Input
 import dash
-from app import app
+from src.app import app
+from src import abs_path
 import pandas as pd
 import plotly.express as px
 
 def build_data():
 
     cols = ["PERIODO_COHORTE","PERIODO_ACADEMICO","CODIGO","COD_MAT","NOMBRE_MAT","NOTA_DEF","ESTADO"]
-    rendimiento_academico = pd.read_csv('data/cleaned/rendimiento_academico.csv')[cols]
+    rendimiento_academico = pd.read_csv(abs_path + 'data/cleaned/rendimiento_academico.csv')[cols]
 
     cols = ["FACULTAD", "NOMBRE_PROGRAMA",  "COD_MAT", "NUM_CREDITOS"]
-    materias_programa = pd.read_csv('data/cleaned/materias_por_programa.csv')[cols]
+    materias_programa = pd.read_csv(abs_path + 'data/cleaned/materias_por_programa.csv')[cols]
 
-    cols = ["COLEGIO_PROCEDENCIA","ES_DESERTOR", "CODIGO", "EDAD", "GENERO", "ENTRY_YEAR"]
-    perfil_ingreso = pd.read_csv('data/cleaned/perfil_ingreso_v2.csv')[cols]
+    cols = ["COLEGIO_PROCEDENCIA","ES_DESERTOR", "CODIGO", "EDAD", "GENERO", "AÑO"]
+    perfil_ingreso = pd.read_csv(abs_path + 'data/cleaned/perfil_ingreso_v2.csv')[cols]
 
     data = perfil_ingreso[perfil_ingreso.COLEGIO_PROCEDENCIA != 'universidad']
     data = data.merge(rendimiento_academico, left_on='CODIGO', right_on='CODIGO')
@@ -46,17 +47,17 @@ subject_opts=[{"label": materia, "value": materia}
 school_opts=[{"label": colegio, "value": colegio}
     for colegio in data.COLEGIO_PROCEDENCIA.unique()]
 
-# df = pd.read_csv('data/cleaned/perfil_ingreso_v2.csv')
+# df = pd.read_csv(abs_path + 'data/cleaned/perfil_ingreso_v2.csv')
 # cols = ["COLEGIO_PROCEDENCIA","ES_DESERTOR", "CODIGO", "EDAD","GENERO"]
 # data = df[df.COLEGIO_PROCEDENCIA != 'universidad'][cols]
 
-# data2 = pd.read_csv('data/cleaned/rendimiento_academico.csv')["NOTA_DEF"]
+# data2 = pd.read_csv(abs_path + 'data/cleaned/rendimiento_academico.csv')["NOTA_DEF"]
 
 def create_layout():
 
     buttons = html.Div(
         [
-            html.H2("Visualization", className="display-5"),
+            html.H2("VISUALIZATION", className="tittle"),
             html.Div([
                 html.Button("Grades", id='btn-grades', n_clicks=0, className="buttons"),
                 html.Button("Gender", id='btn-gender', n_clicks=0, className="buttons"),
@@ -208,7 +209,7 @@ def update_graph(btn1, btn2, btn3, btn4, faculty, program, subject, school, dese
         plot_params['x']="GENERO"
         plot_params['title']='Students Gender'
     elif 'btn-year' in changed_id:
-        plot_params['x']="ENTRY_YEAR"
+        plot_params['x']="AÑO"
         plot_params['title']='Entry Year'
 
     elif 'btn-age' in changed_id:

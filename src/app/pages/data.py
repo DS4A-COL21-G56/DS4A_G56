@@ -3,9 +3,10 @@ import dash_html_components as html
 from dash_html_components import Br
 import pandas as pd
 from dash.dependencies import Output, Input
-from app import app
+from src.app import app
+from src import abs_path
 
-df = pd.read_csv('data/cleaned/perfil_ingreso_v2.csv')
+df = pd.read_csv(abs_path + 'data/cleaned/perfil_ingreso_v2.csv')
 # data = df.groupby('COLEGIO_PROCEDENCIA').CODIGO.count().to_frame().sample(10).reset_index()
 data = df
 
@@ -18,7 +19,7 @@ def create_layout():
                                   
                     html.H2(
 
-                        children="¡DATA !", className="header-title"
+                        children="DATA", className="tittle"
                     ),
                    
                 
@@ -42,22 +43,22 @@ def create_layout():
             ),
 
             html.Div([
-                html.Label(" 📅 Periodo Actual\n 2020-2",className="info"),
-                html.Label(" 👨‍🎓🎓👩‍🎓 Estudiantes Activos 5350",className="activos"),
-                html.Label(" ⚠️ Alertas de deserción  33", className = "alertas")
+                html.Label(" 📅 Current Period\n 2021-2",className="info"),
+                html.Label(" 👨‍🎓🎓👩‍🎓 Active Students 5350",className="activos"),
+                html.Label(" ⚠️ Drop-out Warnings  33", className = "alertas")
              ]
             ),
 
             html.Div(
-                html.Label("Facultades: ",  className="tituloFacultad"),
+                html.Label("Faculties: ",  className="tituloFacultad"),
 
             ),
 
             html.Div([
-                html.Label("👨‍💻 Ingenieria 2863", className="facultades"),
-                html.Label("🏥 Medicina 684",  className="facultades"),
-                html.Label("📚 Sociales 70",  className="facultades"),
-                html.Label("🎨 Arte 207",  className="facultades")
+                html.Label("👨‍💻 Engineering 2863", className="facultades"),
+                html.Label("🏥 Health 684",  className="facultades"),
+                html.Label("📚 Human Science 70",  className="facultades"),
+                html.Label("🎨 Art and Architecture 207",  className="facultades")
 
             ]),
             

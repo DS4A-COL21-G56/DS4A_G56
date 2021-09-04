@@ -5,15 +5,17 @@
   top: 0;
   left: 0;
   bottom: 0;
-  width: 16rem;
+  width: 18rem;
   padding: 2rem 1rem;
   background-color: #f8f9fa;
 }
 
 .content {
+  height: 100%;
+  background-color: #eeeeee;
   margin-left: 18rem;
-  margin-right: 2rem;
-  padding: 2rem 1rem;
+  /* margin-right: 2rem; */
+  padding: 2rem 4rem;
 }
 
 .tabs {
@@ -51,7 +53,7 @@ body {
 
 .header {
   background-color: #b32424;
-  height: 200px;
+  /* height: 200px; */
   padding: 5px 5px 5px 5px;
  
 }
@@ -100,9 +102,13 @@ body {
   margin: 2%;
 }
 
-.card-title{
+.title2{
+  color: #000000;
+}
+
+.card-title{  
   color: #0f0909;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   margin: 5%;
   text-align: center;
@@ -114,7 +120,38 @@ body {
   font-weight: bold;
   margin: 5%;
   text-align: center;
+}
 
+.card-text1{
+  color: #362a2a;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 5%;
+  text-align: center;
+}
+
+.card-text2{
+  color: #362a2a;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 10%;
+  text-align: center;
+}
+
+.card-text3{
+  color: #362a2a;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 10%;
+  text-align: center;
+}
+
+.card-text4{
+  color: #362a2a;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 10%;
+  text-align: center;
 }
 
 .figura-1{
@@ -123,7 +160,17 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
+ 
+}
+
+.figuraBaco{
+  margin: 2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  /* height: 40%; */
  
 }
 
@@ -132,22 +179,36 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
-  height: 30%;
- 
+  width: 40%;
+  /* height: 25%;  */
 }
 
 .btnCard{
-  margin: 15%;
-  
-  
+  margin: 15%;  
+}
+
+.btnCard1{
+  margin: 10%;
+  color: #e0dddd;
+  margin-left: 30%;
+  background-color: #b32424;
+  border-radius: 100px;
   
 }
 
 .btnCard2{
-  margin: 10%;
+  margin: 8%;
   color: #e0dddd;
-  margin-left: 24%;
+  margin-left: 30%;
+  background-color: #b32424;
+  border-radius: 100px;
+  
+}
+
+.btnCard3{
+  margin: 8%;
+  color: #e0dddd;
+  margin-left: 30%;
   background-color: #b32424;
   border-radius: 100px;
   
@@ -156,23 +217,29 @@ body {
 .btnCard4{
   margin: 29%;
   color: #e0dddd;
-  margin-left: 24%;
+  margin-left: 30%;
   background-color: #b32424;
   border-radius: 100px;
   
 }
 
+
 .btnAbout{
   margin: 3%;
-  margin-left: 10%;
+  margin-left: 15%;
   background-color: #b32424;
   border-radius: 100px;
+  
+}
+
+.btnsAbout{
+  justify-content: space-evenly;
   
 }
 
 .bodyCard{
   width: 100%;
-  height: 100%;
+  height: 90%;
   margin: 10%;
 }
 
@@ -376,6 +443,10 @@ body {
   box-sizing: border-box;
 }
 
+.table-cell {
+  background-color: #505050;
+}
+
 .filter-selector {
     height: 280px;
     /* display: flex; */
@@ -388,9 +459,8 @@ body {
     box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
 }
 
-/* 
-.filter-selector {
-    height: 114px;
+.s-filter-selector {
+  height: 114px;
   display: flex;
   border-radius: 10px;
   justify-content: space-evenly;
@@ -398,7 +468,7 @@ body {
   margin: 40px auto 0 auto;
   background-color: #993737;
   box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
-}*/
+}
 
 .in-selector {
     height: 80px;
@@ -422,3 +492,78 @@ body {
   background-color: #b32424;
   padding-right: 10px;
 }
+
+.s-predictor {
+  height: 660px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px auto 60px auto;
+}
+
+.predictor-inputs {
+  width: 60%;
+  height: 100%;
+  border-radius: 10px;
+  padding: 2rem 2rem;
+  margin: 0 2% 0 0;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+}
+
+.slider .rc-slider-track {
+  background-color: #f57979;
+}
+
+.slider .rc-slider-handle {
+  /* background-color: #f57979; */
+  border-color: #f57979;
+}
+
+.slider .rc-slider-handle.rc-slider-handle-click:focu {
+  background-color: #f57979;
+  border-color: #f57979;
+}
+/* 
+#age-slider .rc-slider-handle:active {
+  background-color: #f57979;
+  border-color: #ecf1ec;
+  box-shadow: #505050;
+  outline-color: #9a3107;
+} */
+
+.slider .rc-slider-dot.rc-slider-dot-active {
+  border-color: #f57979;
+}
+
+.predictor-results {
+  width: 40%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 2rem 2rem;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+}
+
+.foto {
+  border-radius: 50%;
+  padding: 10%;
+}
+
+.button{
+  background-color: #b32424;
+  
+}
+
+.button:hover{
+  background-color: #b32424;
+}
+
+.last{
+  margin-top: 25px;
+}
+
+.first{
+  margin-top: 15px;
+}
+
+

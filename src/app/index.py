@@ -3,13 +3,16 @@ import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
 
-from app import app
-from pages import home, visualizacion, data, aboutUs
+from src.app import app
+from src.app.pages import home, visualizacion, data, aboutUs, prediction
+
+server = app.server
 
 sidebar = html.Div(
     [
-       
-        html.H2("University", className="display-6"),
+        # html.Img(src="/static/baco.png",
+        html.Img(src="/assets/img/baco.png",
+                 className="figuraBaco"),
         html.Hr(),
         html.P(
             "Analyzing the behavior of student's attrition",
@@ -48,7 +51,7 @@ def render_page_content(pathname):
     if pathname == "/":
         return home.create_layout()
     elif pathname == "/prediction":
-        return html.P("Aca va la pagina")
+        return prediction.create_layout()
     elif pathname == "/data":
         return data.create_layout() 
     elif pathname == "/visualization":
