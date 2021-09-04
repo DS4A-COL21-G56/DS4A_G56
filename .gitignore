@@ -130,3 +130,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+best_random_model.pkl
