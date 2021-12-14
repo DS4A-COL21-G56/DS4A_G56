@@ -2,6 +2,9 @@
 
 Team 56 final project for Data Science 4 All / Colombia 2021
 
+Take a look at BACO:
+https://www.youtube.com/watch?v=NAN2s2u9es0
+
 ### Relevant links
 
 * [Google Drive Shared Folder](https://drive.google.com/drive/folders/1R9QG7rAmjnp3hWU2ty4xIT6LB6aRHti-)
